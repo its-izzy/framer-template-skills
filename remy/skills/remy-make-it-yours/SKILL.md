@@ -66,4 +66,4 @@ For anything your tools can't reach, give the owner the text and the steps.
 
 ## Report
 
-What you changed, page by page and component by component; every placeholder left and every link still pointing at a network's home page; and what the owner still has to do: Send To, if you couldn't set it; site settings your tools couldn't reach; and the sample case studies and posts to replace.
+What you changed, page by page and component by component; every placeholder left and every social link still pointing at a network's home page or the template author's profiles (x.com/thatwasizzy, linkedin.com/in/isaiahkim); and what the owner still has to do: Send To, if you couldn't set it; site settings your tools couldn't reach; and the sample case studies and posts to replace.
