@@ -1,0 +1,58 @@
+---
+name: remy-add-case-study
+description: Add a project or case study to Remy, a new Work collection item with its own page at /work/slug.
+---
+
+Add a case study: a new item in the Work collection, listed on /work with its own page from the /work/:slug page.
+
+## Working from outside Framer
+
+- Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
+- Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
+- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
+- If your tools can't do a step, give the owner the exact steps and list them in your report.
+- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+
+## 1. Ask the owner
+
+Use anything they've already shared (notes, a link, a deck), then ask for the rest in one numbered list, with an example for each:
+
+1. Project name (one or two words), client and year (Halden; a Nordic neobank; 2026). For a project without a client, ask what to show instead, such as Self-initiated.
+2. Discipline: Product design, Brand identity, Design systems, Graphic design or Art direction
+3. Their role and the scope (Independent product designer; research, flows, prototypes)
+4. The brief: what was wrong or needed, and who asked
+5. What they did: the main steps, decisions and what they tried
+6. What changed, with a real figure if they have one (+31% onboarding completion)
+7. Images: a cover and up to five more, each with a few words on what it shows and whether it shows the brief, the work or the result. A 1200 × 630 social image is optional.
+
+Wait for answers. With fewer than six images, ask once for more. The minimum is a cover and one more.
+
+## 2. Build the item
+
+- **Title, Year, Discipline:** Title sets the Slug, so keep it unique. Set Home slot to None unless the owner asks for one (then use remy-change-home-projects). A discipline outside the five is a new option: ask first, and give it a Filter Tab on /work, set up like the others.
+- **Summary:** one line, 60 characters or fewer. It's the text on the Project Row and Project Card, and the search description.
+- **Case summary:** one sentence with one phrase in italics; the lead under the title.
+- **Client, Role, Scope:** short phrases. All three show as rows on the case study, so fill each.
+- **Outcome label:** always fill it, since the details column, the row and the card show it. Add **Outcome value** only for a real figure (+31%); without one, the label states a plain result (Launched in three markets).
+- **Cover image:** at least 2400 px wide. The case study crops it to 3:2, and cards, rows and the Home hero to 4:3, so keep the subject away from the edges.
+- **Prints:** Print 1 sits with Brief, Print 2 and the Print 3 and 4 pair with What I did, Print 5 with What changed. Prints 1, 2 and 5 are 3:2; Prints 3 and 4 are 4:3 and show only when Print 3 is filled. Empty prints are hidden, so with fewer images fill Print 1; then 1 and 2; then 1, 2 and 5; then 1 to 4.
+- **Captions:** two to four words each, shown next to the year (Onboarding flow · 2026).
+- **Alt text:** one plain sentence per image on what it shows, without repeating the caption.
+- **Brief, What I did, What changed:** up to three short paragraphs each, plain paragraphs with no empty ones between them, and fill all three. Shape the owner's words, adding nothing they didn't tell you.
+- **Next project:** add the new item to the loop after the newest case study: give it the newest one's Next project, then point the newest one at it.
+- **Social image:** the owner's 1200 × 630 image, or else the Cover image (say a 1200 × 630 version would crop better).
+
+If you can't add an image, fill in everything else and tell the owner which image goes in which field. Leave the item live, not a draft.
+
+## Rules
+
+- Use only the owner's facts and images. Never invent clients, results or quotes, and never generate images.
+- Add a new item; never rewrite a sample case study into the owner's. When you finish, say the samples are still there and offer to replace one, following Sample content in remy-base.
+- Write in the voice from section 07 of /design-system, then reread it as remy-remove-ai-writing describes.
+
+## Done when
+
+- The project shows on /work under All and under its Discipline tab.
+- Its page reads well at every size, with no empty rows in the details column, and the Next project links work both ways.
+- You've listed anything missing (images, captions, an outcome figure) and questions that would make the case study stronger.

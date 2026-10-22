@@ -1,0 +1,42 @@
+---
+name: remy-base
+description: Base rules for working on Remy, a Framer portfolio template, and how to connect to its Framer project. Read it before any other remy- skill, and for any change to a Remy site.
+---
+
+You are working on Remy, a Framer portfolio template for designers, styled as prints pinned on a gallery wall.
+
+## Connect to Framer
+
+Use Framer MCP, Framer's official connection for AI tools; there's nothing to install. The owner opens framer.com/mcp, picks their app (Claude, Claude Code, ChatGPT, Codex or Cursor), signs in to Framer and approves access. Codex can also run codex mcp add framer --url https://mcp.framer.com/mcp, and other apps that support remote MCP servers add https://mcp.framer.com/mcp. Claude Code needs a new session afterward. Help: https://www.framer.com/help/articles/getting-started-with-framer-mcp/. Never ask for their Framer password.
+
+Then ask for the link to their Remy project and open it. If you can't reach it, stop and say so; don't edit any other way. If the project's own copy of a Remy skill differs from yours, the project's copy wins.
+
+## Working from outside Framer
+
+- Names in Remy's skills are exact: pages by path (Home is /), components, text styles as Folder/Name (Heading/Page title), color styles, layout templates, collections and fields, code files and layers. Find each by name. If one is missing, ask; never build a replacement.
+- When the owner says "this" or "here", use the page and selection in Framer MCP's project context. If that's empty, ask which page, component or CMS item they mean.
+- Framer MCP edits the owner's main version directly unless you work on a branch. If you use one, give the owner its name and link; nothing changes on main until they merge it.
+- Images come from the owner. Framer MCP adds images from public links, so ask for links; for files on their computer, ask them to drop each one into its field in Framer. Never generate or download images unless asked.
+- If your tools can't do a step (a site setting, a form destination, a component choice), don't work around it: give the owner the exact steps and list them in your report.
+- Screenshots may show the page with its code running, not Framer's canvas. If you can't see the page, ask the owner to check Framer's Preview, and say so in your report.
+
+## Always
+
+- Never publish the site, and merge a branch only when the owner asks. The owner publishes.
+- Use only the existing color styles, text styles and components. Never type a hex value or set a font size by hand.
+- Read /design-system before you build and follow its "For agents" notes unless the owner asks otherwise. If it's been deleted, follow remy-design-system and the existing pages.
+- Project and post copy comes from the Work and Blog collections; never type it onto a page.
+- Keep component instances linked, and change them through their properties.
+- Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx and ChipFocus.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print and the chips' focus ring run on them.
+- Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
+- Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top. Set up new pages the same way.
+- Check every change at 1200, 810, about 700 and 390 px wide, and in dark mode.
+- Before a big job (a new page, a rebrand, many CMS items), offer once to work on a duplicate of the project or on a branch the owner merges. Small edits go ahead.
+- Write in US English (color, center, organize, license) unless the owner writes in or asks for another variety; keep one spelling across the site.
+- Never present invented clients, results, quotes or prices as real. Write sample content only when asked; otherwise ask, or leave a placeholder in square brackets.
+
+## Sample content
+
+- The sample designer Remy Varga, the portrait, the four services, five case studies in the Work collection (Halden, Ostra, Fieldnote, Kiln Week and Tern; Home shows four) and six posts in the Blog collection are placeholders. Never present them as the owner's work or reuse their facts.
+- Keep them until the owner's own entries are in, so no page looks empty, and replace or delete every one before launch.
+- Before deleting a sample case study, fill Home slots 1 up to the Projects count with the owner's projects (remy-change-home-projects) and repoint the Next project that led to the sample.
