@@ -56,7 +56,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - The Use template button (in the Main and Main · 404 layouts) and the Nav's Design system link are only for the template's demo; remy-make-it-yours removes them. Don't copy them into new work.
 - The owner's name, email and copyright live in the Wordmark, Nav, Footer and Contact CTA components; editing them changes every page, so ask first.
 - Give every new page its own search title and description.
-- Keep the Nav's items, order and destinations. Offer once to add a new top-level page to the Nav; if yes, add it to the bar and the phone menu with the same link style. In the phone menu, duplicate an existing row: its tap closes the menu, and its Tab index stays -1 so the link is the only keyboard stop.
+- Keep the Nav's items, order and destinations. Offer once to add a new top-level page to the Nav; if yes, add it to the bar and the phone menu with the same link style. In the phone menu, duplicate an existing row: it keeps the tap and the NavKeyboard.tsx override that close the menu (also after a keyboard pick), and its Tab index of -1, so the link is the only keyboard stop.
 
 ## Layout
 

@@ -37,6 +37,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Text Inverse on Action if the buttons were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
 - The Service Card illustrations have empty alt on purpose.
+- In the Nav, a phone menu link picked with Enter closes the menu, and the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx); test both on the published site, since Framer's Preview doesn't run them. The contact form's topic chips are a group named by their question (What can I help with?).
 
 ## Rules
 

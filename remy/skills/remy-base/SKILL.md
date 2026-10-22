@@ -27,7 +27,7 @@ Then ask for the link to their Remy project and open it. If you can't reach it, 
 - Read /design-system before you build and follow its "For agents" notes unless the owner asks otherwise. If it's been deleted, follow remy-design-system and the existing pages.
 - Project and post copy comes from the Work and Blog collections; never type it onto a page.
 - Keep component instances linked, and change them through their properties.
-- Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx and ChipFocus.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print and the chips' focus ring run on them.
+- Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx, ChipFocus.tsx and NavKeyboard.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print, the chips' focus ring and the Nav's keyboard behavior run on them.
 - Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
 - Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top. Set up new pages the same way.
 - Check every change at 1200, 810, about 700 and 390 px wide, and in dark mode.
