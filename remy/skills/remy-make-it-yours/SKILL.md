@@ -1,6 +1,6 @@
 ---
 name: remy-make-it-yours
-description: Replace Remy's sample designer with the owner: name, logo, location, clock, contact details, social links, portrait, About, blog byline, search titles and site settings.
+description: "Replace Remy's sample designer with the owner: name, logo, location, clock, contact details, social links, portrait, About, blog byline, search titles and site settings."
 ---
 
 Replace the sample designer, Remy Varga, with the owner everywhere except the Work and Blog collections, whose sample entries are replaced with remy-add-case-study and remy-add-blog-post.

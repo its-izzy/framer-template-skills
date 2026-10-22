@@ -1,6 +1,6 @@
 ---
 name: remy-seo-check
-description: Check one Remy page's on-page SEO without changing it: search title and description, social image, indexing, headings, alt text, link labels and CMS page settings.
+description: "Check one Remy page's on-page SEO without changing it: search title and description, social image, indexing, headings, alt text, link labels and CMS page settings."
 ---
 
 Check the on-page SEO of one page, the one the owner names or is viewing, on the published or preview site and in its settings. Change nothing unless the owner asks. For the whole site, use remy-launch-check.

@@ -1,6 +1,6 @@
 ---
 name: remy-accessibility-check
-description: Audit Remy pages for accessibility without changing them: headings, landmarks, alt text, labels, keyboard and focus, forms, contrast, reflow, motion and language.
+description: "Audit Remy pages for accessibility without changing them: headings, landmarks, alt text, labels, keyboard and focus, forms, contrast, reflow, motion and language."
 ---
 
 Audit the pages or parts the owner names, or the page they're viewing, on the preview or published site at every size and in light and dark mode. Change nothing unless the owner asks.

@@ -1,6 +1,6 @@
 ---
 name: remy-change-home-projects
-description: Change how many projects Remy's Home page shows (3, 4 or 5) and which ones, or swap and reorder them.
+description: "Change how many projects Remy's Home page shows (3, 4 or 5) and which ones, or swap and reorder them."
 ---
 
 Change which projects appear on Home (/) and how many: swap one, reorder them, or show 3, 4 or 5.

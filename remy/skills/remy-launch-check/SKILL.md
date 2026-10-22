@@ -1,6 +1,6 @@
 ---
 name: remy-launch-check
-description: Review the published or preview Remy site before launch without changing it: accessibility, SEO, links, forms, content, layouts and Remy's own setup. Reports blockers, fixes and passed checks.
+description: "Review the published or preview Remy site before launch without changing it: accessibility, SEO, links, forms, content, layouts and Remy's own setup. Reports blockers, fixes and passed checks."
 ---
 
 Review the published or preview site before launch without changing anything, at every size and in light and dark mode.

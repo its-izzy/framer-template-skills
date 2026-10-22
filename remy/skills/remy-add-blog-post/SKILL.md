@@ -1,6 +1,6 @@
 ---
 name: remy-add-blog-post
-description: Add a blog post to Remy, a new Blog collection item with its own page at /blog/slug.
+description: "Add a blog post to Remy, a new Blog collection item with its own page at /blog/slug."
 ---
 
 Add a blog post: a new item in the Blog collection, listed on /blog with its own page from the /blog/:slug page.

@@ -1,6 +1,6 @@
 ---
 name: remy-design-system
-description: Build or change pages and sections in Remy with its design system (layout, components, text styles, colors, motion, imagery). Use for any new page, section or layout change.
+description: "Build or change pages and sections in Remy with its design system (layout, components, text styles, colors, motion, imagery). Use for any new page, section or layout change."
 ---
 
 Build pages and sections from Remy's existing system, so new work looks like it was always part of the template. A new identity is the owner's name, copy and details in the existing styles: use remy-make-it-yours. Changing colors or fonts is a site-wide rebrand, done only when the owner asks.

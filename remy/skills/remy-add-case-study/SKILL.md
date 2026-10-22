@@ -1,6 +1,6 @@
 ---
 name: remy-add-case-study
-description: Add a project or case study to Remy, a new Work collection item with its own page at /work/slug.
+description: "Add a project or case study to Remy, a new Work collection item with its own page at /work/slug."
 ---
 
 Add a case study: a new item in the Work collection, listed on /work with its own page from the /work/:slug page.

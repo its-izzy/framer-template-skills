@@ -1,6 +1,6 @@
 ---
 name: remy-remove-ai-writing
-description: Find and fix AI-sounding copy in Remy: rewrite it, check it without changing anything, or edit it in place, keeping the owner's facts, voice and length limits.
+description: "Find and fix AI-sounding copy in Remy: rewrite it, check it without changing anything, or edit it in place, keeping the owner's facts, voice and length limits."
 ---
 
 Edit Remy copy that sounds generic, repetitive or machine-written, so it reads like the owner wrote it: plain, specific and calm. Keep its meaning, facts and personality, inside the template's length limits. Adapted from Avoid AI Writing by Conor Bronsdon (MIT License, see Credit at the end).
