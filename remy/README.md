@@ -36,7 +36,7 @@ Ask in plain words ("make this template mine") or call a skill by name: /remy-ma
 | remy-base | The rules for every Remy task, and how to connect to Framer |
 | remy-make-it-yours | Puts your name, details, portrait and links in place of the sample designer |
 | remy-add-case-study | Adds a case study to the Work collection |
-| remy-add-post | Adds a blog post to the Blog collection |
+| remy-add-blog-post | Adds a blog post to the Blog collection |
 | remy-change-home-projects | Chooses how many projects Home shows (3, 4 or 5) and which ones |
 | remy-design-system | Builds or changes pages and sections in Remy's style |
 | remy-remove-ai-writing | Finds and fixes copy that sounds generic or machine-written |
@@ -46,7 +46,7 @@ Ask in plain words ("make this template mine") or call a skill by name: /remy-ma
 
 ## Sample content
 
-Remy ships with sample content so the template shows how it works: five case studies (Halden, Ostra, Fieldnote, Kiln Week and Tern), six blog posts, four services, and a sample designer, Remy Varga, with a portrait. Replace or delete all of it before you launch. remy-make-it-yours, remy-add-case-study and remy-add-post do this, and remy-launch-check lists anything left.
+Remy ships with sample content so the template shows how it works: five case studies (Halden, Ostra, Fieldnote, Kiln Week and Tern), six blog posts, four services, and a sample designer, Remy Varga, with a portrait. Replace or delete all of it before you launch. remy-make-it-yours, remy-add-case-study and remy-add-blog-post do this, and remy-launch-check lists anything left.
 
 ## Good to know
 
