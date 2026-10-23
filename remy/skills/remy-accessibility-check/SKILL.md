@@ -32,7 +32,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 ## Remy's setup
 
 - Each text style carries its heading level, so a wrong level is fixed with the style made for that job. The Contact CTA's "Write to me." is Page title typed as H2 on purpose.
-- Links and buttons use the browser's focus ring. The contact fields' focus underline and the Choice Chip ring use the Focus ring color; the chips show their ring for keyboard focus only, so a click or tap shows none by design.
+- Links and buttons use the browser's focus ring. The contact fields' focus underline and the Choice Chip ring use the Focus Ring color; the chips show their ring for keyboard focus only, so a click or tap shows none by design.
 - In the Contact Form each field sits in a label. A Field shows its own error message in its error variant, announced politely, and Send moves focus to the first wrong field (FormNote.tsx). The hidden, unlabeled text inputs in the form are Framer's spam traps, not fields.
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Text Inverse on Action if the buttons were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
