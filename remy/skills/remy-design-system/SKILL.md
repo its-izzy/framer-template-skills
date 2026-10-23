@@ -29,7 +29,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 
 ## Home
 
-- Home's Service Card instances sit in two frames, Pair 1 and Pair 2, inside Service Cards: four across, two by two when a card would drop below 220 px (each pair is at least 464 px wide), one column on phones. Keep the pairs when you add, remove or reorder services.
+- Home's Service Card instances sit in two frames, Pair 1 and Pair 2, inside Service Cards: four across, two by two when a card would drop below 220 px (each pair is at least 464 px wide). On phones each pair wraps (each card's fade frame at least 240 px wide, 20 px apart): two by two from 540 px wide, one column below. Keep the pairs when you add, remove or reorder services.
 - Hero and work holds the hero's 3D stack and the Selected work rows; it sits once on Home with a Projects setting (3, 4 or 5). Never copy it to another page. It has a Print area for each count, so a change to the hero prints (tilt, hover) goes in all three areas, in the Desktop, Tablet and Phone variants.
 - The canvas shows the prints where they're designed; Travel.tsx lays them out in Preview and on the site and fades them in one at a time, left to right, with the role line (the Subheading layer). It takes that timing from the role line's appear effect: change the timing there, and never remove that effect.
 - Home turns off the Main layout's Space for nav switch, so the hero fills the window with the nav over it (the hero's top padding includes the nav's height). Every other page keeps the switch on.
