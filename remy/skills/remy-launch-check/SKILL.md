@@ -43,7 +43,7 @@ Open or inspect every link at each size, including the phone menu. For each prob
 - **Social links:** the Contact CTA on every page and the Elsewhere row on /contact ship pointing at each network's home page (www.instagram.com, www.linkedin.com, www.dribbble.com, www.x.com). Any still there is a launch blocker: it should open the owner's profile, or the network should be hidden.
 - **Email:** every email link uses mailto: with the owner's address, the same in the Contact CTA, the Contact details and the Nav's phone menu. Phone numbers, if added, use tel:.
 - **Nav and footer:** Work, Services, About, Blog and Contact open the right page or section (Services and About scroll to them on Home); the Wordmark goes to Home; the Footer's Back to top returns to the very top of every page, with nothing under the Nav.
-- **CMS links:** hero prints, project rows and project cards open the matching case study; Next project opens the next one; Post Cards and More notes open the matching post; All projects and All notes go back to /work and /blog; Home on Work, Blog and Contact goes back to Home.
+- **CMS links:** hero prints, project rows and project cards open the matching case study; Next project opens the next one; Post Cards and More notes open the matching post; All projects and All notes go back to /work and /blog.
 - **Filters:** each Filter Tab on /work and /blog shows only its items, and All shows everything.
 - **External links** open in a new tab and don't land on an error or a sign-in page.
 - **404:** a made-up address shows the 404 page, and its links work.
