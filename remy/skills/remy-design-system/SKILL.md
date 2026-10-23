@@ -44,11 +44,11 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - Images are framed: a Print, a Wide Print, a Polaroid or a component's own image. Use a bare image only when the owner asks. Neighboring prints tilt in opposite directions.
 - Cards lean on hover, never straighten: a Print, a Wide Print, a Service Card and the Print in a Project Card or Post Card lift 6 px, take the lifted shadow and turn 1° further the way they lean (0.5° for a Wide Print), then settle back. Set the hover's rotation from the card's own: −2° hovers at −3°. In the Home hero a print doesn't lift; it only leans toward the pointer until it lands in Selected work.
 - Use Label Row for label-and-text rows, Detail for contact details and Outcome Stat only for a real, measurable result.
-- Use Button for calls to action and Arrow Link for text links with an arrow. Work, Blog and Contact open with an Arrow Link (Back variant) to Home, and case studies and posts with All projects and All notes; give a new top-level page the same Back row, duplicated from Work (32 px bottom padding, 16 px on phones), with its fade first.
+- Use Button for calls to action and Arrow Link for text links with an arrow. Case studies and posts open with an Arrow Link (Back variant) to All projects and All notes. Top-level pages such as Work, Blog and Contact have no back link, since the Nav and Wordmark already reach Home; don't add one to a new top-level page.
 - Contact CTA ends content pages, as on Home, Work, Blog and the case study, unless the page already ends with a contact action or the owner says not to.
 - End a long-form page as the case study does: a Section Header (Compact with link) above the next item's Project Row and Print, never a small text link. A post ends with More notes: a Section Header (Compact with link) above three Post Cards, leaving out the current post.
 - Filter Tab can filter any list: copy Work's setup, where the tabs set a page variable and the lists read it. Falling Print stays on /404.
-- Never put a link inside another link; Framer strips the inner one. Print, Project Row, Arrow Link, Button and both cards already link, so link each piece instead of wrapping them, as the case study's next project does.
+- Never put a link inside another link, even in another variant (a text link on Desktop inside a frame that links on Phone); Framer strips the inner one. Print, Project Row, Arrow Link, Button and both cards already link, so link each piece instead of wrapping them, as the case study's next project does.
 
 ## Shared layout and identity
 
