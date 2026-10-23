@@ -28,7 +28,7 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 
 ## Remy's setup
 
-- Home has no title or description of its own; it uses the site title (the full name) and description in Site Settings. Other pages are titled "[Page] – [Full name]".
+- Home has no title or description of its own; it uses the site title ("[Full name] – [Role]") and description in Site Settings. Other pages are titled "[Page] – [Full name]".
 - /work/:slug and /blog/:slug are titled "{{Title}} – [Full name]", take their description from the item's Summary and their social image from its Social image field. Check every item in the Work or Blog collection for an empty or duplicated Title, Summary or Social image. Other pages share the site's social image.
 - Work Summaries are 60 characters or fewer and Blog Summaries about 120, because the cards show them. A short description is expected, not an issue.
 - /404 and /design-system are hidden from search engines on purpose; every other page should be indexable.

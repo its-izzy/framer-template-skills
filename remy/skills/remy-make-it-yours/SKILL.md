@@ -45,7 +45,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 9. /blog/:slug: in the Written by byline, the Polaroid's image and alt text, and the bio.
 10. Every portrait's alt text reads "Portrait of [Full name]".
 11. Search titles: replace "Remy Varga" with the full name on /work, /blog, /contact and /404, and in the case study and blog post title patterns ("{{Title}} – [Full name]").
-12. Site settings: site title (the full name) and description (one sentence from their About intro, under about 155 characters), plus their own favicon and 1200 × 630 social image if they have them; the template's are Remy's.
+12. Site settings: site title ("[Full name] – [Role]", with the role as worded in the role line from step 8) and description (one sentence from their About intro, under about 155 characters), plus their own favicon and 1200 × 630 social image if they have them; the template's are Remy's.
 13. Unused networks: turn off the visibility of each one in the Contact CTA and the Elsewhere row; don't delete them, so they can come back.
 14. /design-system: delete it if the owner wants it gone; if they keep it, check it's hidden from search.
 
