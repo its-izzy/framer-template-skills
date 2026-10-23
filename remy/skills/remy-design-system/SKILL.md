@@ -87,7 +87,7 @@ These are Remy's defaults. Check a matching section on the site first; if the ow
 
 ## Contact form
 
-The form shows errors with the Field component's variants (Text error, Email error, Note error): the withFieldError override from FormNote.tsx, on each Field instance, switches a wrong field to its error variant and back once it's fixed. Change how errors look in those variants and what they say in each Field's Error Message property. Add a field by duplicating a Field so it keeps the override; a new kind of field needs its own variant plus a copy named " error".
+The form shows errors with the Field component's variants (Text error, Email error, Note error): the withFieldError override from FormNote.tsx, on each Field instance, switches a wrong field to its error variant and back once it's fixed. Change how errors look in those variants and what they say in each Field's Error message property. Add a field by duplicating a Field so it keeps the override; a new kind of field needs its own variant plus a copy named " error".
 
 ## Typography and copy
 
