@@ -40,7 +40,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 4. Main and Main · 404 layouts: delete the floating Use template button in each.
 5. Contact CTA: the email (text and mailto link) and each social link's address.
 6. Contact Form: "Dear Remy," becomes the owner's first name. Set the form's Send To to the owner's email if your tools can (Framer may ask them to confirm it).
-7. /contact: the Detail rows Email (value and mailto link), Based in, Availability and Elsewhere (each network's link), and both Polaroids' image, caption and alt text (one shows only on phones).
+7. /contact: the Detail rows Name, Email (value and mailto link), Based in, Availability and Elsewhere (each network's link), and both Polaroids' image, caption and alt text (one shows only on phones).
 8. Home: the role line under the statement (the Subheading layer in Hero text, inside Hero and work); change its words only, since the stack code finds it by name and times the prints from its fade. Then, in About, the Polaroid's image, caption and alt text, the intro, and the Background, Approach and Career rows (years and roles, and the city on the current role).
 9. /blog/:slug: in the Written by byline, the Polaroid's image and alt text, and the bio.
 10. Every portrait's alt text reads "Portrait of [Full name]".
