@@ -18,7 +18,7 @@ Build pages and sections from Remy's existing system, so new work looks like it 
 
 If you can't tell the page's goal, content or sections from the request and the site, ask before you build (skip this when the request is detailed or the owner says to just build it). Read the site first, then send one message: a rough outline (sections in order) and 4 to 6 numbered questions, each with your suggested answer. Choose from: goal and audience; features (filtering, a form and its fields, search, an FAQ that opens, a link out); what each item shows; real or sample copy; whether repeating items should be a CMS collection with their own pages; which page it should feel like; images; adding it to the Nav and Footer. Include anything on the ask-first list. If the owner skips a question or says "use your suggestions", use yours.
 
-Example, "Create a careers page": Outline: statement opening → open roles → how we work → Contact CTA. 1. Who's hiring? Suggested: a small studio hiring full-time designers. 2. Filter roles by team? Suggested: yes, Filter Tabs set up like Work's. 3. What does each role show? Suggested: title, team, location, type and salary range. 4. How do people apply? Suggested: a form on each role's page (name, email, portfolio link, note). 5. A Roles collection with its own pages? Suggested: yes, with a record opening. It's a new collection, so I'm asking. 6. Real roles or three samples? Suggested: samples with [PLACEHOLDER] salaries.
+Example, "Create a careers page": Outline: statement opening → open roles → how we work → Contact CTA. 1. Who's hiring? Suggested: a small studio hiring full-time designers. 2. Filter roles by team? Suggested: yes, Filter Tabs set up like Work's. 3. What does each role show? Suggested: title, team, location, type and salary range. 4. How do people apply? Suggested: a form on each role's page (name, email, portfolio link, note). 5. A Roles collection with its own pages? Suggested: yes, with a record opening. It's a new collection, so I'm asking. 6. Real roles or three samples? Suggested: three sample roles.
 
 ## References and asking first
 
@@ -56,7 +56,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - The Use template button (in the Main and Main · 404 layouts) and the Nav's Design system link are only for the template's demo; remy-make-it-yours removes them. Don't copy them into new work.
 - The owner's name, email and copyright live in the Wordmark, Nav, Footer and Contact CTA components; editing them changes every page, so ask first.
 - Give every new page its own search title and description.
-- Keep the Nav's items, order and destinations. Offer once to add a new top-level page to the Nav; if yes, add it to the bar and the phone menu with the same link style. In the phone menu, duplicate an existing row: it keeps the tap and the NavKeyboard.tsx override that close the menu (also after a keyboard pick), and its Tab index of -1, so the link is the only keyboard stop.
+- Keep the Nav's items, order and destinations. Offer once to add a new top-level page to the Nav; if yes, add it to the bar and the phone menu with the same link style. In the phone menu, duplicate an existing row: the row itself is the link (the text inside isn't, so there's no link inside a link), and it keeps the tap and the NavKeyboard.tsx override that close the menu (also after a keyboard pick). Change only the row's link and text; each row stays one Tab stop.
 
 ## Layout
 
@@ -103,7 +103,7 @@ Choose text styles by job; each heading style carries its heading level. Never c
 - Text typed on the canvas keeps its own paragraph's level, so a typed heading may borrow another's look (the Contact CTA's "Write to me." is Page title typed as h2). Text from a property or the CMS takes its style's level; in CMS rich text, subheads are Heading 2 (Subhead) and paragraphs Body L.
 - A serif heading has at most one italic phrase. When a serif statement ends with a full stop, color only the full stop Accent. Section and card titles have no full stop.
 - Sentence case; no all caps, eyebrows or overlines unless the owner asks. Keep paragraphs under 680 px wide.
-- Use the owner's text when they give it. Sample copy reads like a real person wrote it, with varied paragraph lengths; sample CMS text is complete paragraphs. Placeholders are in capitals and square brackets, such as [CLIENT].
+- Use the owner's text when they give it. Sample copy reads like a real person wrote it, with varied paragraph lengths; sample CMS text is complete paragraphs.
 - Follow the voice in section 07: plain, specific and calm, in the first person. Mix short and long sentences, don't open every sentence with "I", and use contractions (I'm, it's). No em dashes, exclamation marks or filler such as "passionate about" or "seamless".
 
 ## Page openings
