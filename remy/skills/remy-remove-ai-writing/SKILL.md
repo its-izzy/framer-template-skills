@@ -32,7 +32,7 @@ If the owner hasn't pasted copy or said where it is, and nothing is selected, as
 
 ## Where Remy's copy lives
 
-- **Pages:** the openings and section text on Home, /work, /contact, /blog and /404. Home's statement and the role line under it are inside Hero and work.
+- **Pages:** the openings and section text on Home, /work, /contact, /blog and /404. Home's statement and the role line under it are inside Hero and Work.
 - **Shared component text** shows on every page that uses the component: the lead-in and "Write to me." in Contact CTA, the copyright line in Footer, the city line in Nav and the letter greeting in Contact Form. Before changing it, tell the owner which pages it appears on.
 - **Instance text** belongs to one instance; change the property there: a Section Header title or note, a Service Card, a Label Row or Detail row, a Polaroid caption, a Field label, placeholder or error message, a Button or Arrow Link label.
 - **CMS text:** Project Row, Project Card and Post Card show collection text, so edit the CMS item, never the card. Work: Summary, Case summary, Client, Role, Scope, Outcome label, Brief, What I did, What changed and the print captions. Blog: Title, Summary and Body.

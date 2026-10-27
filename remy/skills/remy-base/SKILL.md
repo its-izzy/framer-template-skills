@@ -13,7 +13,7 @@ Then ask for the link to their Remy project and open it. If you can't reach it, 
 
 ## Working from outside Framer
 
-- Names in Remy's skills are exact: pages by path (Home is /), components, text styles as Folder/Name (Heading/Page title), color styles, layout templates, collections and fields, code files and layers. Find each by name. If one is missing, ask; never build a replacement.
+- Names in Remy's skills are exact: pages by path (Home is /), components, text styles as Folder/Name (Heading/Page Title), color styles, layout templates, collections and fields, code files and layers. Find each by name. If one is missing, ask; never build a replacement.
 - When the owner says "this" or "here", use the page and selection in Framer MCP's project context. If that's empty, ask which page, component or CMS item they mean.
 - Framer MCP edits the owner's main version directly unless you work on a branch. If you use one, give the owner its name and link; nothing changes on main until they merge it.
 - Images come from the owner. Framer MCP adds images from public links, so ask for links; for files on their computer, ask them to drop each one into its field in Framer. Never generate or download images unless asked.
@@ -28,7 +28,7 @@ Then ask for the link to their Remy project and open it. If you can't reach it, 
 - Project and post copy comes from the Work and Blog collections; never type it onto a page.
 - Keep component instances linked, and change them through their properties.
 - Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx, ChipFocus.tsx and NavKeyboard.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print, the chips' focus ring and the Nav's keyboard behavior run on them.
-- Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
+- Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and Work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
 - Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top; only /404 turns its Show back to top switch off. Set up new pages the same way.
 - Check every change at 1200, 810, about 700 and 390 px wide, and in dark mode.
 - Before a big job (a new page, a rebrand, many CMS items), offer once to work on a duplicate of the project or on a branch the owner merges. Small edits go ahead.

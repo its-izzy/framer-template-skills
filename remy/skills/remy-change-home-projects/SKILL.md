@@ -14,11 +14,11 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
 - Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
 
-- Projects is a choice (3, 4 or 5) on the Hero and work instance on Home, not a number field. If your tools can't set it, finish the Home slots and tell the owner: select the hero on Home, then pick the number under Projects in the right panel.
+- Projects is a choice (3, 4 or 5) on the Hero and Work instance on Home, not a number field. If your tools can't set it, finish the Home slots and tell the owner: select the hero on Home, then pick the number under Projects in the right panel.
 
 ## How it works
 
-- **Projects** on the Hero and work instance on Home sets how many (3, 4 or 5; 4 to start). **Home slot** in the Work collection sets which project fills each place (None, or 1 to 5).
+- **Projects** on the Hero and Work instance on Home sets how many (3, 4 or 5; 4 to start). **Home slot** in the Work collection sets which project fills each place (None, or 1 to 5).
 - Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before.
 - The code file Travel.tsx lays out the prints for each count on desktop, tablet and phone. The canvas can't run it, so it shows the designed arrangement; the motion only plays in Preview and on the published site.
 - Every project stays on /work: Home projects first, then the rest, each group newest first. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
@@ -46,7 +46,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 ## Rules
 
-Change only Projects and the Home slots. Never move, resize, copy or delete anything inside Hero and work.
+Change only Projects and the Home slots. Never move, resize, copy or delete anything inside Hero and Work.
 
 ## Done when
 

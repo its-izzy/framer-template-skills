@@ -24,13 +24,13 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 
 - /design-system is the source of truth for color, type, surfaces, layout, section patterns, motion, voice, components, imagery and the content model. Read its values instead of restating them from memory.
 - Use Home (/), /work, /work/:slug, /blog, /blog/:slug and /contact as layout examples. Reuse and combine their section layouts; copying a whole page needs the owner to ask for a close match.
-- Compose from Remy's parts, but don't force a poor fit. Ask first before anything new: a component, a section layout, a change to a shared part (component, style, layout template), or a CMS collection or field. Skip the question when the owner asked for that exact thing. Keep new things page-local unless they're reused. File a new shared item in its Assets folder: colors, text and link styles in Brand, a component in the folder for its kind, a code file in Code.
+- Compose from Remy's parts, but don't force a poor fit. Ask first before anything new: a component, a section layout, a change to a shared part (component, style, layout template), or a CMS collection or field. Skip the question when the owner asked for that exact thing. Keep new things page-local unless they're reused. File a new shared item in its Assets folder: colors, the Text Styles folder and the Link Styles folder in Brand, a component in the folder for its kind, a code file in Code.
 - If the owner asks for something these rules discourage, say why in one line and ask before doing it.
 
 ## Home
 
 - Home's Service Card instances sit in two frames, Pair 1 and Pair 2, inside Service Cards: four across, two by two when a card would drop below 220 px (each pair is at least 464 px wide). On phones each pair wraps (each card's fade frame at least 240 px wide, 20 px apart) and each card fills its frame: two by two from 540 px wide, one column below. Keep the pairs when you add, remove or reorder services.
-- Hero and work holds the hero's 3D stack and the Selected work rows; it sits once on Home with a Projects setting (3, 4 or 5). Never copy it to another page. It has a Print area for each count, so a change to the hero prints (tilt, hover) goes in all three areas, in the Desktop, Tablet and Phone variants.
+- Hero and Work holds the hero's 3D stack and the Selected work rows; it sits once on Home with a Projects setting (3, 4 or 5). Never copy it to another page. It has a Print area for each count, so a change to the hero prints (tilt, hover) goes in all three areas, in the Desktop, Tablet and Phone variants.
 - The canvas shows the prints where they're designed; Travel.tsx lays them out in Preview and on the site and fades them in one at a time, left to right, with the role line (the Subheading layer). It takes that timing from the role line's appear effect: change the timing there, and never remove that effect.
 - Home turns off the Main layout's Space for nav switch, so the hero fills the window with the nav over it (the hero's top padding includes the nav's height). Every other page keeps the switch on.
 
@@ -91,16 +91,16 @@ The form shows errors with the Field component's variants (Text error, Email err
 
 ## Typography and copy
 
-Choose text styles by job; each heading style carries its heading level. Never change a level on a layer: a job that needs another level needs its own style, which is ask-first.
+Choose text styles by job. A text style sets the look; its tag is the default level. Where one style serves several levels, set the level on the element (Accessibility panel): case study and post titles H1 on Section Title, Project Row titles H3, Contact CTA "Write to me." H2 on Page Title. Pick the style first, then set the level; changing or re-applying a style resets the level, so check it again afterwards.
 
-- Page titles are h1, one per page: Heading/Page title on Work, Contact, Blog and new general pages; Heading/Home title for Home's headline (a step smaller on desktop, to leave room for the stack); Heading/Record title for CMS detail pages; Heading/404 title for the 404 headline only.
-- Lead under the page title: Body/Body L. Body copy: Body/Body M. Summaries and secondary copy: Body/Body S.
-- Section headings are h2 from the Section Header: its Large variant uses Heading/Section title, its Compact variants Heading/Section label. A section heading without a Section Header uses Section title.
-- One level below, h3: Heading/Card title for card titles and Heading/Row title for project names in a Project Row.
+- Page titles are h1, one per page: Heading/Page Title on Work, Contact, Blog and new general pages; Heading/Hero Title for Home's headline (a step smaller on desktop, to leave room for the stack); Heading/Section Title, set to H1, for CMS detail pages; Heading/404 Title for the 404 headline only.
+- Lead under the page title: Body/Body L. Body copy, summaries and secondary copy: Body/Body.
+- Section headings are h2 from the Section Header: its Large variant uses Heading/Section Title, its Compact variants Heading/Section Label. A section heading without a Section Header uses Section Title.
+- One level below, h3: Heading/Card Title for card titles and Heading/Section Title, set to H3, for project names in a Project Row.
 - Large serif text that isn't a heading: Display/Statement for statements and intros, Display/Stat for outcome figures, Display/Signature for the wordmark and the Polaroid caption.
 - Long-form text follows the case study: Body L paragraphs with 16 px paragraph spacing, in a column up to 643 px, with subheads as Heading 2 styled Heading/Subhead.
 - Label/Label M is for metadata (disciplines, years, roles) and is never a heading. Navigation, buttons, tabs and chips use Label/Label L; captions use Label/Label S.
-- Text typed on the canvas keeps its own paragraph's level, so a typed heading may borrow another's look (the Contact CTA's "Write to me." is Page title typed as h2). Text from a property or the CMS takes its style's level; in CMS rich text, subheads are Heading 2 (Subhead) and paragraphs Body L.
+- Text typed on the canvas keeps its own paragraph's level, so a typed heading may borrow another's look (the Contact CTA's "Write to me." is Page Title typed as h2). Text from a property or the CMS takes its style's level; in CMS rich text, subheads are Heading 2 (Subhead) and paragraphs Body L.
 - A serif heading has at most one italic phrase. When a serif statement ends with a full stop, color only the full stop Accent. Section and card titles have no full stop.
 - Sentence case; no all caps, eyebrows or overlines unless the owner asks. Keep paragraphs under 680 px wide.
 - Use the owner's text when they give it. Sample copy reads like a real person wrote it, with varied paragraph lengths; sample CMS text is complete paragraphs.
@@ -110,9 +110,9 @@ Choose text styles by job; each heading style carries its heading level. Never c
 
 Open a new page by duplicating the closest existing opening and changing its words, so its spacing, fade-in and tablet and phone layouts come with it.
 
-- **Statement opening** (/work, /contact), for general and index pages: a Page title with one italic phrase ending in the Accent full stop, then a Body L lead.
-- **Record opening** (/work/:slug), for CMS detail pages: back link, a small label (such as the date), the Record title, then the Body L summary. Keep the details column only when the entry has real details. The main image goes in a cover section after the opening.
-- **Centered record opening** (/blog/:slug), for long reads: the back link stays top left, then a centered date · topic label, the Record title and the Body L summary, with the cover below as a pinned Print in a centered column.
+- **Statement opening** (/work, /contact), for general and index pages: a Page Title with one italic phrase ending in the Accent full stop, then a Body L lead.
+- **Record opening** (/work/:slug), for CMS detail pages: back link, a small label (such as the date), the title in Section Title (set to H1), then the Body L summary. Keep the details column only when the entry has real details. The main image goes in a cover section after the opening.
+- **Centered record opening** (/blog/:slug), for long reads: the back link stays top left, then a centered date · topic label, the title in Section Title (set to H1) and the Body L summary, with the cover below as a pinned Print in a centered column.
 - If none suits the content, design a new opening from Remy's styles and components, and ask first, as with any new section layout.
 - Only titles you write get the italic phrase and Accent full stop; titles from the CMS stay plain. A label above a statement title and controls under the lead are optional. Openings are text only, in bounded columns.
 
@@ -137,7 +137,7 @@ A new collection is ask-first. Once agreed, build it like the Work collection:
 
 ## Naming layers
 
-Name sections by their content (Hero, Services, Open roles) and groups inside the Container by role (Title group, Lead, Details); name text layers by role (Heading, Lead, Label, Body).
+Name sections by their content (Hero, Services, Open roles) and groups inside the Container by role (Title group, Lead, Details); name text layers by role (Heading, Lead, Label, Body). Name components, styles and folders in Title Case (small joining words lower case); component settings stay sentence case.
 
 ## Before you finish
 

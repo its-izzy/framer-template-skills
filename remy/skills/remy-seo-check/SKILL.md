@@ -20,7 +20,7 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 
 - **Title and description:** the published title, description, slug and canonical URL; missing, duplicated, conflicting or placeholder values; and whether the title, description, H1 and visible topic agree.
 - **Indexing:** whether the page may be indexed (its search settings, robots tags, canonical URL, draft or published) and is listed in /sitemap.xml. Check whether the live URL is actually indexed if you can; otherwise mark it for manual review. Keep indexable, crawled and indexed apart.
-- **Headings:** one H1 and an outline with no skipped levels. Each text style carries its level, so the fix is the style made for that job, not a changed tag.
+- **Headings:** one H1 and an outline with no skipped levels. A text style sets the default level; where one style serves several levels the level is set on the element, so check the tag as well as the style.
 - **Structure:** one Main frame tagged main holds the sections; the Nav and Footer sit outside it as header and footer.
 - **Language:** the site language is set (Site Settings → General → Language); without it, pages have no lang attribute.
 - **Images:** descriptive alt text, or empty alt on decorative images; the Service Card illustrations are empty on purpose. Portraits read "Portrait of [Full name]". CMS images take their alt text from the image in each item.
