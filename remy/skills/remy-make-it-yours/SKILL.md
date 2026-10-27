@@ -59,7 +59,7 @@ For anything your tools can't reach, give the owner the text and the steps.
 
 ## Done when
 
-- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose", "Pacific time" or hello@remyvarga.com. /design-system and the User guide design page are the template's own docs and may keep the name Remy.
+- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or hello@remyvarga.com, and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own docs and may keep the name Remy.
 - The logo, the Nav and the role line fit at every size; if a long name crowds the menu button, suggest a shorter logo text, such as the first name.
 - No Design system link in the Nav, and no Use template button on any page.
 - The email links open the owner's address, and every visible social link opens their profile.
