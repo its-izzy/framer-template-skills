@@ -39,7 +39,7 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 
 Open or inspect every link at each size, including the phone menu. For each problem, report the page, where the link sits, where it goes now and where it should go.
 
-- **Demo-only parts:** the Nav's Design system link (bar and phone menu) and the floating Use template button (Main and Main · 404 layouts, a placeholder remix link) are gone. Any left is a launch blocker.
+- **Demo-only parts:** the Nav's Design system link (bar and phone menu) and the floating Use template button (Main layout, a placeholder remix link) are gone. Any left is a launch blocker.
 - **Social links:** the Contact CTA on every page and the Elsewhere row on /contact ship pointing at each network's home page (www.instagram.com, www.linkedin.com, www.dribbble.com, www.x.com). Any still there is a launch blocker: it should open the owner's profile, or the network should be hidden.
 - **Email:** every email link uses mailto: with the owner's address, the same in the Contact CTA, the Contact details and the Nav's phone menu. Phone numbers, if added, use tel:.
 - **Nav and footer:** Work, Services, About, Blog and Contact open the right page or section (Services and About scroll to them on Home); the Wordmark goes to Home; the Footer's Back to top returns to the very top of every page, with nothing under the Nav.

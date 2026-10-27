@@ -37,7 +37,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 1. Wordmark: the logo text. Keep the Accent full stop.
 2. Footer: the copyright line, © with the current year and the full name.
 3. Nav: the city in the bar ("Based in [City] ·") and in the phone menu ("Based in [City] · [Time zone]"); the Local Time clock's Time Zone (an IANA name such as America/Vancouver) and Clock (12-hour or 24-hour); the phone menu's email (text and mailto link). Remove the Design system link from the bar and the phone menu.
-4. Main and Main · 404 layouts: delete the floating Use template button in each.
+4. Main layout: delete the floating Use template button.
 5. Contact CTA: the email (text and mailto link) and each social link's address.
 6. Contact Form: "Dear Remy," becomes the owner's first name. Set the form's Send To to the owner's email if your tools can (Framer may ask them to confirm it).
 7. /contact: the Detail rows Name, Email (value and mailto link), Based in, Availability and Elsewhere (each network's link), and both Polaroids' image, caption and alt text (one shows only on phones).

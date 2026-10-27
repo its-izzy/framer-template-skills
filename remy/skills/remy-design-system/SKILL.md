@@ -53,7 +53,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 ## Shared layout and identity
 
 - Apply the Main layout template to every new page, and keep its Nav and Footer. On a CMS detail page, the Back to top link is bound to the entry (/work/:slug#top).
-- The Use template button (in the Main and Main · 404 layouts) and the Nav's Design system link are only for the template's demo; remy-make-it-yours removes them. Don't copy them into new work.
+- The Use template button (in the Main layout) and the Nav's Design system link are only for the template's demo; remy-make-it-yours removes them. Don't copy them into new work.
 - The owner's name, email and copyright live in the Wordmark, Nav, Footer and Contact CTA components; editing them changes every page, so ask first.
 - Give every new page its own search title and description.
 - Keep the Nav's items, order and destinations. Offer once to add a new top-level page to the Nav; if yes, add it to the bar and the phone menu with the same link style. In the phone menu, duplicate an existing row: the row itself is the link (the text inside isn't, so there's no link inside a link), and it keeps the tap and the NavKeyboard.tsx override that close the menu (also after a keyboard pick). Change only the row's link and text; each row stays one Tab stop.
