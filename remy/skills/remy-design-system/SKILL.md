@@ -24,7 +24,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 
 - /design-system is the source of truth for color, type, surfaces, layout, section patterns, motion, voice, components, imagery and the content model. Read its values instead of restating them from memory.
 - Use Home (/), /work, /work/:slug, /blog, /blog/:slug and /contact as layout examples. Reuse and combine their section layouts; copying a whole page needs the owner to ask for a close match.
-- Compose from Remy's parts, but don't force a poor fit. Ask first before anything new: a component, a section layout, a change to a shared part (component, style, layout template), or a CMS collection or field. Skip the question when the owner asked for that exact thing. Keep new things page-local unless they're reused.
+- Compose from Remy's parts, but don't force a poor fit. Ask first before anything new: a component, a section layout, a change to a shared part (component, style, layout template), or a CMS collection or field. Skip the question when the owner asked for that exact thing. Keep new things page-local unless they're reused. File a new shared item in its Assets folder: colors, text and link styles in Brand, a component in the folder for its kind, a code file in Code.
 - If the owner asks for something these rules discourage, say why in one line and ask before doing it.
 
 ## Home
