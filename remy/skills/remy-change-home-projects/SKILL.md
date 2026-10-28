@@ -9,10 +9,10 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 - Projects is a choice (3, 4 or 5) on the Hero and Work instance on Home, not a number field. If your tools can't set it, finish the Home slots and tell the owner: select the hero on Home, then pick the number under Projects in the right panel.
 

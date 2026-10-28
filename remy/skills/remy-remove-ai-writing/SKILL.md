@@ -9,10 +9,10 @@ Edit Remy copy that sounds generic, repetitive or machine-written, so it reads l
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 - Rewrite and Detect work without a connection; Edit in Framer needs Framer MCP. Without it, ask the owner to paste the copy and say where each piece lives (page, component, or CMS item and field). Return only the sentences you changed, each with where it goes, so they replace just those words in Framer. You can't see the layout, so keep strictly to the length limits.
 - To Detect across the site, read the published or preview site with your web tools, then find where each passage lives in Framer before you edit it.
