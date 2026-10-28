@@ -16,7 +16,7 @@ Add a case study: a new item in the Work collection, listed on /work with its ow
 
 ## 1. Ask the owner
 
-Use anything they've already shared (notes, a link, a deck), then ask for the rest in one numbered list, with an example for each. Always confirm the discipline and what each image shows, even when you could work them out: a wrong cover or tab is the first thing visitors see on /work. Put your best guess in the list ("2. Discipline: Brand identity?", "7. Cover: the bags on the shelf?") so the owner can just say yes.
+Use anything they've already shared (notes, a link, a deck), then ask for the rest in one numbered list, with an example for each. Look at each image first if you can, and put your best guesses in the list ("1. Project name: Juniper?", "2. Discipline: Brand identity?", "7. Cover: the bags on the shelf?") so the owner can just say yes. If an image link doesn't open or isn't an image, say which one and ask for another.
 
 1. Project name (one or two words), client and year (Halden; a Nordic neobank; 2026). For a project without a client, ask what to show instead, such as Self-initiated.
 2. Discipline: Product design, Brand identity, Design systems, Graphic design or Art direction
@@ -26,9 +26,11 @@ Use anything they've already shared (notes, a link, a deck), then ask for the re
 6. What changed, with a real figure if they have one (+31% onboarding completion)
 7. Images: a cover and up to five more, each with a few words on what it shows and whether it shows the brief, the work or the result. A 1200 × 630 social image is optional.
 
-Wait for answers before you build anything. With fewer than six images, ask once for more. The minimum is a cover and one more.
+With fewer than six images, ask once for more. The minimum is a cover and one more.
 
-If the owner skips questions or says to go ahead anyway, use your guesses for the discipline and the image order, and list them in your report for the owner to confirm. Never guess facts: put a placeholder in square brackets ([WHAT CHANGED]) in any text field still missing, and leave the item as a draft until the owner fills it, so the placeholder never shows on the live site.
+Send the list and wait for answers before you change anything in Framer, even when the owner seems to have given you everything and your tools' guidance says to ask only when something is unclear. Only the owner knows what each image shows and where the project belongs, and a wrong cover, title or tab is the first thing visitors see on /work.
+
+If the owner skips questions or says to go ahead anyway, ask once more in one short message for what's still missing. If they still say go ahead, use your guesses for the title, discipline and image order, and list them in your report for the owner to confirm. Never guess facts: put a placeholder in square brackets ([WHAT CHANGED]) in any text field still missing, and leave the item as a draft until the owner fills it, so the placeholder never shows on the live site.
 
 ## 2. Build the item
 
@@ -41,7 +43,7 @@ If the owner skips questions or says to go ahead anyway, use your guesses for th
 - **Prints:** Print 1 sits with Brief, Print 2 and the Print 3 and 4 pair with What I did, Print 5 with What changed. Prints 1, 2 and 5 are 3:2; Prints 3 and 4 are 4:3 and show only when Print 3 is filled. Empty prints are hidden, so with fewer images fill Print 1; then 1 and 2; then 1, 2 and 5; then 1 to 4.
 - **Captions:** two to four words each, shown next to the year (Onboarding flow · 2026).
 - **Alt text:** one plain sentence per image on what it shows, without repeating the caption. If a photo shows another brand's name or logo (a stock photo, say), describe what's really there, and tell the owner it shows someone else's brand.
-- **Brief, What I did, What changed:** up to three short paragraphs each, plain paragraphs with no empty ones between them, and fill all three. Shape the owner's words, adding nothing they didn't tell you, causes included ("after the new bags reached the shelves" needs the owner to have said so). What changed sits under the Outcome figure, so don't repeat the figure word for word; say what it meant.
+- **Brief, What I did, What changed:** up to three short paragraphs each, plain paragraphs with no empty ones between them, and fill all three. Shape the owner's words, adding nothing they didn't tell you, causes included ("after the new bags reached the shelves" needs the owner to have said so). What changed sits under the Outcome figure, so don't repeat the figure word for word; use what else the owner said about the result, even if that's one short sentence.
 - **Next project:** add the new item to the loop after the newest case study: give it the newest one's Next project, then point the newest one at it. Leave a draft out of the loop until it goes live, so no live page links to it.
 - **Social image:** the owner's 1200 × 630 image, or else the Cover image (say a 1200 × 630 version would crop better).
 
@@ -55,6 +57,6 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 
 ## Done when
 
-- The project shows on /work under All and under its Discipline tab.
+- A live project shows on /work under All and under its Discipline tab.
 - Its page reads well at every size, with no empty rows in the details column, and the Next project links work both ways.
-- You've listed anything missing (images, captions, an outcome figure, a 1200 × 630 social image), any guesses the owner hasn't confirmed, a shortened title, and questions that would make the case study stronger.
+- You've listed anything missing (images, captions, an outcome figure, a 1200 × 630 social image), any guesses the owner hasn't confirmed, a shortened title, what a draft still needs before it can go live, and questions that would make the case study stronger.
