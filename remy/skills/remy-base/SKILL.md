@@ -44,7 +44,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 
 The Framer connector can show a change as saved when it isn't, and publishing can miss changes made through the connector to a layout, a component or page settings (Framer says "No changes" and keeps the old version live).
 
-- After every turn that makes changes, follow-ups included, open the project again in a new session (a fresh connection, which shows only what Framer kept) and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
+- After every turn that makes changes, follow-ups included, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
 - If you changed a layout, a component or page settings, ask the owner to make one small real edit in the editor to each of them before publishing (change any value, then change it back), and to check those changes on the live site afterward.
 - Never report a form's Send To, a site setting or a domain as set unless a new session reads it back with the value; otherwise give the owner the steps.
 - For anything you can't test yourself, such as keyboard use, clicks and the phone menu, give the owner a short list of steps to try.
