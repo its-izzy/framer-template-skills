@@ -19,7 +19,7 @@ Replace the sample designer, Remy Varga, with the owner everywhere except the Wo
 One numbered list, each item with a short example; say anything they don't have yet can stay a placeholder:
 
 1. Full name, for the footer, page titles, alt text and About (Remy Varga)
-2. Logo text, up to 20 characters, usually the first name; the Accent full stop is added (Remy)
+2. Logo: their name as text, up to 20 characters, usually the first name, with the Accent full stop added (Remy); or their own logo, as a public link to an SVG or PNG with a transparent background
 3. City, time zone, and a 12-hour or 24-hour clock (San Jose, Pacific time, 12-hour)
 4. Email
 5. Profile links for up to four networks they use. Instagram, LinkedIn, Dribbble and X are set up; another network, such as Behance or their Framer profile, can take the place of one they don't use (instagram.com/remyvarga)
@@ -34,7 +34,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 
 ## 2. Change
 
-1. Wordmark: the logo text, up to 20 characters with spaces, so it fits the Nav on the smallest phones (about 24 fit at 360 px; 20 leaves room for wide letters). If the owner's is longer, ask for a shorter version, such as the first name or initials, and use the first name until they answer. Keep the Accent full stop.
+1. Wordmark: the logo text, up to 20 characters with spaces, so it fits the Nav on the smallest phones (about 24 fit at 360 px; 20 leaves room for wide letters). If the owner's is longer, ask for a shorter version, such as the first name or initials, and use the first name until they answer. Keep the Accent full stop. With their own logo file, switch the Wordmark to its Logo image variant, add the image (or tell the owner which field to drop the file into), and set its alt text to their full name. Images don't change with dark mode, so check it on the dark background too; if it's hard to see there, tell the owner and ask for a version that works on both.
 2. Footer: the copyright line, © with the current year and the full name.
 3. Nav: the city in the bar and in the phone menu ("Based in [City] ·", followed by the clock); the Local Time clock's Time Zone (an IANA name such as America/Vancouver) and Clock (12-hour or 24-hour); the phone menu's email (text and mailto link). Remove the Design system link from the bar and the phone menu.
 4. Main layout: delete the floating Use template button (the Use template (floating) layer, which links to a placeholder remix link) on Desktop, Tablet and Phone.
