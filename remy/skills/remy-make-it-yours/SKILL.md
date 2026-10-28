@@ -67,7 +67,7 @@ Follow Before you report in remy-base after every turn that changes something, f
 
 ## Done when
 
-- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or hello@remyvarga.com, and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own and may keep the name Remy.
+- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or the sample email (hello@example.com, or hello@remyvarga.com in older copies), and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own and may keep the name Remy.
 - The logo, the Nav and the role line fit at every size, 360 px included. A logo text longer than about 14 characters often runs off the edge on small phones: check it at 360 px, and if you can't view that width, suggest the first name and ask the owner to check Preview at the smallest phone size. Don't say it fits unless you saw it.
 - No Design system link in the Nav, and no Use template button on any page, in the read-back and in the screenshots.
 - The email links open the owner's address, and every visible social link opens their profile.
