@@ -27,7 +27,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 - Use only the existing color styles, text styles and components. Never type a hex value or set a font size by hand.
 - Read /design-system before you build and follow its "For agents" notes unless the owner asks otherwise. If it's been deleted, follow remy-design-system and the existing pages.
 - Project and post copy comes from the Work and Blog collections; never type it onto a page.
-- Keep component instances linked, and change them through their properties.
+- Keep component instances linked, and change them through their properties. When you change every instance of a component, change only the owner's pages: the samples on /design-system and in the User guide design page document the template.
 - Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx, ChipFocus.tsx and NavKeyboard.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print, the chips' focus ring and the Nav's keyboard behavior run on them.
 - Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and Work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
 - Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top; only /404 turns its Show back to top switch off. Set up new pages the same way.
@@ -44,8 +44,9 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 
 The Framer connector can show a change as saved when it isn't, and publishing can miss changes made through the connector to a layout or to page settings (Framer says "No changes" and keeps the old version live).
 
-- After you make changes, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
+- After every turn that makes changes, follow-ups included, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
 - If you changed a layout or page settings, ask the owner to make one small real edit in the editor to each of them before publishing (change any value, then change it back), and to check those changes on the live site afterward.
+- Never report a form's Send To, a site setting or a domain as set unless a new session reads it back with the value; otherwise give the owner the steps.
 - For anything you can't test yourself, such as keyboard use, clicks and the phone menu, give the owner a short list of steps to try.
 
 ## Sample content

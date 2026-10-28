@@ -23,7 +23,7 @@ One numbered list, each item with a short example; say anything they don't have 
 3. City, time zone, and a 12-hour or 24-hour clock (San Jose, Pacific time, 12-hour)
 4. Email
 5. Links for the networks they use: Instagram, LinkedIn, Dribbble, X
-6. A one-line role (Independent Product and Brand Designer)
+6. A one-line role, and the kinds of work they take on (Independent Product and Brand Designer; product, brand and systems work)
 7. A portrait photo, at least 1200 px wide, and a short caption (Remy, at work)
 8. When they're next free for new work (Booking from [month and year])
 9. For About: a two- or three-sentence intro, their background, their approach, and their career as years and roles (2019–2023, Senior product designer, Pliant)
@@ -39,40 +39,39 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 3. Nav: the city in the bar and in the phone menu ("Based in [City] ·", followed by the clock); the Local Time clock's Time Zone (an IANA name such as America/Vancouver) and Clock (12-hour or 24-hour); the phone menu's email (text and mailto link). Remove the Design system link from the bar and the phone menu.
 4. Main layout: delete the floating Use template button (the Use template (floating) layer, which links to a placeholder remix link) on Desktop, Tablet and Phone.
 5. Contact CTA: the email (text and mailto link) and each social link's address.
-6. Contact Form: "Dear Remy," becomes the owner's first name. Set the form's Send To to the owner's email if your tools can, then read it back: if it's empty or unconfirmed, tell the owner to select the Contact Form and set or confirm Send To, or messages go nowhere.
-7. /contact: the Detail rows Name, Email (value and mailto link), Based in, Availability and Elsewhere (each network's link), and both Polaroids' image, caption and alt text (one shows only on phones).
+6. Contact Form: "Dear Remy," becomes the owner's first name. Send To, where messages go, often looks saved through the connector when it isn't, and a form that sends nowhere loses the owner real enquiries. So give the owner the steps every time: select the Contact Form, select Form, add their email under Send To, then confirm it from the email Framer sends. Report it as set only if a new session reads it back with their address.
+7. /contact: the intro's kinds of work ("across [kinds of work]") and the page's search description, or [THE KINDS OF WORK YOU TAKE ON]; the Detail rows Name, Email (value and mailto link), Based in, Availability and Elsewhere (each network's link), and both Polaroids' image, caption and alt text (one shows only on phones).
 8. Home: the role line under the statement (the Subheading layer in Hero text, inside Hero and Work); change its words only, since the stack code finds it by name and times the prints from its fade. Write the role in Title Case, whatever case the owner typed it in ("[Full name], Independent Product Designer"), here and in the site title. Then, in About, the Polaroid's image, caption and alt text, the intro, and the Background, Approach and Career rows (years and roles, and the city on the current role).
 9. /blog/:slug: in the Written by byline, the Polaroid's image and alt text, and the bio.
-10. Portraits: with the owner's photo, put it in every Polaroid above with their caption and the alt text "Portrait of [Full name]". Without one, keep the sample photo but don't put the owner's name on someone else's face, which misleads visitors and screen reader users: set each caption and alt text to [YOUR PORTRAIT], and keep the caption they gave for the report.
+10. Portraits: with the owner's photo, put it in every Polaroid above with their caption and the alt text "Portrait of [Full name]". Without one, keep the sample photo but don't put the owner's name on someone else's face, which misleads visitors and screen reader users: set each caption and alt text to [YOUR PORTRAIT], and keep the caption they gave for the report. Change only the Polaroids and Details in steps 7 to 9. The samples on /design-system and in the User guide design page use the same components but document the template, so leave them as they are.
 11. Search titles: replace "Remy Varga" with the full name on /work, /blog, /contact and /404, and in the case study and blog post title patterns ("{{Title}} – [Full name]").
 12. Site settings: site title ("[Full name] – [Role]", with the role as worded in the role line from step 8) and description (one sentence from their About intro, under about 155 characters), plus their own favicon and 1200 × 630 social image if they have them; the template's are Remy's.
-13. Unused networks: turn off the visibility of each one in the Contact CTA and the Elsewhere row; don't delete them, so they can come back.
+13. Networks without a profile link: turn off the visibility of every network the owner didn't give a link for, whether they don't use it or just didn't say, in the Contact CTA and the Elsewhere row. A visible icon that opens a network's home page looks broken. Don't delete them, so they can come back, and list each hidden one with the link it still holds.
 14. /design-system: delete it if the owner wants it gone; if they keep it, check it's hidden from search. Change nothing else on it: its samples are the template's documentation.
 
 For anything your tools can't reach, give the owner the text and the steps.
 
 ## Rules
 
-- Use only what the owner tells you; never invent facts, years or employers.
+- Use only what the owner tells you, never their Framer account's name or time zone; never invent facts, years or employers.
 - Leave the Home hero statement and the services as they are; offer remy-design-system if the owner wants them rewritten.
 - Place the owner's words exactly as given. Don't add emphasis such as italics that they didn't ask for; suggest it instead.
 - Write anything new in the voice from section 07 of /design-system, and reread it as remy-remove-ai-writing describes.
 
 ## Check before you report
 
-The Framer connector can show a change as saved that never reached the project, for example after the project stops responding during an edit. So:
+Follow Before you report in remy-base after every turn that changes something, follow-ups included. For this skill:
 
-1. Open the project again in a new session and read back every change.
-2. Take canvas screenshots of Home, /contact and a blog post at Desktop and Phone, in light and dark, and compare them with what you read back. If a screenshot still shows something you removed or old text, believe the screenshot: try that change once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
-3. Publishing can miss changes made through the connector to a layout or to page settings: Framer says "No changes" and keeps the old version live. So before the owner publishes, ask them to make one small real edit in the editor to each layout or page you changed that way (the Main layout, and the /work, /blog and /404 search titles): change any value, then change it back. After they publish, ask them to check the browser tab titles on /work, /blog and /404, and that no Use template button shows. If you couldn't view a width (such as about 700 px), say so.
+1. Take canvas screenshots of Home, /contact and a blog post at Desktop and Phone, in light and dark.
+2. Before the owner publishes, ask them to make one small real edit in the editor to the Main layout and to the search titles of /work, /blog, /contact and /404 (change any value, then change it back). After they publish, ask them to check the browser tab titles on those pages, and that no Use template button shows.
 
 ## Done when
 
 - Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or hello@remyvarga.com, and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own and may keep the name Remy.
-- The logo, the Nav and the role line fit at every size; if a long name crowds the menu button, suggest a shorter logo text, such as the first name.
+- The logo, the Nav and the role line fit at every size, 360 px included. A logo text longer than about 14 characters often runs off the edge on small phones: check it at 360 px, and if you can't view that width, suggest the first name and ask the owner to check Preview at the smallest phone size. Don't say it fits unless you saw it.
 - No Design system link in the Nav, and no Use template button on any page, in the read-back and in the screenshots.
 - The email links open the owner's address, and every visible social link opens their profile.
 
 ## Report
 
-What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every link still pointing at a network's home page, hidden ones included; and what the owner still has to do: Send To, if it isn't set and confirmed; site settings your tools couldn't reach; the sample case studies and posts to replace.
+What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every link still pointing at a network's home page, hidden ones included; and what the owner still has to do: Send To, unless a new session read it back with their address; site settings your tools couldn't reach; the sample case studies and posts to replace.
