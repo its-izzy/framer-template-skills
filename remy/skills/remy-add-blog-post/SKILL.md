@@ -31,8 +31,8 @@ Send the list and wait for the reply before you change anything in Framer, even 
 
 ## 2. Build the item
 
-- **Title:** sets the Slug, so keep it unique.
-- **Date and Topic:** as confirmed. A topic outside the three is a new option: ask first, give it a Filter Tab on /blog set up like the others, and offer to update the /blog intro if it names the topics.
+- **Title:** sets the Slug, so keep it unique. The sample titles run 15 to 40 characters; above about 60, suggest a shorter version in your list, but keep the owner's unless they agree. A draft with no title yet gets the placeholder [YOUR TITLE] and the Slug draft-post; tell the owner to change the Slug when they add a title, since it doesn't follow a rename.
+- **Date and Topic:** as confirmed. A topic outside the three is a new option: ask first, give it a Filter Tab on /blog set up like the others, and offer to update every place the topics are named: the /blog intro and /blog's search description.
 - **Summary:** one sentence, under about 120 characters; it's also the search description.
 - **Cover image:** 4:3, at least 2400 px wide, with one plain sentence of alt text on what it shows.
 - **Body:** as below. The title is the page's only Heading 1.
@@ -43,7 +43,7 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 ### The body
 
 - **The owner's own post:** keep their words, spelling and order, fixing only typos and slips, and suggest any other change instead of making it.
-- **From notes:** write finished paragraphs, not the notes on separate lines. Lead with the note that carries the main point, then order the rest so each leads to the next. Join related points into paragraphs of two to four sentences, with words that say how they connect (so, then, which means); use "because" only where the owner gave the reason. Every sentence should trace back to a note, with no new facts, feelings or examples, and every note should be used unless it doesn't fit (say which in your report).
+- **From notes:** write finished paragraphs, not the notes on separate lines. Lead with the note that carries the main point, then order the rest so each leads to the next. Join related points into paragraphs of two to four sentences, with words that say how they connect (so, then, which means); use "because" only where the owner gave the reason. Every sentence should trace back to a note, with no new facts, feelings, examples or framing lines of your own, and every note should be used unless it doesn't fit (say which in your report). A short post is still two or three full paragraphs, not a string of one-sentence ones: if the notes only fill one or two, write one or two.
 - **Subheads:** a longer post with distinct parts gets Heading 2 subheads, plain statements like the samples' (Sentences catch what sketches hide). A short post needs none.
 - Paragraphs and Heading 2 subheads only; the Body isn't styled for lists, quotes or images, so ask before adding one.
 
@@ -53,7 +53,7 @@ Each empty paragraph in the Body shows as a gap on the page, so follow the sampl
 
 - Start and end with a paragraph of text, never an empty one.
 - No empty paragraphs between paragraphs; exactly one before each Heading 2.
-- Stray line breaks in the text you send can become empty paragraphs. After saving, read the Body back block by block and fix anything that breaks the pattern.
+- In re-tests the first save often added an empty paragraph at the start. Send the Body as one string that begins directly with the first paragraph's opening tag, with no line break, space or empty tag before it and no line breaks between blocks; add each empty paragraph before a Heading 2 as its own empty tag. After saving, read the Body back block by block and fix anything that still breaks the pattern.
 
 ## Rules
 
