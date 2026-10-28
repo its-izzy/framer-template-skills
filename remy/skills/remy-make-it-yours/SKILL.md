@@ -28,7 +28,6 @@ One numbered list, each item with a short example; say anything they don't have 
 8. When they're next free for new work (Booking from [month and year])
 9. For About: a two- or three-sentence intro, their background, their approach, and their career as years and roles (2019–2023, Senior product designer, Pliant)
 10. One or two sentences for the byline under every blog post (I'm Remy, a designer working across product, brand and systems.)
-11. Keep /design-system as their private reference, hidden from search, or delete it before launch?
 
 Wait for answers. Anything missing becomes a placeholder in capitals and square brackets, such as [YOUR EMAIL]. A link can't hold a placeholder: leave it as it is and list it.
 
@@ -47,7 +46,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 11. Search titles: replace "Remy Varga" with the full name on /work, /blog, /contact and /404, and in the case study and blog post title patterns ("{{Title}} – [Full name]").
 12. Site settings: site title ("[Full name] – [Role]", with the role as worded in the role line from step 8) and description (one sentence from their About intro, under about 155 characters), plus their own favicon and 1200 × 630 social image if they have them; the template's are Remy's.
 13. Networks without a profile link: turn off the visibility of every network the owner didn't give a link for, whether they don't use it or just didn't say, in the Contact CTA and the Elsewhere row. A visible icon that opens a network's home page looks broken. Don't delete them, so they can come back, and list each hidden one with the link it still holds.
-14. /design-system: delete it if the owner wants it gone; if they keep it, check it's hidden from search. Change nothing else on it: its samples are the template's documentation.
+14. /design-system: keep it, and check it's hidden from search. It's the owner's private reference, the other Remy skills read it, and the User guide design page links to it, so don't delete it; if the owner asks to, explain this and suggest keeping it hidden. Change nothing else on it: its samples are the template's documentation.
 
 For anything your tools can't reach, give the owner the text and the steps.
 

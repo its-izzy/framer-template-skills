@@ -32,7 +32,7 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 - The Contact Form's Send To is the owner's address; remind them to send a test message once the site is live.
 - Every Work collection item has a Case summary, a Social image and a Next project, and the Next project chain loops. Every Blog collection item has a Summary, a Cover image and a Social image.
 - Projects on Home's Hero and Work is 3, 4 or 5, and Home slots 1 up to it each hold exactly one project.
-- /design-system is deleted or hidden from search engines, as the owner chose, and /404 is hidden from search engines.
+- /design-system (kept as the owner's private reference) and /404 are hidden from search engines.
 - Every page has one Main frame (the main landmark) around its sections, with the Nav and Footer outside it.
 
 ## Remy link check
