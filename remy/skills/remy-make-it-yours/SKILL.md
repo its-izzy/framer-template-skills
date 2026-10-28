@@ -23,7 +23,7 @@ One numbered list, each item with a short example; say anything they don't have 
 3. City, time zone, and a 12-hour or 24-hour clock (San Jose, Pacific time, 12-hour)
 4. Email
 5. Links for the networks they use: Instagram, LinkedIn, Dribbble, X
-6. A one-line role (Independent product and brand designer)
+6. A one-line role (Independent Product and Brand Designer)
 7. A portrait photo, at least 1200 px wide, and a short caption (Remy, at work)
 8. When they're next free for new work (Booking from [month and year])
 9. For About: a two- or three-sentence intro, their background, their approach, and their career as years and roles (2019–2023, Senior product designer, Pliant)
