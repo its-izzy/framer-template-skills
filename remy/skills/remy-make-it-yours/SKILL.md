@@ -54,7 +54,7 @@ For anything your tools can't reach, give the owner the text and the steps.
 ## Rules
 
 - Use only what the owner tells you, never their Framer account's name or time zone; never invent facts, years or employers.
-- Leave the Home hero statement and the services as they are; offer remy-design-system if the owner wants them rewritten.
+- Home hero statement: when the owner gives exact words, use them. Change the words only (the stack code finds the Hero text layer by name), keep the Accent full stop, and offer a phrase to put in italics, as in the sample. Check it at 360 px; if it runs longer than the sample there, suggest a shorter version. Leave the services as they are, and offer remy-design-system when the owner wants either one written for them.
 - Place the owner's words exactly as given. Don't add emphasis such as italics that they didn't ask for; suggest it instead.
 - Write anything new in the voice from section 07 of /design-system, and reread it as remy-remove-ai-writing describes.
 
