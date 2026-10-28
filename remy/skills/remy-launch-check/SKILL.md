@@ -9,10 +9,10 @@ Review the published or preview site before launch without changing anything, at
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 ## General checks
 
@@ -27,12 +27,12 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 
 ## Remy checks
 
-- No Remy Varga, hello@remyvarga.com or San Jose on any page or component, in alt text (every portrait, including the byline on /blog/:slug), in page titles and descriptions, or in the site title, description, favicon and social image. The sample case studies (Halden, Ostra, Fieldnote, Kiln Week, Tern), the six sample posts, the four sample services and the sample portrait are placeholders: any still on the site is a launch blocker.
+- No Remy Varga, San Jose or the sample email (hello@example.com) on any page or component, in alt text (every portrait, including the byline on /blog/:slug), in page titles and descriptions, or in the site title, description, favicon and social image. The sample case studies (Halden, Ostra, Fieldnote, Kiln Week, Tern), the six sample posts, the four sample services and the sample portrait are placeholders: any still on the site is a launch blocker.
 - Availability on /contact shows a real month.
 - The Contact Form's Send To is the owner's address; remind them to send a test message once the site is live.
 - Every Work collection item has a Case summary, a Social image and a Next project, and the Next project chain loops. Every Blog collection item has a Summary, a Cover image and a Social image.
 - Projects on Home's Hero and Work is 3, 4 or 5, and Home slots 1 up to it each hold exactly one project.
-- /design-system is deleted or hidden from search engines, as the owner chose, and /404 is hidden from search engines.
+- /design-system (kept as the owner's private reference) is hidden from search engines or a draft page, and /404 is hidden from search engines.
 - Every page has one Main frame (the main landmark) around its sections, with the Nav and Footer outside it.
 
 ## Remy link check
