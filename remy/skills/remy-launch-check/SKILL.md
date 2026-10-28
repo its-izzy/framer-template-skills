@@ -27,7 +27,7 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 
 ## Remy checks
 
-- No Remy Varga, San Jose or the sample email (hello@example.com, or hello@remyvarga.com in older copies) on any page or component, in alt text (every portrait, including the byline on /blog/:slug), in page titles and descriptions, or in the site title, description, favicon and social image. The sample case studies (Halden, Ostra, Fieldnote, Kiln Week, Tern), the six sample posts, the four sample services and the sample portrait are placeholders: any still on the site is a launch blocker.
+- No Remy Varga, San Jose or the sample email (hello@example.com) on any page or component, in alt text (every portrait, including the byline on /blog/:slug), in page titles and descriptions, or in the site title, description, favicon and social image. The sample case studies (Halden, Ostra, Fieldnote, Kiln Week, Tern), the six sample posts, the four sample services and the sample portrait are placeholders: any still on the site is a launch blocker.
 - Availability on /contact shows a real month.
 - The Contact Form's Send To is the owner's address; remind them to send a test message once the site is live.
 - Every Work collection item has a Case summary, a Social image and a Next project, and the Next project chain loops. Every Blog collection item has a Summary, a Cover image and a Social image.
