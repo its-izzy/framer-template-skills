@@ -5,7 +5,7 @@ Owner: the "Fix the blog post skill" thread. Isaiah chose "Make all six, then re
 ## Setup, every run
 
 1. **Fresh remix** of framer.link/ZU6lsXr, named "Remy skills test 3f – blog post" (3g, 3h, 3i). Never touch, change settings on, or publish the main Remy project.
-2. **Outside skills:** every remy skill from GitHub branch skills-update at commit 79bfe70 or later (pull right before the runs; write the commit in the run notes), installed as local files in the clean test profile. This includes the held remy-base. Never upload anything.
+2. **Outside skills:** every remy skill from GitHub branch skills-update at commit f9140e2 or later (pull right before the runs; write the commit in the run notes), installed as local files in the clean test profile. This includes the held remy-base. Never upload anything.
 3. **Skill copies follow the tool (Isaiah, Oct 28):** these runs test an outside agent (Claude Code), which must use only the downloaded skill files and never the project's built-in copies. As in make it yours round 2, leave the remix's old built-in skills in place for 3f and 3h (the real-world mismatch), and for 3g and 3i paste tests/blog-post/default-framer-build.md into the remix's "default" skill and tests/blog-post/remy-add-blog-post-framer-build.md into its remy-add-blog-post skill (remix only, never main). Wait about 3 minutes, then read them back fresh to confirm. A run passes only if the session doesn't load the project's skill copies (no api.skills.read of a project skill) and follows the downloaded files.
 4. **New Claude session** in the clean test profile; never name the skill. Free Unsplash photo links (public, direct image links) unless the run says otherwise. Before each run, open each image link given below; if one doesn't load or plainly doesn't match the buyer's description, swap in a free Unsplash photo that does, and log it.
 5. Publish only that copy, to a free framer.website address (remy-skills-test-3f and so on). Make round 2 found that publishing puts page and component changes live; only the Main layout stayed stale, and these runs shouldn't touch it. After publishing, check /blog live; if a change made in the run is missing, make one small real edit in the editor (change a value and back) and publish again. Never publish a copy that ends up with real personal data, such as Isaiah's name from the Framer account.
@@ -62,6 +62,6 @@ Round 1 fixes still hold (ask first, date written out in the Nav clock zone, not
 3. New topic: /blog search description offered with the intro (3g)
 4. Short posts: no one-sentence paragraph string, no added framing (3f)
 5. Placeholder draft Slug draft-post, owner told to change it (3h)
-6. Widths: which widths it checked (base rules thread is handling this)
+6. Widths: screenshots all three breakpoints (1200, 810, 390) in light and dark, names what it saw, and puts 1440, about 700, 360 and reduced motion on the owner's click-through list (new base rule, f9140e2)
 
 Then one combined report for round 2 and wait for Isaiah's feedback.
