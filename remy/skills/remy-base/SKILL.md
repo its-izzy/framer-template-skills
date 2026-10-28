@@ -23,7 +23,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 
 ## Always
 
-- Never publish the site, and merge a branch only when the owner asks. The owner publishes.
+- Never publish the site, and merge a branch only when the owner asks. The owner publishes. Don't switch a draft CMS item live, even for a moment to check or screenshot it: a live item can be published or seen.
 - Use only the existing color styles, text styles and components. Never type a hex value or set a font size by hand.
 - Read /design-system before you build and follow its "For agents" notes unless the owner asks otherwise. Never delete it: if the owner wants it off the live site, suggest making it a draft page, which keeps it in the project unpublished. If it's already gone, follow remy-design-system and the existing pages.
 - Project and post copy comes from the Work and Blog collections; never type it onto a page.
