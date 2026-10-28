@@ -9,10 +9,10 @@ Build pages and sections from Remy's existing system, so new work looks like it 
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 ## When the request is vague
 
@@ -50,6 +50,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - Filter Tab can filter any list: copy Work's setup, where the tabs set a page variable and the lists read it. Falling Print stays on /404.
 - Never put a link inside another link, even in another variant (a text link on Desktop inside a frame that links on Phone); Framer strips the inner one. Print, Project Row, Arrow Link, Button and both cards already link, so link each piece instead of wrapping them, as the case study's next project does.
 - On /design-system, show every component sample as a light-mode picture on a card, never a live copy; hide the live copy instead of deleting it, and give each picture alt text.
+- The User guide is never published (it's a design page), so it can keep live components; the pictures rule covers /design-system only.
 
 ## Shared layout and identity
 
