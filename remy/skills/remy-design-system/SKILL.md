@@ -50,6 +50,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - Filter Tab can filter any list: copy Work's setup, where the tabs set a page variable and the lists read it. Falling Print stays on /404.
 - Never put a link inside another link, even in another variant (a text link on Desktop inside a frame that links on Phone); Framer strips the inner one. Print, Project Row, Arrow Link, Button and both cards already link, so link each piece instead of wrapping them, as the case study's next project does.
 - On /design-system, show every component sample as a light-mode picture on a card, never a live copy; hide the live copy instead of deleting it, and give each picture alt text.
+- The User guide is never published (it's a design page), so it can keep live components; the pictures rule covers /design-system only.
 
 ## Shared layout and identity
 
