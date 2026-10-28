@@ -49,6 +49,7 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - End a long-form page as the case study does: a Section Header (Compact with link) above the next item's Project Row and Print, never a small text link. A post ends with More notes: a Section Header (Compact with link) above three Post Cards, leaving out the current post.
 - Filter Tab can filter any list: copy Work's setup, where the tabs set a page variable and the lists read it. Falling Print stays on /404.
 - Never put a link inside another link, even in another variant (a text link on Desktop inside a frame that links on Phone); Framer strips the inner one. Print, Project Row, Arrow Link, Button and both cards already link, so link each piece instead of wrapping them, as the case study's next project does.
+- On /design-system, show every component sample as a light-mode picture on a card, never a live copy; hide the live copy instead of deleting it, and give each picture alt text.
 
 ## Shared layout and identity
 
