@@ -1,6 +1,6 @@
 ---
 name: remy-make-it-yours
-description: "Replace Remy's sample designer with the owner: name, logo, location, clock, contact details, social links, portrait, About, blog byline, search titles and site settings."
+description: "Make Remy yours: replace the sample designer with the owner's name, logo, city, contact details, links, portrait and About. Read remy-base first."
 ---
 
 Replace the sample designer, Remy Varga, with the owner everywhere except the Work and Blog collections, whose sample entries are replaced with remy-add-case-study and remy-add-blog-post.
@@ -47,7 +47,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 11. Search titles: replace "Remy Varga" with the full name on /work, /blog, /contact and /404, and in the case study and blog post title patterns ("{{Title}} – [Full name]").
 12. Site settings: site title ("[Full name] – [Role]", with the role as worded in the role line from step 8) and description (one sentence from their About intro, under about 155 characters), plus their own favicon and 1200 × 630 social image if they have them; the template's are Remy's.
 13. Networks: put each profile link the owner gave in its slot in the Contact CTA and the Elsewhere row. A network that isn't set up (Behance, Framer, GitHub) takes the slot of one they don't use: change that slot's label (a text layer in the Contact CTA component, and in the Elsewhere variant of the Detail component) and its link in both places, and read both back, so no label points at another network. The samples on /design-system change with the components, which is expected. With more than four, ask which four to show, or offer remy-design-system to add a slot. Unless they've said they don't use it, before hiding any network they gave no link for, ask about all of them in one line ("You didn't give links for LinkedIn and X. Hide them, or send the links?"), since they may just have forgotten. If they say hide, or don't say, turn off its visibility in both places: a visible link that opens a network's home page looks broken. Don't delete them, so they can come back, and list each hidden one with the link it still holds.
-14. /design-system: keep it, hidden from search or as a draft page, as the owner chose. It's the owner's private reference, the other Remy skills read it, and the User guide design page links to it, so never delete it, even if the owner asks; explain why in a line and offer a draft page instead. A draft page stays in the project but isn't published; if your tools can't make one, give the owner the steps. Change nothing else on it: its samples are the template's documentation.
+14. /design-system: keep it, hidden from search or as a draft page, as the owner chose. It's the owner's private reference, the other Remy skills read it, and the User guide design page links to it, so never delete it, even if the owner asks. Always tell them why in one line ("Other Remy skills and your User guide use it, so I've made it a draft page instead") and offer a draft page. A draft page stays in the project but isn't published; if your tools can't make one, give the owner the steps. Change nothing else on it: its samples are the template's documentation.
 
 For anything your tools can't reach, give the owner the text and the steps.
 
@@ -74,4 +74,4 @@ Follow Before you report in remy-base after every turn that changes something, f
 
 ## Report
 
-What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every link still pointing at a network's home page, hidden ones included; and what the owner still has to do: Send To, unless a new session read it back with their address; site settings your tools couldn't reach; the sample case studies and posts to replace.
+What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every network you hid, by name, with the link it still holds, and any visible link still pointing at a network's home page; and what the owner still has to do: Send To, unless a new session read it back with their address; site settings your tools couldn't reach; the sample case studies and posts to replace.
