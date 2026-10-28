@@ -55,7 +55,6 @@ For anything your tools can't reach, give the owner the text and the steps.
 
 - Use only what the owner tells you; never invent facts, years or employers.
 - Leave the Home hero statement and the services as they are; offer remy-design-system if the owner wants them rewritten.
-- Leave the demo pages /test-3-projects and /test-5-projects alone; list them for the owner to delete before launch.
 - Place the owner's words exactly as given. Don't add emphasis such as italics that they didn't ask for; suggest it instead.
 - Write anything new in the voice from section 07 of /design-system, and reread it as remy-remove-ai-writing describes.
 
@@ -65,15 +64,15 @@ The Framer connector can show a change as saved that never reached the project, 
 
 1. Open the project again in a new session and read back every change.
 2. Take canvas screenshots of Home, /contact and a blog post at Desktop and Phone, in light and dark, and compare them with what you read back. If a screenshot still shows something you removed or old text, believe the screenshot: try that change once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
-3. Ask the owner to check the same things after they publish: the browser tab titles on /work, /blog and /404, and that no Use template button shows. If you couldn't view a width (such as about 700 px), say so.
+3. Publishing can miss changes made through the connector to a layout or to page settings: Framer says "No changes" and keeps the old version live. So before the owner publishes, ask them to make one small real edit in the editor to each layout or page you changed that way (the Main layout, and the /work, /blog and /404 search titles): change any value, then change it back. After they publish, ask them to check the browser tab titles on /work, /blog and /404, and that no Use template button shows. If you couldn't view a width (such as about 700 px), say so.
 
 ## Done when
 
-- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or hello@remyvarga.com, and no "Pacific time" unless the owner is on Pacific time. /design-system, the User guide design page and the two demo pages are the template's own and may keep the name Remy.
+- Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or hello@remyvarga.com, and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own and may keep the name Remy.
 - The logo, the Nav and the role line fit at every size; if a long name crowds the menu button, suggest a shorter logo text, such as the first name.
 - No Design system link in the Nav, and no Use template button on any page, in the read-back and in the screenshots.
 - The email links open the owner's address, and every visible social link opens their profile.
 
 ## Report
 
-What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every link still pointing at a network's home page, hidden ones included; and what the owner still has to do: Send To, if it isn't set and confirmed; site settings your tools couldn't reach; the demo pages and the sample case studies and posts to replace.
+What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it; every link still pointing at a network's home page, hidden ones included; and what the owner still has to do: Send To, if it isn't set and confirmed; site settings your tools couldn't reach; the sample case studies and posts to replace.

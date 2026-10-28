@@ -9,16 +9,17 @@ You are working on Remy, a Framer portfolio template for designers, styled as pr
 
 Use Framer MCP, Framer's official connection for AI tools; there's nothing to install. The owner opens framer.com/mcp, picks their app (Claude, Claude Code, ChatGPT, Codex or Cursor), signs in to Framer and approves access. Codex can also run codex mcp add framer --url https://mcp.framer.com/mcp, and other apps that support remote MCP servers add https://mcp.framer.com/mcp. Claude Code needs a new session afterward. Help: https://www.framer.com/help/articles/getting-started-with-framer-mcp/. Never ask for their Framer password.
 
-Then ask for the link to their Remy project and open it. If you can't reach it, stop and say so; don't edit any other way. If the project's own copy of a Remy skill differs from yours, the project's copy wins.
+Then ask for the link to their Remy project, open it, and name it in your first reply so the owner can catch a wrong link. If you can't reach it, stop and say so; don't edit any other way. If the project's own copy of a Remy skill differs from yours, the project's copy wins.
 
 ## Working from outside Framer
 
 - Names in Remy's skills are exact: pages by path (Home is /), components, text styles as Folder/Name (Heading/Page Title), color styles, layout templates, collections and fields, code files and layers. Find each by name. If one is missing, ask; never build a replacement.
 - When the owner says "this" or "here", use the page and selection in Framer MCP's project context. If that's empty, ask which page, component or CMS item they mean.
-- Framer MCP edits the owner's main version directly unless you work on a branch. If you use one, give the owner its name and link; nothing changes on main until they merge it.
+- Framer MCP edits the owner's main version directly unless you work on a branch. Branches need a Framer plan that includes them; if Framer refuses one, use a duplicate instead. If you use a branch, give the owner its name and link; nothing changes on main until they merge it.
 - Images come from the owner. Framer MCP adds images from public links, so ask for links; for files on their computer, ask them to drop each one into its field in Framer. Never generate or download images unless asked.
 - If your tools can't do a step (a site setting, a form destination, a component choice), don't work around it: give the owner the exact steps and list them in your report.
-- Screenshots may show the page with its code running, not Framer's canvas. If you can't see the page, ask the owner to check Framer's Preview, and say so in your report.
+- Screenshots may show the page with its code running, not Framer's canvas. Sections fade in as they scroll into view, so wait for them before calling anything missing. If you can't see the page, ask the owner to check Framer's Preview, and say so in your report.
+- Work only through Framer MCP; don't use a command line or download the site. To check the live site, read it through Framer.
 
 ## Always
 
@@ -30,10 +31,22 @@ Then ask for the link to their Remy project and open it. If you can't reach it, 
 - Never edit the code files (Travel.tsx, FormNote.tsx, LocalTime.tsx, NotFound.tsx, ChipFocus.tsx and NavKeyboard.tsx) unless the owner asks. The Home stack, the contact form, the Nav clock, the 404 print, the chips' focus ring and the Nav's keyboard behavior run on them.
 - Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and Work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
 - Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top; only /404 turns its Show back to top switch off. Set up new pages the same way.
-- Check every change at 1200, 810, about 700 and 390 px wide, and in dark mode.
-- Before a big job (a new page, a rebrand, many CMS items), offer once to work on a duplicate of the project or on a branch the owner merges. Small edits go ahead.
+- Check every change at 1440, 1200, 810, about 700, 390 and 360 px wide, in dark mode and with reduced motion. If you can't view a width or mode, say so in your report.
+- Before a big job (a new page, a rebrand, many CMS items), offer once to work on a duplicate of the project, or on a branch the owner merges if their plan has branches. Small edits go ahead.
 - Write in US English (color, center, organize, license) unless the owner writes in or asks for another variety; keep one spelling across the site.
-- Never present invented clients, results, quotes or prices as real. Write sample content only when asked; otherwise ask, or leave a placeholder in square brackets.
+- Never present invented clients, results, quotes or prices as real. Write sample content only when asked; otherwise ask, or leave a placeholder in square brackets, such as [YOUR CITY], never a vague stand-in.
+- The owner's details (name, email, city, time zone, links) come only from what the owner tells you. Never take them from the Framer account, the project's settings or anywhere else, even when the owner says "just do it". If they give nothing, ask once more in one short message, then use placeholders.
+- Place the owner's words as given. Don't add emphasis, such as italics, that they didn't ask for; suggest it instead. When you change template text, keep its pattern (in a headline, the one phrase in italics and the green full stop) unless the owner asks otherwise.
+- Reread any copy you write as remy-remove-ai-writing describes before you save it.
+- "Today" means today in the time zone set on the Nav clock. Near midnight there, confirm the date with the owner.
+
+## Before you report
+
+The Framer connector can show a change as saved when it isn't, and publishing can miss changes made through the connector to a layout or to page settings (Framer says "No changes" and keeps the old version live).
+
+- After you make changes, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
+- If you changed a layout or page settings, ask the owner to make one small real edit in the editor to each of them before publishing (change any value, then change it back), and to check those changes on the live site afterward.
+- For anything you can't test yourself, such as keyboard use, clicks and the phone menu, give the owner a short list of steps to try.
 
 ## Sample content
 
