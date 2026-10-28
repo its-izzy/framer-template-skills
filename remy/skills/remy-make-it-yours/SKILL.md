@@ -19,7 +19,7 @@ Replace the sample designer, Remy Varga, with the owner everywhere except the Wo
 One numbered list, each item with a short example; say anything they don't have yet can stay a placeholder:
 
 1. Full name, for the footer, page titles, alt text and About (Remy Varga)
-2. Logo text, up to 14 characters, usually the first name; the Accent full stop is added (Remy)
+2. Logo text, up to 20 characters, usually the first name; the Accent full stop is added (Remy)
 3. City, time zone, and a 12-hour or 24-hour clock (San Jose, Pacific time, 12-hour)
 4. Email
 5. Profile links for up to four networks they use. Instagram, LinkedIn, Dribbble and X are set up; another network, such as Behance or their Framer profile, can take the place of one they don't use (instagram.com/remyvarga)
@@ -34,7 +34,7 @@ Wait for answers. Anything missing becomes a placeholder in capitals and square 
 
 ## 2. Change
 
-1. Wordmark: the logo text, up to 14 characters with spaces, so it fits the Nav on the smallest phones. If the owner's is longer, ask for a shorter version, such as the first name or initials, and use the first name until they answer. Keep the Accent full stop.
+1. Wordmark: the logo text, up to 20 characters with spaces, so it fits the Nav on the smallest phones (about 24 fit at 360 px; 20 leaves room for wide letters). If the owner's is longer, ask for a shorter version, such as the first name or initials, and use the first name until they answer. Keep the Accent full stop.
 2. Footer: the copyright line, © with the current year and the full name.
 3. Nav: the city in the bar and in the phone menu ("Based in [City] ·", followed by the clock); the Local Time clock's Time Zone (an IANA name such as America/Vancouver) and Clock (12-hour or 24-hour); the phone menu's email (text and mailto link). Remove the Design system link from the bar and the phone menu.
 4. Main layout: delete the floating Use template button (the Use template (floating) layer, which links to a placeholder remix link) on Desktop, Tablet and Phone.
@@ -68,7 +68,7 @@ Follow Before you report in remy-base after every turn that changes something, f
 ## Done when
 
 - Searching the pages, components, layout templates, alt text, page titles and descriptions finds no "Remy", "Varga", "San Jose" or the sample email (hello@example.com, or hello@remyvarga.com in older copies), and no "Pacific time" unless the owner is on Pacific time. /design-system and the User guide design page are the template's own and may keep the name Remy.
-- The logo text is 14 characters or fewer, and the logo, the Nav and the role line fit at every size, 360 px included. If you can't view 360 px, ask the owner to check Preview at the smallest phone size; don't say it fits unless you saw it.
+- The logo text is 20 characters or fewer, and the logo, the Nav and the role line fit at every size, 360 px included. If you can't view 360 px, ask the owner to check Preview at the smallest phone size; don't say it fits unless you saw it.
 - No Design system link in the Nav, and no Use template button on any page, in the read-back and in the screenshots.
 - The email links open the owner's address, and every visible social link opens their profile.
 
