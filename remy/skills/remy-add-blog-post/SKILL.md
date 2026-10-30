@@ -42,7 +42,7 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 
 ### The body
 
-- **The owner's own post:** keep their words, spelling and order, fixing only typos and slips, and suggest any other change instead of making it.
+- **The owner's own post:** keep their words, spelling and order, fixing only typos and slips, and suggest any other change instead of making it. Their spelling variety (Canadian, British) is part of their voice, so keep it without suggesting a switch, even if the rest of the site uses another.
 - **From notes:** write finished paragraphs, not the notes on separate lines. Lead with the note that carries the main point, then order the rest so each leads to the next. Join related points into paragraphs of two to four sentences, with words that say how they connect (so, then, which means); use "because" only where the owner gave the reason. Every sentence should trace back to a note, with no new facts, feelings, examples or framing lines of your own, and every note should be used unless it doesn't fit (say which in your report). A short post is still two or three full paragraphs, not a string of one-sentence ones: if the notes only fill one or two, write one or two.
 - **Subheads:** a longer post with distinct parts gets Heading 2 subheads, plain statements like the samples' (Sentences catch what sketches hide). A short post needs none.
 - Paragraphs and Heading 2 subheads only; the Body isn't styled for lists, quotes or images, so ask before adding one.
@@ -53,7 +53,7 @@ Each empty paragraph in the Body shows as a gap on the page, so follow the sampl
 
 - Start and end with a paragraph of text, never an empty one.
 - No empty paragraphs between paragraphs; exactly one before each Heading 2.
-- A new item's Body already holds one empty paragraph, so text added after it leaves a gap at the top. Write the first paragraph into that empty one, then add the rest block by block (a TextBlock with TextRuns per paragraph or Heading 2), never as one string of text, plain or HTML, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. After saving, read the Body back block by block and fix anything that breaks the pattern.
+- A new item's Body already holds one empty paragraph, so text added after it leaves a gap at the top. Write the first paragraph's text into that empty one, which replaces its empty line (don't try to delete the line first; Framer won't allow it), then add the rest block by block (a TextBlock with TextRuns per paragraph or Heading 2), never as one string of text, plain or HTML, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. After saving, read the Body back block by block and fix anything that breaks the pattern.
 
 ## Rules
 
