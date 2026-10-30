@@ -32,6 +32,8 @@ One numbered list, each item with a short example; say anything they don't have 
 
 Wait for answers. Anything missing becomes a placeholder in capitals and square brackets, such as [YOUR EMAIL]. A link can't hold a placeholder: leave it as it is and list it.
 
+Run this skill only when the owner asks to make the site theirs or to change these details, never as the next step of another task. Before you change anything, say in one short message what will change: the shared parts (logo, Nav, Footer, Contact CTA) show on every page; name which details become placeholders, and that you'll remove the Design system links and the Use template button. Then wait for a yes; "just do it" counts as one only once you've said this.
+
 ## 2. Change
 
 1. Wordmark: the logo text, up to 20 characters with spaces, so it fits the Nav on the smallest phones (about 24 fit at 360 px; 20 leaves room for wide letters). If the owner's is longer, ask for a shorter version, such as the first name or initials, and use the first name until they answer. Keep the Accent full stop. With their own logo file, switch the Wordmark to its Logo image variant, put the image in its Logo property (or tell the owner to drop the file there), and set the image's alt text to their full name. Images don't change with dark mode, so check it on the dark background too; if it's hard to see there, tell the owner and ask for a version that works on both.
