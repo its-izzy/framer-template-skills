@@ -16,7 +16,7 @@ Add a case study: a new item in the Work collection, listed on /work with its ow
 
 ## 1. Ask the owner
 
-Use anything they've already shared (notes, a link, a deck), then ask for the rest in one numbered list, with an example for each. If they mention more than one project, ask which to add first, and offer the next one when this one is done. Look at each image first if you can, and put your best guesses in the list ("1. Project name: Juniper?", "2. Discipline: Brand identity?", "7. Cover: the bags on the shelf?") so the owner can just say yes. If you can't see an image from its link, don't call the link broken until you've added it and viewed the upload as remy-base describes. If it won't add or isn't an image, say which one and ask for another.
+Use anything they've already shared (notes, a link, a deck), then ask for the rest in one numbered list, with an example for each. If they mention more than one project, make the first item of the list a question, such as "You mentioned Harbourfront and the zine. Which should I add first?", rather than choosing for them, and offer the other when this one is done. Look at each image first if you can, and put your best guesses in the list ("1. Project name: Juniper?", "2. Discipline: Brand identity?", "7. Cover: the bags on the shelf?") so the owner can just say yes. If you can't see an image from its link, don't call the link broken until you've added it and viewed the upload as remy-base describes. If it won't add or isn't an image, say which one and ask for another.
 
 1. Project name (one or two words), client and year (Halden; a Nordic neobank; 2026). For a project without a client, ask what to show instead, such as Self-initiated.
 2. Discipline: Product design, Brand identity, Design systems, Graphic design or Art direction
@@ -34,7 +34,7 @@ If the owner skips questions or says to go ahead anyway, ask once more in one sh
 
 ## 2. Build the item
 
-- **Title, Year, Discipline:** Title is the project name, one or two words like the samples; if you shorten what the owner gave (Juniper for Juniper Coffee), say so in your report. Title sets the Slug, so keep it unique. Set Home slot to None unless the owner asks for one (then use remy-change-home-projects). A discipline outside the five is a new option: ask first, and give it a Filter Tab on /work, set up like the others.
+- **Title, Year, Discipline:** Title is the project name, one or two words like the samples; if you shorten what the owner gave, repeat both in your report ("I used Juniper for Juniper Coffee"), even if you said so earlier. Title sets the Slug, so keep it unique. Year is the owner's year; never leave it to the field's default, and if they haven't given one, list it as missing. Set Home slot to None unless the owner asks for one (then use remy-change-home-projects). A discipline outside the five is a new option: ask first, and give it a Filter Tab on /work, set up like the others.
 - **Summary:** one line, 60 characters or fewer. It's the text on the Project Row and Project Card, and the search description.
 - **Case summary:** one sentence with one phrase in italics; the lead under the title.
 - **Client, Role, Scope:** short phrases. All three show as rows on the case study, so fill each.
@@ -44,7 +44,7 @@ If the owner skips questions or says to go ahead anyway, ask once more in one sh
 - **Captions:** two to four words each, shown next to the year (Onboarding flow · 2026).
 - **Alt text:** one plain sentence per image on what it shows, without repeating the caption. If a photo shows another brand's name or logo (a stock photo, say), describe what's really there, and tell the owner it shows someone else's brand.
 - **Brief, What I did, What changed:** up to three short paragraphs each, and fill all three. Shape the owner's words and add nothing they didn't tell you. Before you save, check each sentence against the owner's answers and cut any detail they didn't give, such as a cause, which version went live or what it led to. Visitors read every line as the owner's claim, so ask about it in your report instead. What changed sits under the Outcome figure, so don't repeat the figure word for word; use what else the owner said about the result, even if that's one short sentence.
-- **Text fields:** in a new item, Case summary, Brief, What I did and What changed each start with one empty paragraph. Write into it rather than after it, then read each field back and remove any empty paragraph left before, between or after the text, since each one shows as a gap on the page.
+- **Text fields:** write Case summary, Brief, What I did and What changed paragraph by paragraph (a TextBlock per paragraph, with TextRuns), never as one plain string, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. In a new item each field starts with one empty paragraph: write into it rather than after it, then read each field back and remove any empty paragraph left before, between or after the text, since each one shows as a gap on the page.
 - **Next project:** add the new item to the loop after the newest case study: give it the newest one's Next project, then point the newest one at it. Leave a draft out of the loop until it goes live, so no live page links to it.
 - **Social image:** the owner's 1200 × 630 image, or else the Cover image.
 
@@ -53,7 +53,7 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 ## Rules
 
 - Use only the owner's facts and images. Never invent clients, results or quotes, and never generate images.
-- Add a new item; never rewrite a sample case study into the owner's.
+- Add a new item; never rewrite a sample case study into the owner's, and never create, copy or change a sample item, even briefly to test a tool.
 - Write in the voice from section 07 of /design-system, then reread it as remy-remove-ai-writing describes.
 
 ## Done when
@@ -63,13 +63,14 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 
 ## Report
 
-Report in this order, so nothing gets skipped, leaving out only lines that don't apply:
+Report in this order, so nothing gets skipped, leaving out only lines that don't apply. Each line stands on its own: say it here even if you said it earlier.
 
 1. Guesses the owner hasn't confirmed (title, discipline, cover, image order), and any title you shortened.
-2. What's missing (images, captions, an outcome figure), and which field each one goes in.
+2. What's missing (images, captions, the year, an outcome figure), and which field each one goes in.
 3. Photos that show another brand.
 4. The social image: the owner's 1200 × 630, or the cover, and that a 1200 × 630 version would share better.
 5. Which of the widths and modes in remy-base you checked, and any you couldn't.
 6. For a draft: what it still needs before it can go live.
-7. The samples are still there; offer to replace one, following Sample content in remy-base.
-8. Questions that would make the case study stronger, including any detail you left out because the owner didn't give it.
+7. Where it shows on /work: projects with a Home slot list first, then the rest, each by year, so a new project with Home slot None sits below the Home projects. Offer to give it a Home slot (remy-change-home-projects) if they want it higher.
+8. The samples are still there; offer to replace one, following Sample content in remy-base.
+9. Questions that would make the case study stronger, including any detail you left out because the owner didn't give it.
