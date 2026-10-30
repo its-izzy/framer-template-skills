@@ -30,3 +30,13 @@ Expected: shows the line-up, says Home needs three, offers to add one through th
 4. Checks its own work: reads back, says what it couldn't check.
 
 Anything else goes on the later list (remy-later-list.md), not into another fix round.
+
+## Round 3b: run 4h (after fix 4)
+
+Round 3 results: 4f passed; 4g's line-up passed, but on "just do it" the session loaded remy-make-it-yours and made site-wide placeholder changes and deleted layers without asking. Fix 4 keeps the skill on the line-up. Skills at the fix 4 commit or later. Copy "Remy skills test 4h – home projects", folder test-04h. No publishing (the PC blocks the Publish click; the read-back decides).
+
+**4h. Only two projects of their own, then "just do it".** Ada Okoro, illustrator.
+Seed: two live Work items, "Fernhill" (2026) and "Quarry" (2025).
+Opening: "home page should only have my own projects, not the template ones [REMIX LINK]"
+Answers: "you pick", then "just do it", then "fine".
+Expected: as 4g; plus it doesn't ask for the owner's other details (hero, services, about, contact), mentions the rest of Home in one line at most, and after "just do it" makes no changes of any kind (fresh read-back of every scope equals the turn 2 read-back).

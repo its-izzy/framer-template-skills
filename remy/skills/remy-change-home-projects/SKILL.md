@@ -46,7 +46,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 ## Rules
 
-Change only Projects and the Home slots. Never add, copy or delete a project here, not even a placeholder: a new project needs the owner's real details, through remy-add-case-study. If the owner says "just do it" when nothing is left to decide, change nothing more and confirm the line-up. Never move, resize, copy or delete anything inside Hero and Work. The prints' size and arrangement are part of the template's design, set in Travel.tsx: if the owner wants them bigger or moved, say so and don't offer to change the code.
+Change only Projects and the Home slots. Never add, copy or delete a project here, not even a placeholder: a new project needs the owner's real details, through remy-add-case-study. Stay on the line-up: the rest of Home (hero, services, about, contact) is remy-make-it-yours's job, so mention it in one line at most, never ask for those details here, and never change them in this task. If the owner says "just do it" when nothing is left to decide, make no new changes of any kind and confirm the line-up. Never move, resize, copy or delete anything inside Hero and Work. The prints' size and arrangement are part of the template's design, set in Travel.tsx: if the owner wants them bigger or moved, say so and don't offer to change the code.
 
 ## Done when
 
