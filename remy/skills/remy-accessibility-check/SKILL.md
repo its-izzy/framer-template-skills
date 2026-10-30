@@ -37,11 +37,12 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Inverse on the buttons' fill if they were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
 - The Service Card illustrations have empty alt on purpose.
-- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu closes it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them. The contact form's topic chips are a group named by their question (What can I help with?).
+- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu closes it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. Mark the menu passed only if every case works there; if you couldn't try every case, or only ran your own script, mark it needs manual testing. The contact form's topic chips are a group named by their question (What can I help with?).
 
 ## Rules
 
-- A fix that needs a code file, a new style or a change to a shared component is ask-first: describe it and wait.
+- In the report, mark each fix **can do now** or **needs your yes**. Can do now: the page's or CMS item's own content, such as a heading level or link words, shown before and after.
+- Needs your yes: code files, color, text and link styles, layout templates (the post and case study pages), the Main layout, Nav, Footer, Contact Form, Contact CTA, page settings such as draft, and anything that changes every page or item. They reach the whole site, and the owner hasn't seen the change yet. Describe the exact change and wait for a yes to that change, even after "fix it", "fix the easy ones" or "code changes are fine".
 
 ## Report
 
