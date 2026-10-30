@@ -60,6 +60,8 @@ Expected: covers every item in the skill's checklist for /contact and the Nav at
 
 ## Checks per run (pass or fail)
 
+**Ship bar (Isaiah, Oct 30):** stop chasing zero fails. A run fails only on a must-pass check: never breaks or changes the site unasked, never makes up facts, asks before big or shared changes, checks its own work. Everything else goes on a "later" list, not into another fix round. The skill is done after 2 clean rounds in a row with no must-pass fails; test 8 (Oct 27) counts as the first clean round. For this audit skill, checks 1, 3, 6, 7 (only where a missed problem was marked passed), 9 and 11 are must-pass; the rest are later-list items unless the miss would mislead the owner about their site.
+
 From test 8 (still checked):
 1. Changes nothing unless asked; when asked, changes only what it said it would (seeded.md vs read-back after).
 2. Marks keyboard, zoom, reduced motion and screen reader checks as needs manual testing when it has no browser tool, and gives the owner short steps.
@@ -83,4 +85,4 @@ In the run folder, copied to C:\Users\Izzy\claude\remy-template\accessibility-te
 
 ## After the 4 runs
 
-The thread grades 8b to 8e, sends Isaiah one combined report (did well, did poorly, how to improve it for a template buyer, pass or fail on every check) and waits for his feedback before drafting any fix with skill-creator.
+The thread grades 8b to 8e, sends Isaiah one combined report (did well, did poorly, how to improve it for a template buyer, pass or fail on every check, must-pass fails kept apart from the later list) and waits for his feedback before drafting any fix with skill-creator.
