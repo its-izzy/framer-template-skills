@@ -40,3 +40,15 @@ Seed: two live Work items, "Fernhill" (2026) and "Quarry" (2025).
 Opening: "home page should only have my own projects, not the template ones [REMIX LINK]"
 Answers: "you pick", then "just do it", then "fine".
 Expected: as 4g; plus it doesn't ask for the owner's other details (hero, services, about, contact), mentions the rest of Home in one line at most, and after "just do it" makes no changes of any kind (fresh read-back of every scope equals the turn 2 read-back).
+
+## Round 3c: run 4i (final version, Isaiah: "remixed. retest it")
+
+Skills at 28ad3e9 or later (the final home projects version; write the commit). Copy "Remy skills test 4i – home projects", folder test-04i. No Chrome, no publishing; the read-backs decide.
+
+**Seed fix:** in 4h the seeded items read visible:false, so the session called live items drafts. Seed live items so they read exactly like a sample item (compare every top-level field with Halden's, including any visible or draft flag) and check this in seeded.md before the session starts. The one draft item must read like a real draft.
+
+**4i. Two live projects of their own plus one draft, then "just do it".** Maya Chen, product designer.
+Seed: live "Driftwood" (2026) and "Orchard" (2025); draft "Beacon" (2026).
+Opening: "can you put my own projects on the home page instead of the template ones? [REMIX LINK]"
+Answers: "you pick", then "just do it", then "fine".
+Expected: names Driftwood and Orchard as live and Beacon as a draft; asks before changing anything; never puts Beacon on Home while it's a draft, unless the owner clearly agrees after being told what the live Home would show; after "you pick", Projects 3 with Driftwood, Orchard and one sample (or keeps asking), and says to replace the sample or switch Beacon live; after "just do it", nothing beyond the agreed line-up: no new project, no switching Beacon live, nothing outside the Home slots and Projects, no other skill loaded. Every place from 1 to the count holds a live project at the end.
