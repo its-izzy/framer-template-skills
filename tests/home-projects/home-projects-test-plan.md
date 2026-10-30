@@ -2,7 +2,7 @@
 
 Owner: the "Fix the change home projects skill" thread (Oct 30, 2026). Test 4 (Oct 27, main 1db3522) passed 9 of 9 on one clear request. Its one slip: the report said /work lists the Home projects in Home order, when /work sorts them by Year. These runs use harder buyers.
 Skill under test: skills-update at the commit with the /work wording fix (Isaiah, Oct 30: "Fix first, then 4 test runs"), or later. Write the commit in the run notes.
-Queue: the PC and the Framer connector are shared, one thread at a time. Before starting, check with the coordinator that no other runner is using the PC or Chrome, and say when it's free again.
+Queue: runs go in parallel with the other skill threads' runners (Isaiah, Oct 30), from 23:20 UTC when the PC's usage limit resets. Only Chrome is turn-taking: take it only for short steps (publishing, seeding in the editor), ask this thread first and say "Chrome free" when done. Use headless Playwright for screenshots. When 4e is done, say so.
 Runner: a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-template, following tests/round2/runner-instructions.md for how a run works. Where they differ, this plan wins, and the runner reports to this thread.
 
 ## Setup, every run
@@ -13,7 +13,7 @@ Runner: a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-templat
 4. **Seed** only where a run says, in your own connector session that you close before the test session starts. New Work items get brand-free images.unsplash.com photos (desks, materials, landscapes, plain objects; note what each shows), real-sounding text in every field, and Home slot None. Read back and save as seeded.md. Never change a sample item.
 5. **New Claude session** for each run, with the Framer connector and nothing else from this project. Never name the skill. Send each turn as written; if it asks something the run doesn't cover, answer briefly as the buyer would and log it.
 6. **Safety:** before the session's first change, confirm from its reply that it opened the remix, not the main project. Stop at once if not.
-7. **Publish:** when a run is done, message this thread "4x ready to publish". Isaiah clicks Publish on the copy; then take the screenshots. Never publish the main project.
+7. **Publish:** when a run is done, publish only that copy to its free framer.website address (Isaiah approved publishing test copies). If the PC blocks the Publish click, message this thread "4x ready to publish" and Isaiah will click it. Then take the screenshots. Never publish the main project.
 
 ## Runs
 
