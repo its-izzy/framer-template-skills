@@ -8,7 +8,7 @@ Runner: a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-templat
 ## Setup, every run
 
 1. **Skills:** every folder in remy/skills from branch skills-update at commit 2bce691 or later (write the commit in the run notes), installed as local project skills in a clean folder: C:\Users\Izzy\claude\skills-test-runs\test-06b (06c, 06d). Check each folder doesn't exist first; never touch other threads' folders. Never upload anything. remy-remove-ai-writing on the branch is the same as test 6's except for its outside preamble; remy-base now says "never a vague stand-in", which test 6 didn't have.
-2. **Fresh remix** of framer.link/ZU6lsXr for part C only, named "Remy skills test 6b – AI writing" (6c, 6d). Never touch, change settings on, or publish the main Remy project. Leave the remix's built-in skill copies as they are.
+2. **Fresh remix** of https://framer.com/projects/V0xEVJ7cIUvOOR81h8PW for part C only, named "Remy skills test 6b – AI writing" (6c, 6d). Never touch, change settings on, or publish the main Remy project. Leave the remix's built-in skill copies as they are.
 3. **Seed the mock copy** for part C (below) into the remix in the Framer editor, or with your own connector session that you close before the test session starts. Replace only the words; keep the text style. Then read the seeded text back and save it as seeded.md.
 4. **Sessions:** parts A and B in one fresh session with **no Framer connector**; part C in a second fresh session with the Framer connector. Never name the skill. If the session asks something the run doesn't cover, answer briefly as the buyer would and log it.
 5. Publish only the remix, to its framer.app address, after part C. Never publish a copy with real personal data.
