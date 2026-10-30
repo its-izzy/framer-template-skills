@@ -21,7 +21,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 - **Projects** on the Hero and Work instance on Home sets how many (3, 4 or 5; 4 to start). **Home slot** in the Work collection sets which project fills each place (None, or 1 to 5).
 - Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before.
 - The code file Travel.tsx lays out the prints for each count on desktop, tablet and phone. The canvas can't run it, so it shows the designed arrangement; the motion only plays in Preview and on the published site.
-- Every project stays on /work: Home projects first, then the rest, each group newest first. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
+- Every project stays on /work: Home projects first, then the rest, each group newest first by Year. Slots don't set the order there, so /work won't match Home's order. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
 
 ## Steps
 
@@ -52,7 +52,7 @@ Change only Projects and the Home slots. Never move, resize, copy or delete anyt
 
 - Read back from the Work collection: slots 1 to the count each have one live project, and every other project is None. Projects is set, or you've told the owner how.
 - If you can take screenshots, Home at 1200, 810 and 390 px shows one print per Home project and Selected work lists them in slot order.
-- You've given the owner the final line-up and what changed.
+- You've given the owner the line-up before and after (slot, project) and what changed. Describe /work by Year, not in Home order, so you don't promise an order it won't show.
 
 ## Then ask the owner to check Preview
 
@@ -61,4 +61,4 @@ At desktop, tablet and phone sizes, in Preview or the branch preview:
 - The prints fade in with the line under the headline, from left to right.
 - Resting the pointer on a print brings it forward; on phones a tap does, and a second tap opens the project.
 - Scrolling down sends each print into its row beside its project, where its pin appears, and scrolling up returns them.
-- On /work, the Home projects come first.
+- On /work, the Home projects come first, newest first.

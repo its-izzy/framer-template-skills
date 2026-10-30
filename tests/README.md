@@ -5,3 +5,5 @@ tests/blog-post holds the remy-add-blog-post re-test plan (runs 3b to 3e), for t
 tests/ai-writing holds the remy-remove-ai-writing baseline runs (6b to 6d), queued after the blog post round 2.
 
 tests/accessibility holds the remy-accessibility-check baseline runs (8b to 8e).
+
+tests/home-projects holds the remy-change-home-projects round 2 plan (runs 4b to 4e).
