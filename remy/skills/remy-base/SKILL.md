@@ -36,7 +36,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 - Write in US English (color, center, organize, license) unless the owner writes in or asks for another variety; keep one spelling across the site.
 - Never present invented clients, results, quotes or prices as real. Write sample content only when asked; otherwise ask, or leave a placeholder in square brackets, such as [YOUR CITY], never a vague stand-in.
 - The owner's details (name, email, city, time zone, links) come only from what the owner tells you. Never take them from the Framer account, the project's settings or anywhere else, even when the owner says "just do it". If they give nothing, ask once more in one short message, then use placeholders.
-- Place the owner's words as given. Don't add emphasis, such as italics, that they didn't ask for; suggest it instead. When you change template text, keep its pattern (in a headline, the one phrase in italics and the green full stop) unless the owner asks otherwise.
+- Place the owner's words as given; if you have to reword them, such as "I make…" to "[Name] makes…" or to fit a length, say so and show what you changed. Don't add emphasis, such as italics, that they didn't ask for; suggest it instead. When you change template text, keep its pattern (in a headline, the one phrase in italics and the green full stop) unless the owner asks otherwise.
 - Reread any copy you write as remy-remove-ai-writing describes before you save it.
 - "Today" means today in the time zone set on the Nav clock. Near midnight there, confirm the date with the owner.
 
@@ -44,7 +44,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 
 The Framer connector can show a change as saved when it isn't, and publishing can miss changes made through the connector to a layout, a component or page settings (Framer says "No changes" and keeps the old version live).
 
-- After every turn that makes changes, follow-ups included, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand.
+- After every turn that makes changes, follow-ups included, open the project again in a new session and read back every change, then compare with canvas screenshots. If they disagree, believe the screenshot: try once more, and if it still doesn't show, report it as not done, with the steps to do it by hand. If the read-back already shows it done (a layer gone, a value set) but the canvas still shows the old version, the canvas may be lagging: say so, and give steps that work either way ("In the Main layout, delete Use template (floating) if it's still there; if it's gone, make one small edit there and check Preview").
 - If you changed a layout, a component or page settings, ask the owner to make one small real edit in the editor to each of them before publishing (change any value, then change it back), and to check those changes on the live site afterward.
 - Framer MCP can't set or read a form's Send To reliably, so always give the owner the steps for it. Never report a site setting or a domain as set unless a new session reads it back with the value; otherwise give the owner the steps.
 - For anything you can't test yourself, such as keyboard use, clicks and the phone menu, give the owner a short list of steps to try.
