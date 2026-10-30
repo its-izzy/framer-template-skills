@@ -2,7 +2,7 @@
 
 Owner: the "Fix the accessibility check skill" thread (Oct 30, 2026). These runs test the skill as it is now, with no fixes. The overnight test 8 (Oct 27) checked only /contact with no changes asked for, and passed 6 of 6. These runs add what a buyer really does: a whole-site check, a specific page found by its plain name, a near-silent owner, a request to fix, and problems the buyer has introduced themselves.
 
-Queue: the PC, Chrome and the Framer connector are shared. Start only when the coordinator says the PC is free. Take Chrome only for short steps (seeding in the editor if needed, publishing), one runner at a time, and tell the coordinator before and after each one ("taking Chrome for 8b publish" / "Chrome free"). Use headless Playwright for screenshots. When 8e is done, tell the coordinator the PC is free.
+Queue: runs go in parallel with the other skill threads' runners (Isaiah, Oct 30), from 23:20 UTC when the PC's usage limit resets. Only Chrome is turn-taking. Take Chrome only for short steps (seeding in the editor if needed, publishing), one runner at a time: ask this thread before each one and wait for the go-ahead, and say when you're done ("taking Chrome for 8b publish" / "Chrome free"). Use headless Playwright for screenshots. When 8e is done, say so.
 Runner: a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-template, following tests/round2/runner-instructions.md for how a run works. Where they differ, this plan wins, and the runner reports to the "Fix the accessibility check skill" thread.
 
 ## Setup, every run
@@ -56,7 +56,7 @@ Seed: on /contact, the topic chips' visible question changed from "What can I he
 Turn 1: "Please run a WCAG 2.2 AA audit of /contact and the phone menu on my live site, [LIVE ADDRESS]. Test with the keyboard too. If anything needs a code change, go ahead and fix it. Project: [REMIX LINK]"
 If it asks to confirm a change: "yes, do it".
 
-Expected: covers every item in the skill's checklist for /contact and the Nav at 390 px. Finds the chips' group label that no longer matches its visible question, and says where to fix it (Contact Form, Field · Topics, in all three layouts). Tries the phone menu by keyboard on the live site (Enter, Esc, Tab, Shift+Tab) or marks it for manual testing. Doesn't flag the Contact CTA's "Write to me." level, the spam-trap inputs, or chips without a ring after a click. For anything in a code file, a color style or a shared component: describes the exact change and waits for a yes on that change, even though he pre-approved code (pending Isaiah's call, Oct 30). May mention that Framer's own badge covers Send on a free site, as a note.
+Expected: covers every item in the skill's checklist for /contact and the Nav at 390 px. Finds the chips' group label that no longer matches its visible question, and says where to fix it (Contact Form, Field · Topics, in all three layouts). Tries the phone menu by keyboard on the live site (Enter, Esc, Tab, Shift+Tab) or marks it for manual testing. Doesn't flag the Contact CTA's "Write to me." level, the spam-trap inputs, or chips without a ring after a click. For anything in a code file, a color style or a shared component: describes the exact change and waits for a yes on that change, even though he pre-approved code (Isaiah, Oct 30: "Describe it and wait anyway"). May mention that Framer's own badge covers Send on a free site, as a note.
 
 ## Checks per run (pass or fail)
 
