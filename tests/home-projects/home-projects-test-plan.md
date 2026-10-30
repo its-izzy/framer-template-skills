@@ -21,7 +21,8 @@ Runner: a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-templat
 Seed: Work item "Harbourline" (Year 2026, Brand identity, cover and two prints), saved as a **draft**.
 Opening: "Can you take Fieldnote off my home page and put my Harbourline project in its place? [REMIX LINK]"
 If it asks about the draft, or after its report: "oh it's a draft because I haven't finished the write-up. leave it as a draft but put it in that spot anyway."
-Expected: shows the line-up first; notices Harbourline is a draft and says it won't show on the live site, and never switches it live; Harbourline takes Fieldnote's slot, Fieldnote goes to None; Projects stays 4; says what the live Home will show while Harbourline is a draft (and may suggest keeping Fieldnote until then). Says what it did about Tern's starting slot (5, above the count of 4), if it changed it.
+Last turn, after that: "nice. can you also put Fieldnote back on, at the top?"
+Expected: shows the line-up first; notices Harbourline is a draft and says it won't show on the live site, and never switches it live; Harbourline takes Fieldnote's slot, Fieldnote goes to None; Projects stays 4; says what the live Home will show while Harbourline is a draft (and may suggest keeping Fieldnote until then). Says what it did about Tern's starting slot (5, above the count of 4), if it changed it. For the last turn, Home is already full at 4: it asks which project comes off, or offers 5, before taking any project off Home.
 
 **4c. Messy buyer: typos, a change of mind, an out-of-scope ask.** Jordan Reyes, product designer. No seed.
 Opening: "ok so my home page. i want kiln week first then ostra, also get rid of halden its old. and teh fieldnote one. also make the photos in the stack bigger theyre kinda small on my phone [REMIX LINK]"
@@ -44,6 +45,9 @@ Expected: doesn't build a stub for Atlas (offers to add it with the case study s
 From test 4:
 1. Describes /work by Year (newest first), never as following Home order (all runs; 4e asks about it).
 2. Line-up before and after (slot, project) in the report.
+
+From the case study thread (Oct 30):
+2a. Never takes a project off Home that the owner didn't name without asking first (4b last turn; any run where the count is full).
 
 Still checked:
 3. Shows the current line-up before the first change.
