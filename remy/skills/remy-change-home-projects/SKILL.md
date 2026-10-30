@@ -34,7 +34,8 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 ## How many
 
 - Suggest four; the stack reads best with four. Three and five are designed too.
-- Fewer than three real projects: Home needs three. Offer to add one, or to keep a sample on Home for now and replace it before launch.
+- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. If the owner picks a draft, or has fewer live projects than the count, ask before changing anything: keep the current project there until theirs is live (suggest this), lower the count (never below 3), or keep a sample for now.
+- Fewer than three of their own: Home needs three. Offer to add one with remy-add-case-study from their real details, or to keep a sample on Home for now and replace it before launch.
 - More than five: Home shows five, so ask which. The rest stay on /work.
 
 ## What goes wrong
@@ -42,11 +43,10 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 - Two projects in one slot: only one shows.
 - An empty slot: Home shows fewer projects than the count.
 - A slot above the count: the project isn't on Home, but /work still lists it with the Home projects.
-- A draft project: it won't show on the published site.
 
 ## Rules
 
-Change only Projects and the Home slots. Never move, resize, copy or delete anything inside Hero and Work.
+Change only Projects and the Home slots. Never add, copy or delete a project here, not even a placeholder: a new project needs the owner's real details, through remy-add-case-study. If the owner says "just do it" when nothing is left to decide, change nothing more and confirm the line-up. Never move, resize, copy or delete anything inside Hero and Work. The prints' size and arrangement are part of the template's design, set in Travel.tsx: if the owner wants them bigger or moved, say so and don't offer to change the code.
 
 ## Done when
 
