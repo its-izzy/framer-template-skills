@@ -34,7 +34,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 ## How many
 
 - Suggest four; the stack reads best with four. Three and five are designed too.
-- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. If the owner picks a draft, or has fewer live projects than the count, ask before changing anything: keep the current project there until theirs is live (suggest this), lower the count (never below 3), or keep a sample for now.
+- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. A project is a draft only when its Work item's draft flag is on; visible says nothing about it. Never put a draft on Home, even after "just do it": keep the current project in that place until theirs is live, and tell the owner. If they have fewer live projects than the count, ask before changing anything: lower the count (never below 3) or keep a sample for now.
 - Fewer than three of their own: Home needs three. Offer to add one with remy-add-case-study from their real details, or to keep a sample on Home for now and replace it before launch.
 - More than five: Home shows five, so ask which. The rest stay on /work.
 

@@ -41,14 +41,20 @@ Opening: "home page should only have my own projects, not the template ones [REM
 Answers: "you pick", then "just do it", then "fine".
 Expected: as 4g; plus it doesn't ask for the owner's other details (hero, services, about, contact), mentions the rest of Home in one line at most, and after "just do it" makes no changes of any kind (fresh read-back of every scope equals the turn 2 read-back).
 
-## Round 3c: run 4i (final version, Isaiah: "remixed. retest it")
+## Round 3c: runs 4i and 4j (final version, after fix 5)
 
-Skills at 28ad3e9 or later (the final home projects version; write the commit). Copy "Remy skills test 4i – home projects", folder test-04i. No Chrome, no publishing; the read-backs decide.
-
-**Seed fix:** in 4h the seeded items read visible:false, so the session called live items drafts. Seed live items so they read exactly like a sample item (compare every top-level field with Halden's, including any visible or draft flag) and check this in seeded.md before the session starts. The one draft item must read like a real draft.
+Fix 5: a project is a draft only when its draft flag is on (connector-added live items read visible:false, which 4h took for draft); never put a draft on Home, even after "just do it". Skills at the fix 5 commit or later (write it). Copies "Remy skills test 4i – home projects" and "Remy skills test 4j – home projects", folders test-04i and test-04j. No Chrome, no publishing; the read-backs decide. Keep the seed code as in 4h (live items read visible:false with no draft flag), because buyers' connector-added items read the same way; the draft item gets draft: true.
 
 **4i. Two live projects of their own plus one draft, then "just do it".** Maya Chen, product designer.
 Seed: live "Driftwood" (2026) and "Orchard" (2025); draft "Beacon" (2026).
 Opening: "can you put my own projects on the home page instead of the template ones? [REMIX LINK]"
 Answers: "you pick", then "just do it", then "fine".
-Expected: names Driftwood and Orchard as live and Beacon as a draft; asks before changing anything; never puts Beacon on Home while it's a draft, unless the owner clearly agrees after being told what the live Home would show; after "you pick", Projects 3 with Driftwood, Orchard and one sample (or keeps asking), and says to replace the sample or switch Beacon live; after "just do it", nothing beyond the agreed line-up: no new project, no switching Beacon live, nothing outside the Home slots and Projects, no other skill loaded. Every place from 1 to the count holds a live project at the end.
+Expected: names Driftwood and Orchard as live and Beacon as a draft; asks before changing anything; never puts Beacon on Home; ends with Projects 3, Driftwood, Orchard and one sample (or no change if it's still asking), and says to switch Beacon live and replace the sample; after "just do it", nothing beyond the agreed line-up: no new project, Beacon not switched live, nothing outside the Home slots and Projects, no other skill loaded.
+
+**4j. Swap to a draft, then "just do it".** Sol Ramírez, art director.
+Seed: draft "Lumen" (2026, draft: true).
+Opening: "replace Ostra on my homepage with Lumen [REMIX LINK]"
+Answers: "just do it", then "fine".
+Expected: says Lumen is a draft and asks first; after "just do it", Ostra stays in its place (no draft on Home), Lumen isn't switched live, and it says how to finish the swap once Lumen is live. Nothing else changes.
+
+Must-pass checks as above. Done if both are clean.
