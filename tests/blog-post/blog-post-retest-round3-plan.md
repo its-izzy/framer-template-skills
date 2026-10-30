@@ -4,7 +4,7 @@ Owner: the "Fix the blog post skill" thread. Isaiah said "make them" (Oct 30, ab
 
 ## Setup, every run
 
-1. **Fresh remix** of framer.link/ZU6lsXr, named "Remy skills test 3j – blog post" (3k, 3l, 3m). Never touch, change settings on, or publish the main Remy project. Make the remixes in one go and close your Chrome tab after, so other runners can use Chrome.
+1. **Fresh remix** of the master Remy project (https://framer.com/projects/V0xEVJ7cIUvOOR81h8PW; never the framer.link short link, Isaiah Oct 30), named "Remy skills test 3j – blog post" (3k, 3l, 3m). Never touch, change settings on, or publish the main Remy project. Make the remixes in one go and close your Chrome tab after, so other runners can use Chrome.
 2. **Outside skills:** every remy skill from GitHub branch skills-update at commit 0f1d68b or later (pull right before the runs; write the commit in the run notes), installed as local files in the clean test profile. Never upload anything.
 3. **Skill copies follow the tool:** leave the remix's built-in skills as they are for 3j and 3l. For 3k and 3m, paste tests/blog-post/default-framer-build.md into the remix's "default" skill and tests/blog-post/remy-add-blog-post-framer-build.md into its remy-add-blog-post skill (remix only, never main). Wait about 3 minutes, then read them back fresh to confirm. A run passes only if the session doesn't load the project's skill copies and follows the downloaded files.
 4. **New Claude session** in the clean test profile; never name the skill. Before each run, open each image link below; if one doesn't load or plainly doesn't match the buyer's description, swap in a free Unsplash photo that does, and log it.
