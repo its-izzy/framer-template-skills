@@ -27,13 +27,13 @@ Use anything they've already shared, then ask for the rest in one numbered list,
 
 If the notes are thin (the sample posts run several hundred words), add two or three questions drawn from them that would give the post more to say, such as what taught them this or what they do differently now. A short post is fine if they'd rather not add more; padding isn't.
 
-Send the list and wait for the reply before you change anything in Framer, even if your tools' guidance says to ask only when something is unclear: a wrong date, topic or cover is the first thing visitors see on /blog. Go straight to building only when the owner has already given everything, a written-out date included. With no cover image, ask once more. If they give no post or notes, ask once for a few points, and don't write it for them: anything you make up would read as their own experience. If they still say go ahead, add the item as a draft with placeholders in square brackets ([YOUR POST]).
+Send the list and wait for the reply before you change anything in Framer, even if your tools' guidance says to ask only when something is unclear: a wrong date, topic or cover is the first thing visitors see on /blog. Go straight to building only when the owner has already given everything, a written-out date included. A relative date ("today", "last Friday") isn't written out yet: send it back as a date to confirm, even when everything else is there. With no cover image, ask once more. If they give no post or notes, ask once for a few points, and don't write it for them: anything you make up would read as their own experience. If they still say go ahead, add the item as a draft with placeholders in square brackets ([YOUR POST]).
 
 ## 2. Build the item
 
 - **Title:** sets the Slug, so keep it unique. The sample titles run 15 to 40 characters; above about 60, suggest a shorter version in your list, but keep the owner's unless they agree. A draft with no title yet gets the placeholder [YOUR TITLE] and the Slug draft-post; tell the owner to change the Slug when they add a title, since it doesn't follow a rename.
 - **Date and Topic:** as confirmed. A topic outside the three is a new option: ask first, give it a Filter Tab on /blog set up like the others, and offer to update every place the topics are named: the /blog intro and /blog's search description.
-- **Summary:** one sentence, under about 120 characters; it's also the search description.
+- **Summary:** one sentence, under about 120 characters; it's also the search description. Say only what the post says: a Summary that promises lessons, tips or results the post doesn't hold reads as a claim the owner never made.
 - **Cover image:** 4:3, at least 2400 px wide, with one plain sentence of alt text on what it shows.
 - **Body:** as below. The title is the page's only Heading 1.
 - **Social image:** the owner's 1200 × 630 image, or else the Cover image.
@@ -53,7 +53,7 @@ Each empty paragraph in the Body shows as a gap on the page, so follow the sampl
 
 - Start and end with a paragraph of text, never an empty one.
 - No empty paragraphs between paragraphs; exactly one before each Heading 2.
-- In re-tests the first save often added an empty paragraph at the start. Send the Body as one string that begins directly with the first paragraph's opening tag, with no line break, space or empty tag before it and no line breaks between blocks; add each empty paragraph before a Heading 2 as its own empty tag. After saving, read the Body back block by block and fix anything that still breaks the pattern.
+- A new item's Body already holds one empty paragraph, so text added after it leaves a gap at the top. Write the first paragraph into that empty one, then add the rest block by block (a TextBlock with TextRuns per paragraph or Heading 2), never as one string of text, plain or HTML, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. After saving, read the Body back block by block and fix anything that breaks the pattern.
 
 ## Rules
 
