@@ -34,7 +34,7 @@ If the owner skips questions or says to go ahead anyway, ask once more in one sh
 
 ## 2. Build the item
 
-- **Title, Year, Discipline:** Title is the project name, one or two words like the samples; if you shorten what the owner gave, repeat both in your report ("I used Juniper for Juniper Coffee"), even if you said so earlier. Title sets the Slug, so keep it unique. Year is the owner's year; never leave it to the field's default, and if they haven't given one, list it as missing. Set Home slot to None unless the owner asks for one (then use remy-change-home-projects). A discipline outside the five is a new option: ask first, and give it a Filter Tab on /work, set up like the others.
+- **Title, Year, Discipline:** Title is the project name, one or two words like the samples; if you shorten what the owner gave, repeat both in your report ("I used Juniper for Juniper Coffee"), even if you said so earlier. Title sets the Slug, so keep it unique. Year is the owner's year; never leave it to the field's default, and if they haven't given one, list it as missing and say which year the page shows until they change it ("Year shows 2026 until you change it"), since the field can't be left empty. Set Home slot to None unless the owner asks for one (then use remy-change-home-projects). A discipline outside the five is a new option: ask first, and give it a Filter Tab on /work, set up like the others.
 - **Summary:** one line, 60 characters or fewer. It's the text on the Project Row and Project Card, and the search description.
 - **Case summary:** one sentence with one phrase in italics; the lead under the title.
 - **Client, Role, Scope:** short phrases. All three show as rows on the case study, so fill each.
@@ -53,7 +53,8 @@ If you can't add an image (a link that doesn't open, or isn't an image), fill in
 ## Rules
 
 - Use only the owner's facts and images. Never invent clients, results or quotes, and never generate images.
-- Add a new item; never rewrite a sample case study into the owner's, and never create, copy or change a sample item, even briefly to test a tool.
+- Add a new item; never rewrite a sample case study into the owner's, and never create, copy or change a sample item.
+- Never create, copy or change any item, or set any field, only to test a tool or check something, even briefly and even if you undo it. The owner sees items appear and vanish in their CMS. If you can't check something, say so in your report.
 - Write in the voice from section 07 of /design-system, then reread it as remy-remove-ai-writing describes.
 
 ## Done when
@@ -70,7 +71,7 @@ Report in this order, so nothing gets skipped, leaving out only lines that don't
 3. Photos that show another brand.
 4. The social image: the owner's 1200 × 630, or the cover, and that a 1200 × 630 version would share better.
 5. Which of the widths and modes in remy-base you checked, and any you couldn't.
-6. For a draft: what it still needs before it can go live.
-7. Where it shows on /work: projects with a Home slot list first, then the rest, each by year, so a new project with Home slot None sits below the Home projects. Offer to give it a Home slot (remy-change-home-projects) if they want it higher.
+6. For a draft: what it still needs before it can go live, and that when they publish with its page open, Framer may ask to undraft it; choose no until it's ready.
+7. Where it shows on /work: projects with a Home slot list first, then the rest, each by year, so a new project with Home slot None sits below the Home projects. A Home slot puts it with the Home projects, still by year, so slot 1 isn't always first. Offer a Home slot if they want it higher. If they ask, even as a question ("can it show near the top?"), first say which project would come off Home and the order /work would show, and change nothing until they say yes; then use remy-change-home-projects.
 8. The samples are still there; offer to replace one, following Sample content in remy-base.
 9. Questions that would make the case study stronger, including any detail you left out because the owner didn't give it.
