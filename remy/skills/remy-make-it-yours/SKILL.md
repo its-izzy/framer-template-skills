@@ -92,7 +92,7 @@ End with a list headed "Sample content still on your site", one line each, so th
 - any link still pointing at the sample email or a network's home page, including links on networks you hid (list them here, not only under what you left as is)
 - Send To, unless the owner has confirmed it, even if it's already in your to-do list
 - Home: "What I offer" and each other heading and lead-in still in the template's words, quoted
-- /work: the heading "Everything on the wall." and the lead-in under it, quoted, if unchanged
-- /blog: the heading "Notes from the studio." and the lead-in under it, quoted, if unchanged; check each one separately, since the owner may have changed one but not the other
+- /work: the heading "Everything on the wall." and any sentence of the lead-in under it still in the template's words, quoted
+- /blog: the heading "Notes from the studio." and any sentence of the lead-in under it still in the template's words, quoted
 - /contact: each heading and lead-in still in the template's words, the reply time ("I'll reply within a few working days"), and the form's line on how details are used, quoted
-Quote template wording word for word so they can find it and keep or rewrite it. If nothing is left, say so.
+Check text sentence by sentence: a heading or lead-in that was partly edited still counts if any sentence is in the template's words, so quote just that sentence. Quote template wording word for word so they can find it and keep or rewrite it. If nothing is left, say so.
