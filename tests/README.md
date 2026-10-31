@@ -9,3 +9,5 @@ tests/accessibility holds the remy-accessibility-check baseline runs (8b to 8e).
 tests/home-projects holds the remy-change-home-projects round 2 plan (runs 4b to 4e).
 
 tests/home-projects/home-projects-retest-plan.md is round 3 (runs 4f and 4g).
+
+tests/launch-check holds the remy-launch-check round 2 plan (runs 9b and 9c) and the held Framer build.
