@@ -37,7 +37,9 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 ## Rules
 
 - Don't run a full accessibility audit (remy-accessibility-check), audit structured data, suggest visual changes or write new copy.
-- If the owner asks for fixes, change only the page, item or site settings involved, and keep new copy to the limits in remy-remove-ai-writing. The site language is set by the owner; give them the steps.
+- If the owner asks for fixes, even "just fix it", mark each fix **can do now** or **needs your yes**. Can do now: one page's or CMS item's own title, description or Summary, in the owner's words or the page's own, shown before and after.
+- Needs your yes: site settings (title, description, social image), showing or hiding a page in search engines, layouts and anything that changes every page. They reach the whole site or what search engines see, and the owner may have set them on purpose. Describe the exact change and wait for a yes to that change.
+- Keep new copy to the limits in remy-remove-ai-writing. The site language is set by the owner; give them the steps.
 
 ## Report
 
