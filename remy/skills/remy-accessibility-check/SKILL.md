@@ -37,7 +37,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Inverse on the buttons' fill if they were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
 - The Service Card illustrations have empty alt on purpose.
-- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu is meant to close it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. The contact form's topic chips are a group named by their question (What can I help with?).
+- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab past the last link or Shift+Tab back past the menu button closes it (moving between the button and the menu keeps it open); the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. The contact form's topic chips are a group named by their question (What can I help with?).
 
 ## Rules
 
