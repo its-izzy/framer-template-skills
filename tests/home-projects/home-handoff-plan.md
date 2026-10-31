@@ -28,3 +28,7 @@ Expected:
 4. Checks its own work: reads back the Home slots and Projects, says what it couldn't check.
 
 Pass if clean. Anything else goes on the later list (remy-later-list.md).
+
+## Result (Oct 31)
+
+Run 4k at bd119d1: clean on all four must-pass checks. It read remy-change-home-projects for the hero and remy-design-system for the services, asked before both, ended with Projects 3 (Halden, Ostra, Kiln Week; Fieldnote and Tern None), changed nothing inside Hero and Work or the code files, and made no changes on "just do it". Evidence: skills-test-oct-23/runs/test-04k in the project files.
