@@ -9,23 +9,23 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 - Projects is a choice (3, 4 or 5) on the Hero and Work instance on Home, not a number field. If your tools can't set it, finish the Home slots and tell the owner: select the hero on Home, then pick the number under Projects in the right panel.
 
 ## How it works
 
 - **Projects** on the Hero and Work instance on Home sets how many (3, 4 or 5; 4 to start). **Home slot** in the Work collection sets which project fills each place (None, or 1 to 5).
-- Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before.
+- Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before. Slot 1's project is also the falling print on /404, unless a project has Show on 404 turned on in the Work collection. To change the 404 print, turn Show on 404 on for one project and off for every other: Framer can't stop several being on, and then only one shows.
 - The code file Travel.tsx lays out the prints for each count on desktop, tablet and phone. The canvas can't run it, so it shows the designed arrangement; the motion only plays in Preview and on the published site.
-- Every project stays on /work: Home projects first, then the rest, each group newest first. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
+- Every project stays on /work: Home projects first, then the rest, each group newest first by Year. Slots don't set the order there, so /work won't match Home's order. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
 
 ## Steps
 
-1. Read the current Projects value and each project's Home slot, and show the owner the line-up (slot, project).
+1. Read the current Projects value and each project's Home slot, and show the owner the line-up (slot, project), plus which project falls on /404 (Show on 404, or else slot 1) and whether it changes.
 2. Work out the change. To swap, the new project takes the old one's slot and the old one goes to None. To reorder, renumber the slots. To change the count, set Projects, then fill or clear slots to match. If they don't give the order, ask once, suggesting their strongest project for slot 1.
 3. If a project isn't in the Work collection yet, add it with remy-add-case-study first.
 4. If the count changes, set Projects (or tell the owner how, as above).
@@ -34,25 +34,25 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 ## How many
 
 - Suggest four; the stack reads best with four. Three and five are designed too.
-- Fewer than three real projects: Home needs three. Offer to add one, or to keep a sample on Home for now and replace it before launch.
-- More than five: Home shows five, so ask which. The rest stay on /work.
+- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. A project is a draft only when its Work item's draft flag is on; visible says nothing about it. Never put a draft on Home, even after "just do it": keep the current project in that place until theirs is live, and tell the owner. If they have fewer live projects than the count, ask before changing anything: lower the count (never below 3) or keep a sample for now.
+- Fewer than three of their own: Home needs three. Offer to add one with remy-add-case-study from their real details, or to keep a sample on Home for now and replace it before launch.
+- More than five: Home shows five, so ask which. The rest stay on /work. Never more than five, even if the owner pushes or says it can take work: say Remy's Home holds up to five, and don't offer a code, layout or design-system change for a sixth.
 
 ## What goes wrong
 
 - Two projects in one slot: only one shows.
 - An empty slot: Home shows fewer projects than the count.
 - A slot above the count: the project isn't on Home, but /work still lists it with the Home projects.
-- A draft project: it won't show on the published site.
 
 ## Rules
 
-Change only Projects and the Home slots. Never move, resize, copy or delete anything inside Hero and Work.
+Change only Projects and the Home slots. Never add, copy or delete a project here, not even a placeholder: a new project needs the owner's real details, through remy-add-case-study. Stay on the line-up: the rest of Home (hero, services, about, contact) is remy-make-it-yours's job, so mention it in one line at most, never ask for those details here, and never change them in this task. If the owner says "just do it" when nothing is left to decide, make no new changes of any kind and confirm the line-up. Never move, resize, copy or delete anything inside Hero and Work. The prints' size and arrangement are part of the template's design, set in Travel.tsx: if the owner wants them bigger or moved, say so and don't offer to change the code.
 
 ## Done when
 
 - Read back from the Work collection: slots 1 to the count each have one live project, and every other project is None. Projects is set, or you've told the owner how.
 - If you can take screenshots, Home at 1200, 810 and 390 px shows one print per Home project and Selected work lists them in slot order.
-- You've given the owner the final line-up and what changed.
+- You've given the owner the line-up before and after (slot, project) and what changed. Describe /work by Year, not in Home order, so you don't promise an order it won't show.
 
 ## Then ask the owner to check Preview
 
@@ -61,4 +61,4 @@ At desktop, tablet and phone sizes, in Preview or the branch preview:
 - The prints fade in with the line under the headline, from left to right.
 - Resting the pointer on a print brings it forward; on phones a tap does, and a second tap opens the project.
 - Scrolling down sends each print into its row beside its project, where its pin appears, and scrolling up returns them.
-- On /work, the Home projects come first.
+- On /work, the Home projects come first, newest first.

@@ -28,6 +28,7 @@ If the owner hasn't pasted copy or said where it is, and nothing is selected, as
 ## Before you start
 
 - Read section 07, Voice and tone, on /design-system. Where it differs from this skill, section 07 wins.
+- **Check a line shows before you quote it.** Stored text isn't proof that visitors see it: a layer whose visibility is off, or text in a component variant that isn't in use, never shows. The Label Row List variant hides its summary line (such as the lead-in on About's Career row) and the Detail Links variant hides its [VALUE]. So before you quote, flag or rewrite any line as text on the page, take it from the live page or a screenshot, or check the variant in use and the layer's visibility at that breakpoint, and drop what they hide. Mention hidden text, if at all, as "hidden, doesn't show", never as the owner's text on the page. A CMS item with visible: false is still live: only its draft flag keeps it off the site.
 - Skip these unless the owner names them: the sample case studies in the Work collection, the sample posts in the Blog collection and the sample designer's details (they're replaced before launch), and /design-system and the User guide (the template's own docs, which quote bad examples on purpose).
 
 ## Where Remy's copy lives

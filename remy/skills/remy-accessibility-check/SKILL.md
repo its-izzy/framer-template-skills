@@ -9,15 +9,16 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 - Test the rendered pages with a browser tool if you have one, and read settings through Framer MCP. Mark anything you couldn't test (keyboard, zoom, reduced motion, a screen reader) as needs manual testing.
 
 ## Check
 
+- **Hidden isn't live.** A layer whose visibility is off, or text in a component variant that isn't in use (the Detail Links variant hides its [VALUE]; the Label Row List variant hides its summary line), never shows on the site. Don't report it as live or as something visitors see; mention it, if at all, as "hidden, doesn't show". A CMS item with visible: false is still live: only its draft flag keeps it off the site. Before calling anything live, missing or a placeholder, check the variant in use and the layer's visibility at that breakpoint, or the live page.
 - **Structure:** one H1 and no skipped heading levels; one Main frame tagged main around the sections, with the Nav (header) and Footer outside it.
 - **Images:** descriptive alt text, or empty alt on decorative images.
 - **Names:** every link, button, icon and form field has a name that says what it does.
@@ -37,12 +38,13 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Inverse on the buttons' fill if they were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
 - The Service Card illustrations have empty alt on purpose.
-- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu closes it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them. The contact form's topic chips are a group named by their question (What can I help with?).
+- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab past the last link or Shift+Tab back past the menu button closes it (moving between the button and the menu keeps it open); the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. The contact form's topic chips are a group named by their question (What can I help with?).
 
 ## Rules
 
-- A fix that needs a code file, a new style or a change to a shared component is ask-first: describe it and wait.
+- In the report, mark each fix **can do now** or **needs your yes**. Can do now: the page's or CMS item's own content, such as a heading level or link words, shown before and after.
+- Needs your yes: code files, color, text and link styles, layout templates (the post and case study pages), the Main layout, Nav, Footer, Contact Form, Contact CTA, page settings such as draft, and anything that changes every page or item. They reach the whole site, and the owner hasn't seen the change yet. Describe the exact change and wait for a yes to that change, even after "fix it", "fix the easy ones" or "code changes are fine". After a yes, make each change exactly as you described it. If the way has to change, or the yes could cover more than one item ("the menu one" when you listed five), say what you'd do and ask again.
 
 ## Report
 
-Mark each item passed, issue found, needs manual testing or not applicable, with where it is and how to fix it. Never mark an item passed unless you tested it fully.
+Mark each item passed, issue found, needs manual testing or not applicable, with where it is and how to fix it. Never mark an item passed unless you tested it fully. Never put the phone menu under passed from your own script, even if every case worked, since a script can press keys differently from a person: put it under needs manual testing, with what your script saw and the keys to try by hand.

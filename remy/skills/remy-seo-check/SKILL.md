@@ -9,15 +9,16 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 
 - Read remy-base first: it has the Framer MCP setup and the rules for every Remy task. If you can't reach the project, ask the owner to connect Framer and share the project link.
 - Names in this skill are exact names in the project. Find each by name; if one is missing, ask, and never build a replacement.
-- Framer MCP edits the owner's main version directly unless you work on a branch; if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
+- Framer MCP edits the owner's main version directly unless you work on a branch (if the owner's plan has them); if you use one, give the owner its name and link. Never publish, and merge only when the owner asks.
 - Images come from the owner, as public links or dropped into their fields in Framer. Never generate or download images unless asked.
 - If your tools can't do a step, give the owner the exact steps and list them in your report.
-- Check your work in the project's preview at 1200, 810, about 700 and 390 px wide and in dark mode. If you can't see it, say so in your report.
+- Check your work at the widths and modes remy-base lists, and follow its Before you report steps. If you can't see something, say so in your report.
 
 - Read the rendered tags from the published or preview site with your web tools, and the page, CMS and site settings through Framer MCP. Without Framer MCP, mark each setting you couldn't see as needs manual review.
 
 ## Check
 
+- **Hidden isn't live.** A layer whose visibility is off, or text in a component variant that isn't in use (the Detail Links variant hides its [VALUE]; the Label Row List variant hides its summary line), never shows on the site. Don't report it as live or as something visitors see; mention it, if at all, as "hidden, doesn't show". A CMS item with visible: false is still live: only its draft flag keeps it off the site. Before calling anything live, missing or a placeholder, check the variant in use and the layer's visibility at that breakpoint, or the live page.
 - **Title and description:** the published title, description, slug and canonical URL; missing, duplicated, conflicting or placeholder values; and whether the title, description, H1 and visible topic agree.
 - **Indexing:** whether the page may be indexed (its search settings, robots tags, canonical URL, draft or published) and is listed in /sitemap.xml. Check whether the live URL is actually indexed if you can; otherwise mark it for manual review. Keep indexable, crawled and indexed apart.
 - **Headings:** one H1 and an outline with no skipped levels. A text style sets the default level; where one style serves several levels the level is set on the element, so check the tag as well as the style.
@@ -37,7 +38,9 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 ## Rules
 
 - Don't run a full accessibility audit (remy-accessibility-check), audit structured data, suggest visual changes or write new copy.
-- If the owner asks for fixes, change only the page, item or site settings involved, and keep new copy to the limits in remy-remove-ai-writing. The site language is set by the owner; give them the steps.
+- If the owner asks for fixes, even "just fix it", mark each fix **can do now** or **needs your yes**. Can do now: one page's or CMS item's own title, description or Summary, in the owner's words or the page's own, shown before and after.
+- Needs your yes: site settings (title, description, social image), showing or hiding a page in search engines, layouts and anything that changes every page. They reach the whole site or what search engines see, and the owner may have set them on purpose. Describe the exact change and wait for a yes to that change.
+- Keep new copy to the limits in remy-remove-ai-writing. The site language is set by the owner; give them the steps.
 
 ## Report
 

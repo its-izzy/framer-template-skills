@@ -23,7 +23,7 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 
 ## Always
 
-- Never publish the site, and merge a branch only when the owner asks. The owner publishes. Don't switch a draft CMS item live, even for a moment to check or screenshot it: a live item can be published or seen.
+- Never publish the site, and merge a branch only when the owner asks. The owner publishes. Don't switch a draft CMS item live, even for a moment to check or screenshot it: a live item can be published or seen. A CMS item is a draft only when its draft flag is on; a hidden (visible: false) item isn't a draft.
 - Use only the existing color styles, text styles and components. Never type a hex value or set a font size by hand.
 - Read /design-system before you build and follow its "For agents" notes unless the owner asks otherwise. Never delete it: if the owner wants it off the live site, suggest making it a draft page, which keeps it in the project unpublished. If it's already gone, follow remy-design-system and the existing pages.
 - Project and post copy comes from the Work and Blog collections; never type it onto a page.
@@ -32,6 +32,10 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 - Never delete or rename CMS fields or layout templates. Keep the Top layer on Home and the layer names inside Hero and Work (Hero text, Subheading, Selected work, Project · Slot 1 to 5): Travel.tsx finds them by name.
 - Every page's sections sit inside one Main frame, tagged main. The first section has the ID top and, where Space for nav is on, a top scroll margin as tall as the Nav spacer (92, 72 and 64 px on desktop, tablet and phone). Each page sets the Main layout's Back to top link to its own top, such as /work#top; only /404 turns its Show back to top switch off. Set up new pages the same way.
 - Check every change at 1440, 1200, 810, about 700, 390 and 360 px wide, in dark mode and with reduced motion. Framer's screenshots show only the Desktop, Tablet and Phone breakpoints (1200, 810 and 390 px), in light or dark, never reduced motion: screenshot all three in both modes, and put 1440, about 700, 360 and reduced motion on the owner's click-through list. In your report, name each width and mode you saw; never say you checked one you didn't.
+- "Just do it", "go ahead" or "you pick" approve only what you and the owner have already agreed in this task. They never start another skill or widen the job, even if you offered more earlier: if the ask needs work from another skill, name it in one line and wait for the owner to ask for it.
+- Changing which projects Home shows, or how many (adding or removing one in the hero and Selected work), is remy-change-home-projects's job from any skill, since it keeps drafts off Home and every place filled. When the owner asks for it, follow that skill for that part, then return to your task. Never add, copy or delete anything inside Hero and Work to change the count.
+- Home shows 3, 4 or 5 projects, never more. A sixth isn't possible in Remy, not even as a design-system job or with code: say so plainly, say /work lists every project, and don't offer to build it.
+- Ask before shared or permanent changes, even when the ask sounds final ("delete the sample stuff", "make it pink", "remove the blog"). Before deleting anything (CMS items, pages, sections, components, styles), changing a color or text style, or hiding or removing a Nav or Footer link, list exactly what changes, the values or items, and what it affects (every page, empty filter tabs, Next project links, Home slots), then wait for a yes. You can't undo a delete, and a style or Nav change shows on every page.
 - Before a big job (a new page, a rebrand, many CMS items), offer once to work on a duplicate of the project, or on a branch the owner merges if their plan has branches. Small edits go ahead.
 - Write in US English (color, center, organize, license) unless the owner writes in or asks for another variety; keep one spelling across the site.
 - Never present invented clients, results, quotes or prices as real. Write sample content only when asked; otherwise ask, or leave a placeholder in square brackets, such as [YOUR CITY], never a vague stand-in.
@@ -51,6 +55,7 @@ The Framer connector can show a change as saved when it isn't, and publishing ca
 
 ## Sample content
 
-- The sample designer Remy Varga, the portrait, the four services, five case studies in the Work collection (Halden, Ostra, Fieldnote, Kiln Week and Tern; Home shows four) and six posts in the Blog collection are placeholders. Never present them as the owner's work or reuse their facts.
+- The sample designer Remy Varga, the portrait, the four services (Product design, Brand identity, Design systems, Art direction), five case studies in the Work collection (Halden, Ostra, Fieldnote, Kiln Week and Tern; Home shows four) and six posts in the Blog collection are placeholders. Never present them as the owner's work or reuse their facts.
+- Something is a sample only if it's on this list and still in the template's words. Read the current text before calling anything a sample: the owner's own text is theirs, however generic it sounds.
 - Keep them until the owner's own entries are in, so no page looks empty, and replace or delete every one before launch.
-- Before deleting a sample case study, fill Home slots 1 up to the Projects count with the owner's projects (remy-change-home-projects) and repoint the Next project that led to the sample.
+- Before deleting a sample case study, fill Home slots 1 up to the Projects count with the owner's projects (remy-change-home-projects) and repoint the Next project that led to the sample. Check which project falls on /404 too (the one with Show on 404 on, or else Home slot 1's), and turn Show on 404 off on the sample.
