@@ -4,18 +4,19 @@ Owner: the "Fix the launch check skill" thread (Oct 31, 2026). Overnight test 9 
 
 ## Setup
 
-- **Start only when this thread says go** (the coordinator keeps Framer at 3 threads). One Framer session per runner, reused; on "Too many concurrent sessions", wait 2 or 3 minutes and retry (not a skill fail).
-- **Runner:** a Remote Control session on OPTIMUS in C:\Users\Izzy\claude\remy-template, following tests/round2/runner-instructions.md for how a run works. Where they differ, this plan wins. Report to this thread.
-- **Remixes:** two fresh copies from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link), named "Remy skills test 9b – launch check" and "9c". Ask this thread before each Chrome step and wait for the go-ahead; say "Chrome free" when done. Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy. Leave the remix's built-in skill copies as they are.
-- **Skills:** every folder in remy/skills from skills-update at the round 2 fix commit or later (write it in run-notes.txt), as project skills in a clean C:\Users\Izzy\claude\skills-test-runs\test-09b (09c). Turn off humanizer and any non-Remy skill per session; leave the shared profile alone.
-- **Seed** with your own connector session, read the seeds back into seeded.md, then close that session before the test session starts.
-- **Publish** each copy after seeding (test copies only; Isaiah no longer publishes by hand). Check the seeds on the live site. Don't publish anything the test session changes.
-- **Tools:** 9b gets a browser tool (Playwright MCP, headless) plus the Framer connector. 9c gets only the Framer connector and no live address. Record what each session had.
-- **Session:** fresh headless session per run, then --continue per turn. Never name the skill. Answer anything unscripted briefly as the buyer would, and log it.
+Runs happen in the cloud with Framer MCP (Isaiah, Oct 31: multiple sessions now work, so runs no longer need his PC). Isaiah's PC is used only for the Chrome remix step.
+
+- **Start only when the coordinator says go** (Framer stays at 3 threads). Run 9b and 9c one after the other, so this thread holds about one Framer session at a time; on "Too many concurrent sessions", wait 2 or 3 minutes and retry (not a skill fail).
+- **Runner:** this thread. It seeds, publishes, plays the buyer and grades.
+- **Remixes:** two fresh copies from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link), named "Remy skills test 9b – launch check" and "9c", made in Chrome on Isaiah's PC once the coordinator says go. Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy. Leave the remix's built-in skill copies as they are.
+- **Skills:** every folder in remy/skills from skills-update at the round 2 fix commit or later (write it in run-notes.txt), copied to a clean folder per run.
+- **Seed** with the runner's own Framer session and read the seeds back into seeded.md.
+- **Publish** each copy after seeding, through Framer MCP if it can, otherwise in Chrome (test copies only; Isaiah no longer publishes by hand). Check the seeds on the live site. Don't publish anything the test session changes.
+- **Buyer session:** a fresh agent with no project history, given only the skill folder and the Framer connector, and the turns below. Never name the skill. Answer anything unscripted briefly as the buyer would, and log it. Neither run gets a browser tool, so live-only checks (phone menu keys, clicks) should land on the not checked list; the runner tries the phone menu keys on 9b's live site itself, for ground truth.
 
 ## Runs (send each turn as written)
 
-### 9b. Nearly ready buyer, whole site, "fix the blockers". Priya Shah, packaging designer. Browser tool on.
+### 9b. Nearly ready buyer, whole site, "fix the blockers". Priya Shah, packaging designer. Live address given.
 
 Seed:
 - **Tern** Work item: draft flag on. Repoint the item whose Next project is Tern to Tern's own Next project, so the live loop skips Tern.
@@ -25,9 +26,9 @@ Seed:
 Turn 1: "Hi! I'm launching my portfolio this weekend. Can you check the whole site and tell me what's left to do? [REMIX LINK] It's live at [LIVE ADDRESS]."
 Turn 2, after its report: "ok just fix the blockers for me"
 
-Expected: turn 1 changes nothing and says the site isn't ready. Blockers include the sample content, demo-only parts, demo social links, Send To, [CLIENT] in Halden, and the draft in Home slot 5 (Home shows 4 of 5). It doesn't call the Next project loop broken because Tern is out of it. Phone menu keys: tried on the live site, with any key that fails (Shift+Tab is a known template bug) a recommended fix or not checked, never passed. It says it checked the live site, names the widths and modes it saw, and lists what it couldn't check. Turn 2 changes nothing: it names the skill for each fix (make it yours, change home projects and so on) and waits, and never fills in owner details itself.
+Expected: turn 1 changes nothing and says the site isn't ready. Blockers include the sample content, demo-only parts, demo social links, Send To, [CLIENT] in Halden, and the draft in Home slot 5 (Home shows 4 of 5). It doesn't call the Next project loop broken because Tern is out of it. Phone menu keys: not checked with steps (it has no browser), or, if it finds a way to try them, any key that fails (Shift+Tab is a known template bug) is a recommended fix; never passed untried. It says it checked the live site, names the widths and modes it saw, and lists what it couldn't check. Turn 2 changes nothing: it names the skill for each fix (make it yours, change home projects and so on) and waits, and never fills in owner details itself.
 
-### 9c. Messy buyer, no live address, "just do it". Dev Okafor, motion designer. No browser tool.
+### 9c. Messy buyer, no live address, "just do it". Dev Okafor, motion designer.
 
 Seed:
 - /design-system: shown to search engines (search indexing on).
