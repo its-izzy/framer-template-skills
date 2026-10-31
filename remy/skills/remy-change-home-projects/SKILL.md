@@ -19,7 +19,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 ## How it works
 
 - **Projects** on the Hero and Work instance on Home sets how many (3, 4 or 5; 4 to start). **Home slot** in the Work collection sets which project fills each place (None, or 1 to 5).
-- Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before.
+- Slot 1 is the first row in Selected work and the leftmost print in the hero; each later print lies over the one before. Slot 1's project is also the falling print on /404.
 - The code file Travel.tsx lays out the prints for each count on desktop, tablet and phone. The canvas can't run it, so it shows the designed arrangement; the motion only plays in Preview and on the published site.
 - Every project stays on /work: Home projects first, then the rest, each group newest first by Year. Slots don't set the order there, so /work won't match Home's order. On desktop and tablet each Project Card leans by its slot (odd slots and None left, even slots right); on phones they all lean left.
 
