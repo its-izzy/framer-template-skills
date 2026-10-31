@@ -1,6 +1,6 @@
 ---
 name: remy-design-system
-description: "Build or change pages and sections in Remy with its design system (layout, components, text styles, colors, motion, imagery). Use for any new page, section or layout change."
+description: "Build or change pages and sections in Remy with its design system, including Home's services and the /work and /blog filter categories. Use for any new page, section or layout change."
 ---
 
 Build pages and sections from Remy's existing system, so new work looks like it was always part of the template. A new identity is the owner's name, copy and details in the existing styles: use remy-make-it-yours. Changing colors or fonts is a site-wide rebrand, done only when the owner asks.
@@ -33,6 +33,19 @@ Example, "Create a careers page": Outline: statement opening → open roles → 
 - Hero and Work holds the hero's 3D stack and the Selected work rows; it sits once on Home with a Projects setting (3, 4 or 5). Never copy it to another page. It has a Print area for each count, so a change to the hero prints (tilt, hover) goes in all three areas, in the Desktop, Tablet and Phone variants.
 - The canvas shows the prints where they're designed; Travel.tsx lays them out in Preview and on the site and fades them in one at a time, left to right, with the role line (the Subheading layer). It takes that timing from the role line's appear effect: change the timing there, and never remove that effect.
 - Home turns off the Main layout's Space for nav switch, so the hero fills the window with the nav over it (the hero's top padding includes the nav's height). Every other page keeps the switch on.
+
+## Services and categories
+
+The samples here are launch blockers until the owner replaces them, so use the owner's words and images only, and never invent a service or category. remy-make-it-yours swaps the words in place; this skill also changes how many there are.
+
+- **Services:** Home's Service Card instances, through their Title, Description and Image properties; rename each instance and its fade frame to match ("Service Card · [Title]", "Service Card · [Title] · fade"). Keep titles to two or three words so they fit the narrowest card. The image is cropped to 16:10, so check nothing important is cut off. The images are decorative: alt text stays empty. Without the owner's image, keep the sample and list it. Change only Home, not the samples on /design-system.
+- **How many:** a layout change, so ask first. Cards go in pairs (Pair 1, Pair 2) inside Service Cards, and a card alone in a pair stretches to double width. Two services: one pair. Three: all three in Pair 1 and Pair 2 deleted, which shows three across on desktop and tablet, and on phones two then one wide card from 540 px, one column below. Four: as shipped. For five or more, describe the layout you'd use and wait for a yes. Move or duplicate whole fade frames, so each keeps its appear effect and phone width.
+- **Categories:** the Work collection's Discipline options filter /work, and the Blog collection's Topic options filter /blog; each Filter Tab sets the page's filter to one option. Changing the set changes every project or post that uses it, so list the old and new sets and which items move, and wait for a yes.
+  - Rename an option in place, never the field: items and tabs follow the option, not its name. Then change the matching tab's Label and layer name ("Filter Tab · [Name]").
+  - Add: a new option, then a tab duplicated from another, with its Label, the click that sets the filter to the new option, and the selected-state check; and add the option to the All tab's list, so All stays unselected while it's chosen. A tab with no items shows an empty list, so ask which items go in it.
+  - Remove: turn the tab off and keep the option while any item still uses it (the samples do); delete an option only after the owner has moved its items, and say which.
+  - Then update every place the names are written out: the /blog intro (Lead) and the search descriptions of /work and /blog. If your tools can't set a tab's click or selected state, give the owner the steps.
+  - Check that every tab shows only its items and All shows everything.
 
 ## Components
 
