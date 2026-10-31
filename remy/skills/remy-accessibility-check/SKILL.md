@@ -37,7 +37,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 - As shipped, every color style pairing passes in both modes (lowest Accent on Background Page, 4.57:1). Recheck colors the owner changed, and Inverse on the buttons' fill if they were rebranded.
 - The site's reduced-motion setting is on; with reduced motion, the Home stack shows its prints at once.
 - The Service Card illustrations have empty alt on purpose.
-- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu closes it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. Mark the menu passed only if every case works there; if you couldn't try every case, or only ran your own script, mark it needs manual testing. The contact form's topic chips are a group named by their question (What can I help with?).
+- In the Nav, with the phone menu open, a link picked with Enter closes the menu, Esc closes it and returns focus to the menu button, and Tab or Shift+Tab out of the menu is meant to close it; the bar slides back into view when keyboard focus enters it after it hid on scroll (NavKeyboard.tsx). Test these on the published site, since Framer's Preview doesn't run them: try Tab, Shift+Tab, Esc and Enter from the menu button and from the first and last link. The contact form's topic chips are a group named by their question (What can I help with?).
 
 ## Rules
 
@@ -46,4 +46,4 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 
 ## Report
 
-Mark each item passed, issue found, needs manual testing or not applicable, with where it is and how to fix it. Never mark an item passed unless you tested it fully.
+Mark each item passed, issue found, needs manual testing or not applicable, with where it is and how to fix it. Never mark an item passed unless you tested it fully. Never put the phone menu under passed from your own script, even if every case worked, since a script can press keys differently from a person: put it under needs manual testing, with what your script saw and the keys to try by hand.
