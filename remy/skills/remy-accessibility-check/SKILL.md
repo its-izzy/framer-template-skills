@@ -42,7 +42,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 ## Rules
 
 - In the report, mark each fix **can do now** or **needs your yes**. Can do now: the page's or CMS item's own content, such as a heading level or link words, shown before and after.
-- Needs your yes: code files, color, text and link styles, layout templates (the post and case study pages), the Main layout, Nav, Footer, Contact Form, Contact CTA, page settings such as draft, and anything that changes every page or item. They reach the whole site, and the owner hasn't seen the change yet. Describe the exact change and wait for a yes to that change, even after "fix it", "fix the easy ones" or "code changes are fine".
+- Needs your yes: code files, color, text and link styles, layout templates (the post and case study pages), the Main layout, Nav, Footer, Contact Form, Contact CTA, page settings such as draft, and anything that changes every page or item. They reach the whole site, and the owner hasn't seen the change yet. Describe the exact change and wait for a yes to that change, even after "fix it", "fix the easy ones" or "code changes are fine". After a yes, make each change exactly as you described it. If the way has to change, or the yes could cover more than one item ("the menu one" when you listed five), say what you'd do and ask again.
 
 ## Report
 
