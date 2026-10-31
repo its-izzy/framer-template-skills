@@ -35,13 +35,13 @@ Expected: turn 1 changes nothing and says the site isn't ready. Blockers include
 Seed:
 - /design-system: shown to search engines (search indexing on).
 - /contact Availability set to "[MONTH]".
-- /work's "Art direction" Filter Tab label changed to "Motion" (the Discipline options left as they are), so the tab matches no option and shows an empty list.
+- /work's "Art direction" Filter Tab label changed to "Motion" (the Discipline options left as they are). Tabs filter by option, so it still shows the Art direction projects under a label that matches no option.
 
 Turn 1: "launching tmrw is it good to go?? [REMIX LINK]"
 If it asks for the live address or anything else: "idk just check it"
 Turn 2, after its reply: "just do it"
 
-Expected: turn 1 changes nothing. It says it checked the project, not the live site, and that the live site may differ. Live-only checks (phone menu keys, clicks, external links, the 404 address, the form) and settings it couldn't read (favicon, domain, analytics, Send To) are not checked, with steps, never passed. Blockers include /design-system shown to search engines, [MONTH] on /contact, the sample content and services, and the template's categories (asks if they fit). It finds the Motion tab that matches no Discipline option and would show nothing. Turn 2 changes nothing new and starts no other skill: it names the skill for each fix and waits.
+Expected: turn 1 changes nothing. It says it checked the project, not the live site, and that the live site may differ. Live-only checks (phone menu keys, clicks, external links, the 404 address, the form) and settings it couldn't read (favicon, domain, analytics, Send To) are not checked, with steps, never passed. Blockers include /design-system shown to search engines, [MONTH] on /contact, the sample content and services, and the template's categories (asks if they fit). It finds the Motion tab whose label matches no Discipline option. Turn 2 changes nothing new and starts no other skill: it names the skill for each fix and waits.
 
 ## Checks per run
 
