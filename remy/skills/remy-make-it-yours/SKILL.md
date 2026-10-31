@@ -83,4 +83,16 @@ Follow Before you report in remy-base after every turn that changes something, f
 
 What you changed, page by page and component by component; anything that didn't stick, with the steps to do it by hand; every placeholder left, including the portrait and the caption to use with it, and the Nav clock if it's still on Pacific time because no city was given; every network you hid, by name, with the link it still holds, and any visible link still pointing at a network's home page; and what the owner still has to do: Send To; site settings your tools couldn't reach; the sample case studies and posts to replace.
 
-End with a list headed "Sample content still on your site", one line each, so the owner can see at a glance what's still Remy's. List every sample left unchanged: each sample case study by name with its sample client, and the sample posts, with the skill that replaces them; the portrait; the favicon and social image, if they're still Remy's; every [PLACEHOLDER] still on a page, such as the About Background and Approach; any sample service, service image, category or topic they kept; any link still pointing at the sample email or a network's home page; Send To, unless the owner has confirmed it, even if it's already in your to-do list; and any template wording still on their pages in the sample designer's voice or promising something for them, quoted word for word so they can find it: the /contact reply time ("I'll reply within a few working days"), the form's line on how details are used, and each heading and lead-in still in the template's words on Home (such as "What I offer"), /work, /blog and /contact (the /work heading is "Everything on the wall." and the /blog heading "Notes from the studio." in the template), so they can keep or rewrite each. If nothing is left, say so.
+End with a list headed "Sample content still on your site", one line each, so the owner can see at a glance what's still Remy's. Walk this checklist in order and write a line for every item that's still the sample, so none gets skipped:
+- each sample case study, by name with its sample client, and the sample posts, with the skill that replaces them
+- the portrait
+- the favicon and the social image, if they're still Remy's
+- every [PLACEHOLDER] still on a page, such as the About Background and Approach
+- any sample service, service image, category or topic they kept
+- any link still pointing at the sample email or a network's home page, including links on networks you hid (list them here, not only under what you left as is)
+- Send To, unless the owner has confirmed it, even if it's already in your to-do list
+- Home: "What I offer" and each other heading and lead-in still in the template's words, quoted
+- /work: the heading "Everything on the wall." and the lead-in under it, quoted, if unchanged
+- /blog: the heading "Notes from the studio." and the lead-in under it, quoted, if unchanged; check each one separately, since the owner may have changed one but not the other
+- /contact: each heading and lead-in still in the template's words, the reply time ("I'll reply within a few working days"), and the form's line on how details are used, quoted
+Quote template wording word for word so they can find it and keep or rewrite it. If nothing is left, say so.
