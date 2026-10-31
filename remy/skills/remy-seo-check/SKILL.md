@@ -18,6 +18,7 @@ Check the on-page SEO of one page, the one the owner names or is viewing, on the
 
 ## Check
 
+- **Hidden isn't live.** A layer whose visibility is off, or text in a component variant that isn't in use (the Detail Links variant hides its [VALUE]; the Label Row List variant hides its summary line), never shows on the site. Don't report it as live or as something visitors see; mention it, if at all, as "hidden, doesn't show". A CMS item with visible: false is still live: only its draft flag keeps it off the site. Before calling anything live, missing or a placeholder, check the variant in use and the layer's visibility at that breakpoint, or the live page.
 - **Title and description:** the published title, description, slug and canonical URL; missing, duplicated, conflicting or placeholder values; and whether the title, description, H1 and visible topic agree.
 - **Indexing:** whether the page may be indexed (its search settings, robots tags, canonical URL, draft or published) and is listed in /sitemap.xml. Check whether the live URL is actually indexed if you can; otherwise mark it for manual review. Keep indexable, crawled and indexed apart.
 - **Headings:** one H1 and an outline with no skipped levels. A text style sets the default level; where one style serves several levels the level is set on the element, so check the tag as well as the style.

@@ -18,6 +18,7 @@ Audit the pages or parts the owner names, or the page they're viewing, on the pr
 
 ## Check
 
+- **Hidden isn't live.** A layer whose visibility is off, or text in a component variant that isn't in use (the Detail Links variant hides its [VALUE]; the Label Row List variant hides its summary line), never shows on the site. Don't report it as live or as something visitors see; mention it, if at all, as "hidden, doesn't show". A CMS item with visible: false is still live: only its draft flag keeps it off the site. Before calling anything live, missing or a placeholder, check the variant in use and the layer's visibility at that breakpoint, or the live page.
 - **Structure:** one H1 and no skipped heading levels; one Main frame tagged main around the sections, with the Nav (header) and Footer outside it.
 - **Images:** descriptive alt text, or empty alt on decorative images.
 - **Names:** every link, button, icon and form field has a name that says what it does.

@@ -28,6 +28,7 @@ If the owner hasn't pasted copy or said where it is, and nothing is selected, as
 ## Before you start
 
 - Read section 07, Voice and tone, on /design-system. Where it differs from this skill, section 07 wins.
+- **Hidden isn't live.** A layer whose visibility is off, or text in a component variant that isn't in use (the Detail Links variant hides its [VALUE]; the Label Row List variant hides its summary line), never shows on the site. Don't report it as live or as something visitors see; mention it, if at all, as "hidden, doesn't show". A CMS item with visible: false is still live: only its draft flag keeps it off the site. Before calling anything live, missing or a placeholder, check the variant in use and the layer's visibility at that breakpoint, or the live page.
 - Skip these unless the owner names them: the sample case studies in the Work collection, the sample posts in the Blog collection and the sample designer's details (they're replaced before launch), and /design-system and the User guide (the template's own docs, which quote bad examples on purpose).
 
 ## Where Remy's copy lives
