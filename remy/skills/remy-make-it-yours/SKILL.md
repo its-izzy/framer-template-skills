@@ -85,6 +85,7 @@ What you changed, page by page and component by component; anything that didn't 
 
 End with a list headed "Sample content still on your site", one line each, so the owner can see at a glance what's still Remy's. Walk this checklist in order and write a line for every item that's still the sample, so none gets skipped:
 - each sample case study, by name with its sample client, and the sample posts, with the skill that replaces them
+- the project on the /404 falling print, if it's a sample (it's the one with Show on 404 on, or else Home slot 1's)
 - the portrait
 - the favicon and the social image, if they're still Remy's
 - every [PLACEHOLDER] still on a page, such as the About Background and Approach

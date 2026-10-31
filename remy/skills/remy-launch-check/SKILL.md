@@ -43,6 +43,7 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 - The Contact Form's Send To is the owner's address; remind them to send a test message once the site is live.
 - Every live Work collection item has a Case summary, a Social image and a Next project, and the Next project chain loops through the live items. A draft stays out of the loop until it goes live; that's not a blocker. An item is a draft only when its draft flag is on; a hidden (visible: false) item isn't a draft. Every Blog collection item has a Summary, a Cover image and a Social image.
 - Projects on Home's Hero and Work is 3, 4 or 5, and Home slots 1 up to it each hold exactly one live project. A draft in a slot leaves Home short on the live site: a launch blocker.
+- The falling print on /404 shows the live Work project with Show on 404 on, or else Home slot 1's. Check which one it is: a sample there is a launch blocker (remy-change-home-projects). More than one Show on 404 on, or one on a draft, is a recommended fix: keep it on for one live project only.
 - /design-system (kept as the owner's private reference) is hidden from search engines or a draft page, and /404 is hidden from search engines.
 - Every page has one Main frame (the main landmark) around its sections, with the Nav and Footer outside it.
 
@@ -58,7 +59,7 @@ Open or inspect every link at each size, including the phone menu. For each prob
 - **Filters:** each Filter Tab on /work and /blog shows only its items, and All shows everything.
 - **Phone menu keys:** on the published site at phone width, open the menu and try Enter on a link, Esc, Tab out past the last link and Shift+Tab back past the menu button. Each should close the menu. Passed only if you tried every one and all worked; one that fails is a recommended fix, and one you couldn't try is not checked, with the steps.
 - **External links** open in a new tab and don't land on an error or a sign-in page.
-- **404:** a made-up address shows the 404 page, and its links work.
+- **404:** a made-up address shows the 404 page, its links work, and the falling print shows the owner's project, named in the report.
 
 ## Report
 

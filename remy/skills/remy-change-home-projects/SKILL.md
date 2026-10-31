@@ -25,7 +25,7 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 ## Steps
 
-1. Read the current Projects value and each project's Home slot, and show the owner the line-up (slot, project).
+1. Read the current Projects value and each project's Home slot, and show the owner the line-up (slot, project), plus which project falls on /404 (Show on 404, or else slot 1) and whether it changes.
 2. Work out the change. To swap, the new project takes the old one's slot and the old one goes to None. To reorder, renumber the slots. To change the count, set Projects, then fill or clear slots to match. If they don't give the order, ask once, suggesting their strongest project for slot 1.
 3. If a project isn't in the Work collection yet, add it with remy-add-case-study first.
 4. If the count changes, set Projects (or tell the owner how, as above).
