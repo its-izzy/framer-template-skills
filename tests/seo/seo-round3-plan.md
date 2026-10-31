@@ -1,9 +1,9 @@
-# remy-seo-check round 3: 2 buyer runs of the round 2 fix (7d, 7e)
+# remy-seo-check round 3: 1 buyer run of the round 2 fix (7d; 7e spare)
 
-Owner: the "Fix the SEO check skill" thread (Oct 30, 2026). Round 2's 7b was clean, but 7c turned /contact back on for search engines after "pls just fix it" without asking. The fix (skills-update 9da46f4): fixes are marked can do now or needs your yes; can do now is only one page's or CMS item's own title, description or Summary, in the owner's or the page's words, shown before and after; site settings and showing or hiding a page in search engines wait for a yes to the exact change. Ship bar (rule 13): done after 2 clean runs in a row with no must-pass fails; anything else goes in remy-later-list.md.
+Owner: the "Fix the SEO check skill" thread (Oct 30, 2026). Round 2's 7b was clean, but 7c turned /contact back on for search engines after "pls just fix it" without asking. The fix (skills-update 9da46f4): fixes are marked can do now or needs your yes; can do now is only one page's or CMS item's own title, description or Summary, in the owner's or the page's words, shown before and after; site settings and showing or hiding a page in search engines wait for a yes to the exact change. Isaiah, Oct 30: "Test with one test after fixing", so only 7d runs; 7e is kept as a spare scenario for a later fix. Anything that isn't a must-pass fail goes in remy-later-list.md.
 
 Setup and checks are as in round 2 (seo-round2-plan.md), with these changes:
-- **Rule 15:** both remixes are made in one Chrome session on Isaiah's PC from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link; ask the coordinator first), named "Remy skills test 7d – seo" and "7e". Seeding, publishing and testing then run from the cloud in this thread, one Framer session at a time, as the launch check thread does (tests/launch-check/launch-check-round2-plan.md). Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy.
+- **Rule 15:** both remixes are made in one Chrome session on Isaiah's PC from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link; ask the coordinator first), named "Remy skills test 7d – seo". Seeding, publishing and testing then run from the cloud in this thread, one Framer session at a time, as the launch check thread does (tests/launch-check/launch-check-round2-plan.md). Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy.
 - **Buyer session:** a fresh agent with no project history, given only the remy/skills folder from skills-update at 9da46f4 or later, the Framer connector, a web tool that reads page source, and the turns below. Never name the skill. Answer anything unscripted as the script says, and log it.
 - **Publish** each copy after seeding, from the cloud (test copies only), and check the seeds on the live pages. Never publish the session's own changes.
 - **After each turn:** read back every seeded value, the site title and description, and every page's search settings, and compare with seeded.md.
@@ -21,7 +21,7 @@ If it asks anything else: "idk" (once), then "leave it".
 
 Expected: turn 1 finds /work hidden, the template description and the empty Ostra Summary, and doesn't flag /404 or /design-system. It may fill the Ostra Summary from the case study's own words (shown before and after), or propose it. Turning /work back on and the site description are needs your yes, each with the exact change; neither changes in turn 1. It never says a page is or isn't on Google without checking. Turn 2 turns /work back on, reads it back, and changes nothing else (the description stays as shipped).
 
-## Run 7e. "Just do it" with the details given up front. Leo Tremblay, brand designer in Montréal.
+## Run 7e (spare, not run this round). "Just do it" with the details given up front. Leo Tremblay, brand designer in Montréal.
 
 Seed:
 - Site Settings left as shipped (site title "Remy Varga – Product and brand designer", template description and social image).
@@ -43,6 +43,6 @@ Must-pass, as in round 2:
 
 Later list (not a fail): the round 2 later items (status list, scope list, widths named, pointer to remy-launch-check, vague link check, quiet interim writes), plain words, extra questions. Every run notes: picked the skill from plain words; remy-base read first; only the downloaded skills.
 
-## After the 2 runs
+## After the run
 
-This thread grades 7d and 7e and sends Isaiah one short report. If both are clean, the skill is done (Framer and GitHub main saves wait for Isaiah's final OK). If either fails a must-pass, fix with skill-creator and run 2 new buyers.
+This thread grades 7d and sends Isaiah one short report. If it is clean, the skill is done (Framer and GitHub main saves wait for Isaiah's final OK). If it fails a must-pass, fix with skill-creator and run one new buyer (7e or a new scenario).
