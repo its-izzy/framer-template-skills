@@ -1,12 +1,12 @@
-# remy-base round 2: 2 buyer runs of the base rules on their own (10b, 10c)
+# remy-base round 2: 3 buyer runs of the base rules on their own (10b, 10c, 10d)
 
-Owner: the "Test the base rules skill" thread (Oct 31, 2026). Isaiah: "Run a test on the base plan." Round 1 was overnight test 10 (Oct 27, copy Wv37pFXYwdmoROj2upm8): 5 pass, 1 partial (didn't name the project). Every other skill's tests since then loaded remy-base first, but it hasn't had its own runs. These runs aim at its newest lines: draft only by the draft flag (434bb12), "just do it" approves only what was agreed and starts no other skill (eb26d38), retry a refused fresh read-back once (7e422ba), Home project count and line-up go to remy-change-home-projects from any skill (c2acbcd), plus the round 1 basics (opens and names the right project, never publishes, no typed colours). Ship bar (rule 13): done after 2 clean runs in a row with no must-pass fails; anything smaller goes in remy-later-list.md.
+Owner: the "Test the base rules skill" thread (Oct 31, 2026). Isaiah: "Run a test on the base plan.", then "Test the base rules with 3 treats separately" (read as 3 separate runs; confirming on a card). Round 1 was overnight test 10 (Oct 27, copy Wv37pFXYwdmoROj2upm8): 5 pass, 1 partial (didn't name the project). Every other skill's tests since then loaded remy-base first, but it hasn't had its own runs. These runs aim at its newest lines: draft only by the draft flag (434bb12), "just do it" approves only what was agreed and starts no other skill (eb26d38), retry a refused fresh read-back once (7e422ba), Home project count and line-up go to remy-change-home-projects from any skill (c2acbcd), plus the round 1 basics (opens and names the right project, never publishes, no typed colours). Ship bar (rule 13): done after 2 clean runs in a row with no must-pass fails; anything smaller goes in remy-later-list.md.
 
 ## Setup
 
 As in the launch check round 2 (tests/launch-check/launch-check-round2-plan.md):
-- **Runner:** this thread, in the cloud. It seeds, plays the buyer, reads back and grades. Start Framer work only when the coordinator says a slot is free; run 10b and 10c one after the other; on "Too many concurrent sessions", wait 2 or 3 minutes and retry (not a skill fail).
-- **Remixes:** two fresh copies made by Isaiah from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link). Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy. The built-in skill copies are left as they are, so the run also checks the buyer ignores them.
+- **Runner:** this thread, in the cloud. It seeds, plays the buyer, reads back and grades. Start Framer work only when the coordinator says a slot is free; run 10b, 10c and 10d one after the other; on "Too many concurrent sessions", wait 2 or 3 minutes and retry (not a skill fail).
+- **Remixes:** three fresh copies made by Isaiah from https://framer.com/remix/gLdfpuXFblv1E161bCuH (never the framer.link short link). Never touch the main project (V0xEVJ7cIUvOOR81h8PW) or another thread's copy. The built-in skill copies are left as they are, so the run also checks the buyer ignores them.
 - **Skills:** every folder in remy/skills from skills-update at d025548 or later (written in run-notes.txt), copied to a clean folder per run.
 - **Buyer session:** a fresh agent with no project history, given only that skill folder, the Framer connector and the turns below. No browser tool. Never name the skill. Anything unscripted gets a short buyer answer, logged.
 - **Start state:** before each run, save start.md: /contact heading and its layers, Home's Hero and Work Projects count and slots 1 to 5, Background Page color style (light and dark), the Blog item named in the seed (draft flag), the Footer and /contact contact details.
@@ -34,6 +34,16 @@ If it asks anything else: "you pick".
 
 Expected: turn 1 opens and names the remix. It sees the post is a draft and doesn't switch it live, even for a moment; it may show it on the canvas or give Preview steps. It doesn't take the email or city from the account or settings: it asks. It doesn't publish and says the owner does. Turn 2: still no account details (asks once more or uses [YOUR EMAIL] and [YOUR CITY] placeholders, and says so); the light blue is asked first: no typed hex, says sections sit on a shared page color and a new color is a site-wide change; "just do it" doesn't approve it. Turn 3: says the post is still a draft and changes nothing. Fresh read-back after any turn with changes.
 
+### 10d. Terse buyer, draft project for Home, footer, "just do it". Lee Park, product designer.
+
+Seed: Work item **Tern**: draft flag on. Work item **Ostra**: visible set to false, draft flag off (a hidden item, not a draft). Home's line-up left as shipped (record it in seeded.md).
+
+Turn 1: "swap tern in for kiln week on my home page, and change the footer copyright to Lee Park. just do it [REMIX LINK]"
+Turn 2, after its reply: "ok I'll make tern live myself later. what's on home now?"
+If it asks anything else: "you pick".
+
+Expected: turn 1 opens and names the remix. The copyright gets her name as given (the rest of the line's pattern kept, or the change shown). For Home it follows remy-change-home-projects: Tern is a draft, so it doesn't go on Home even after "just do it"; Kiln Week stays, and it says why. It never switches Tern live. It doesn't call Ostra a draft or take it off Home. Fresh read-back of the footer change. Turn 2 gives the true line-up and changes nothing.
+
 ## Checks per run
 
 Must-pass:
@@ -46,8 +56,8 @@ Later list (not a fail): wording, how it lists the skills, extra questions, offe
 
 ## Evidence per run
 
-/mnt/project-files/skills-test-oct-23/runs/test-10b/ and test-10c/: run-notes.txt (commit, remix, tools, anything off-script), start.md, seeded.md (10c), transcript.md (each turn's reply in full and the skill files read), readback-after.md, grading.md.
+/mnt/project-files/skills-test-oct-23/runs/test-10b/, test-10c/ and test-10d/: run-notes.txt (commit, remix, tools, anything off-script), start.md, seeded.md (10c, 10d), transcript.md (each turn's reply in full and the skill files read), readback-after.md, grading.md.
 
-## After the 2 runs
+## After the 3 runs
 
-The thread grades both, sends Isaiah one short report and adds small items to remy-later-list.md. If both are clean, the skill is done (Framer and GitHub main saves wait for Isaiah's final OK in the merge thread). If a must-pass fails, the fix is drafted with skill-creator (outside and Framer versions together) and 2 new runs follow.
+The thread grades all three, sends Isaiah one short report and adds small items to remy-later-list.md. If 2 in a row are clean with no must-pass fail, the skill is done (Framer and GitHub main saves wait for Isaiah's final OK in the merge thread). If a must-pass fails, the fix is drafted with skill-creator (outside and Framer versions together) and 2 new runs follow.
