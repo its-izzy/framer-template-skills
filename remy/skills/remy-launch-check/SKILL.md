@@ -34,6 +34,8 @@ For one page in depth, use remy-seo-check or remy-accessibility-check.
 ## Remy checks
 
 - No Remy Varga, San Jose or the sample email (hello@example.com) on any page or component, in alt text (every portrait, including the byline on /blog/:slug), in page titles and descriptions, or in the site title, description, favicon and social image. The sample case studies (Halden, Ostra, Fieldnote, Kiln Week, Tern), the six sample posts, the four sample services and the sample portrait are placeholders: any still on the site is a launch blocker.
+- Home's Service Cards show the owner's services, in their words, with their own illustrations; the four sample services or their illustrations still there are a launch blocker (remy-make-it-yours for the words, remy-design-system for the illustrations).
+- The categories are the owner's: the Blog Topic options and /blog's Filter Tabs (Process, Systems, Craft), and the Work Discipline options and /work's Filter Tabs (Product design, Brand identity, Design systems, Graphic design, Art direction). If they're still the template's set, ask the owner whether they fit their work; until they say yes, it's a launch blocker (remy-design-system). Each Filter Tab matches an option, and none leads to an empty list.
 - Any placeholder in square brackets, such as [YOUR CITY], [CLIENT], [CAPTION] or [VALUE], on a page, in a CMS item, in alt text or in page settings is a launch blocker: other Remy skills leave them where a fact is missing.
 - Availability on /contact shows a real month.
 - The Contact Form's Send To is the owner's address; remind them to send a test message once the site is live.
