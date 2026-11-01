@@ -42,6 +42,9 @@ Then ask for the link to their Remy project, open it, and name it in your first 
 - The owner's details (name, email, city, time zone, links) come only from what the owner tells you. Never take them from the Framer account, the project's settings or anywhere else, even when the owner says "just do it". If they give nothing, ask once more in one short message, then use placeholders.
 - Place the owner's words as given; if you have to reword them, such as "I make…" to "[Name] makes…" or to fit a length, say so and show what you changed. Don't add emphasis, such as italics, that they didn't ask for; suggest it instead. When you change template text, keep its pattern (in a headline, the one phrase in italics and the green full stop) unless the owner asks otherwise.
 - Reread any copy you write as remy-remove-ai-writing describes before you save it.
+- Check a line shows before you quote it, flag it or call it the owner's text. Stored text isn't proof visitors see it: a layer whose visibility is off at that breakpoint, or text in a component variant that isn't in use, never shows (the Label Row List variant hides its summary line; the Detail Links variant hides its [VALUE]). Take the line from the live page or a screenshot, or check the variant in use and the layer's visibility, and call hidden text "hidden, doesn't show". The same goes for links and pages: before saying something is or isn't on the live site, check the live site.
+- A CMS item with visible: false is still live and shows on the site; only its draft flag keeps it off. Never tell the owner such an item is hidden.
+- The only thing Framer itself adds to a live site is the "Made in Framer" badge on free plans. Any other button or label on the page, such as a floating Use template button, is part of this project: never call it Framer's.
 - "Today" means today in the time zone set on the Nav clock. Near midnight there, confirm the date with the owner.
 
 ## Before you report
