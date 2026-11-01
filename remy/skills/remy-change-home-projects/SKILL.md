@@ -27,14 +27,14 @@ Change which projects appear on Home (/) and how many: swap one, reorder them, o
 
 1. Read the current Projects value and each project's Home slot, and show the owner the line-up (slot, project), plus which project falls on /404 (Show on 404, or else slot 1) and whether it changes.
 2. Work out the change. To swap, the new project takes the old one's slot and the old one goes to None. To reorder, renumber the slots. To change the count, set Projects, then fill or clear slots to match. If they don't give the order, ask once, suggesting their strongest project for slot 1.
-3. If a project isn't in the Work collection yet, add it with remy-add-case-study first.
+3. If a project isn't in the Work collection yet, add it with remy-add-case-study first. Before putting a project on Home, check it has a Cover image and no [PLACEHOLDERS] in its fields; if not, say so before changing anything (Home, /work and, from slot 1, /404 would show a plain grey card or the placeholder text) and wait for a yes.
 4. If the count changes, set Projects (or tell the owner how, as above).
 5. Give exactly one project each slot from 1 to the count, and None to every other project.
 
 ## How many
 
 - Suggest four; the stack reads best with four. Three and five are designed too.
-- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. A project is a draft only when its Work item's draft flag is on; visible says nothing about it. Never put a draft on Home, even after "just do it": keep the current project in that place until theirs is live, and tell the owner. If they have fewer live projects than the count, ask before changing anything: lower the count (never below 3) or keep a sample for now.
+- Only live projects show on the published site, so every place from 1 to the count needs a live one, or Home shows fewer than its setting. A project is a draft only when its Work item's draft flag is on; visible says nothing about it. Never put a draft on Home, even after "just do it": keep the current project in that place until theirs is live, and tell the owner. If the owner has you switch a project live, add it to the Next project loop as remy-add-case-study does and read back both links. If they have fewer live projects than the count, ask before changing anything: lower the count (never below 3) or keep a sample for now.
 - Fewer than three of their own: Home needs three. Offer to add one with remy-add-case-study from their real details, or to keep a sample on Home for now and replace it before launch.
 - More than five: Home shows five, so ask which. The rest stay on /work. Never more than five, even if the owner pushes or says it can take work: say Remy's Home holds up to five, and don't offer a code, layout or design-system change for a sixth.
 
