@@ -53,7 +53,7 @@ Each empty paragraph in the Body shows as a gap on the page, so follow the sampl
 
 - Start and end with a paragraph of text, never an empty one.
 - No empty paragraphs between paragraphs; exactly one before each Heading 2.
-- A new item's Body already holds one empty paragraph, so text added after it leaves a gap at the top. Write the first paragraph's text into that empty one, which replaces its empty line (don't try to delete the line first; Framer won't allow it), then add the rest block by block (a TextBlock with TextRuns per paragraph or Heading 2), never as one string of text, plain or HTML, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. After saving, read the Body back block by block and fix anything that breaks the pattern.
+- A new item's Body already holds one empty paragraph, so text added after it leaves a gap at the top. Write the first paragraph's text into that empty one, which replaces its empty line (don't try to delete the line first; Framer won't allow it), then add the rest block by block (a TextBlock with TextRuns per paragraph or Heading 2), never as one string of text, plain or HTML, which reads back fine but shows on the canvas in a system font that stays dark in dark mode. After saving, read the Body back block by block and fix anything that breaks the pattern. Every block must read back as a paragraph or Heading 2 (inside a <p> or <h2>, like the sample posts), never as bare text: bare text skips the template's styles and shows small, in a system font, black on black in dark mode. If it does, write it again block by block.
 
 ## Rules
 
