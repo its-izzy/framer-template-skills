@@ -6,7 +6,7 @@ Agent skills for my Framer templates. Each template has its own folder of skills
 
 | Template | What it is | Skills |
 |---|---|---|
-| Remy Folio | A portfolio template for product and brand designers, with case studies, a blog and a contact form. [Live preview](https://remytemplate.framer.website) | [remy/](remy/) |
+| Remy Folio | A portfolio template for product and brand designers, with case studies, a blog and a contact form. [Live preview](https://remytemplate.framer.website) · [Remix in Framer](https://framer.link/zUILdez) | [remy-folio/](remy-folio/) |
 
 ## What's in a template folder
 

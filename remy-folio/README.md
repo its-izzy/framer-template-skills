@@ -4,6 +4,8 @@ These are the skills that ship inside the Remy Folio Framer project (Site Settin
 
 Live preview of the template: https://remytemplate.framer.website
 
+Remix the template into your Framer account: https://framer.link/zUILdez
+
 ## 1. Connect your agent to Framer
 
 Use Framer MCP, Framer's official way to connect AI tools (https://www.framer.com/mcp/). It runs on Framer's servers, so there's nothing to install: you sign in to Framer in your browser and approve access.
