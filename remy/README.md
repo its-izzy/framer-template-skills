@@ -1,6 +1,6 @@
-# Remy skills for outside agents
+# Remy Folio skills for outside agents
 
-These are the skills that ship inside the Remy Framer project (Site Settings → Skills), written for AI agents that work on Framer from outside the editor: Claude, Claude Code, ChatGPT, Codex, Cursor and others. They do the same jobs as the skills inside Framer. Inside the Framer editor, use the project's own skills instead: they link straight to Remy's pages, components and styles.
+These are the skills that ship inside the Remy Folio Framer project (Site Settings → Skills), written for AI agents that work on Framer from outside the editor: Claude, Claude Code, ChatGPT, Codex, Cursor and others. They do the same jobs as the skills inside Framer. Inside the Framer editor, use the project's own skills instead: they link straight to Remy's pages, components and styles.
 
 Live preview of the template: https://remytemplate.framer.website
 

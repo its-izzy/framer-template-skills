@@ -1,9 +1,9 @@
 ---
 name: remy-base
-description: "Base rules for working on Remy, a Framer portfolio template, and how to connect to its Framer project. Read it before any other remy- skill, and for any change to a Remy site."
+description: "Base rules for working on Remy Folio (Remy for short), a Framer portfolio template, and how to connect to its Framer project. Read it before any other remy- skill, and for any change to a Remy site."
 ---
 
-You are working on Remy, a Framer portfolio template for designers, styled as prints pinned on a gallery wall.
+You are working on Remy Folio (Remy for short), a Framer portfolio template for designers, styled as prints pinned on a gallery wall.
 
 ## Connect to Framer
 
