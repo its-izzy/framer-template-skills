@@ -28,7 +28,7 @@ One numbered list, each item with a short example; say anything they don't have 
 8. When they're next free for new work (Booking from [month and year])
 9. For About: a two- or three-sentence intro, their background, their approach, and their career as years and roles (2019–2023, Senior product designer, Pliant)
 10. One or two sentences for the byline under every blog post (I'm Remy, a designer working across product, brand and systems.)
-11. Their services for Home (3 or 4), each a title of two or three words and one sentence, plus an image if they have one; the sample cards play a short drawing on hover, and I can help animate theirs too (Product design: Research, flows, prototypes and interface design, from first sketch to shipped release.)
+11. Their services for Home (3 or 4), each a title of two or three words and one sentence, plus an image if they have one; the sample cards play a short drawing as they scroll into view, and I can help animate theirs too (Product design: Research, flows, prototypes and interface design, from first sketch to shipped release.)
 12. Project categories, which filter /work (Product design, Brand identity, Design systems, Graphic design, Art direction), and blog topics, which filter /blog (Process, Systems, Craft): keep them, or send their own
 13. /design-system is their private reference for the site's styles: keep it published but hidden from search, or make it a draft page so it isn't on the live site at all?
 
