@@ -6,7 +6,7 @@ Live preview of the template: https://remytemplate.framer.website
 
 Remix the template into your Framer account: https://framer.link/zUILdez
 
-Demo video (the design system page, the skills and two agent requests): [demo/remy-folio-agent-demo.mp4](demo/remy-folio-agent-demo.mp4)
+Demo video (the design system page, the skills and two agent requests): [video-guide/remy-folio-agent-demo.mp4](video-guide/remy-folio-agent-demo.mp4)
 
 ## 1. Connect your agent to Framer
 
